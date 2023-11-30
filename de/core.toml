@@ -94,3 +94,6 @@ stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<re
 
 [moderation]
 warned = "<pri><target><reset> wurde für <sec><reason><reset>gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+
+error.warn.self = "Du kannst dich nicht selbst warnen!"
+error.warn.team = "Das Team ist unantastbar!"
