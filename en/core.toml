@@ -1,3 +1,5 @@
+untranslated = "<text>"
+
 # Languages
 language.change = """
   Your language is now English (United States.)
@@ -46,6 +48,14 @@ coins.other.plural = "<pri><target><reset> currently has <gold><coins> Coins"
 
 xp.self = "You have <pri><xp><reset> XP and are therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
 xp.other = "<target><reset> has <pri><xp><reset> XP and is therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
+
+xp = """
+  <br><yellow>Level statistics of <gold><bold><name><reset>
+  <br>Rank: <rank><reset>
+  <br>Level: <level><reset>
+  <br>Collected XP: <xp><reset> <dark_gray>[<xp_bar><reset><dark_gray>]<reset>
+  <br>Collected achievements: <pri><achievements><reset>/<sec><total_achievements><reset>
+"""
 
 ping.self = "Ping: <pri><ping>"
 ping.other = "The Ping of the player <sec><target><reset> is: <pri><ping>"

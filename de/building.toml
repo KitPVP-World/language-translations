@@ -1,0 +1,32 @@
+[commands.arena]
+activate = "Arena wurde aktiviert."
+disable = "Arena wurde deaktivert."
+
+cancel.no = "Du hast die Arena-Erstellung noch nicht gestartet. Starten: /arena create <name>;"
+cancel = "Arena Erstellung abgebrochen."
+
+create.no = "Du hast die Arena-Erstellung schon gestartet. Abbrechen: /arena create cancel"
+create.doSelect = "Du musst eine Region auswählen mit WorldEdit und dich in die Mitte der Arena stellen."
+
+[commands.kit]
+save.confirm = "Dein Inventar wird somit gespeichert! <bold>Vorhande Sortierungen werden höchst warscheinlich gelöscht!/<bold><br>[<bold><confirm></bold>]"
+save = "Das Kit wurde gespeichert."
+
+unselected = "Du hast kein Kit ausgewählt. /kit select <tag>"
+
+rename = "Das Kit wurde umbenannt zu <kitName>"
+icon = "Das Icon des Kits wurde zu dem in deiner Hand gewechselt."
+give = "Das Kit wurde geladen."
+create = "Kit wurde erstellt und ausgewählt (<pri><id><reset>)"
+select = "Das Kit <pri><name><reset> wurde ausgewählt."
+reset.error = "Ein Fehler ist aufgetreten, Kit konnte nicht zurückgesetzt werden."
+reset = "Kit wurde zurückgesetzt."
+list = "Global Kits: %s"
+
+global.already = "Dieses Kit ist schon global."
+global.exists = "Ein Global Kit mit dem Namen <pri><name> <reset>existiert schon."
+global.set = "Das Kit wurde globalisiert."
+global.unknown = "Ein Global Kit mit dem Namen <pri><name> <reset>existiert nicht."
+global.unset = "Das Kit ist nicht mehr global und nun in deinem Besitz (<pri><reset>.)"
+
+current = "Ausgewähltes Kit:<pri> <id>"

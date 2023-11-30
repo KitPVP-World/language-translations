@@ -1,3 +1,5 @@
+untranslated = "<text>"
+
 # Languages
 language.change = """
   Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset>.
@@ -40,8 +42,14 @@ coins.self.plural = "Du hast gerade <gold><coins> Coins<reset>."
 coins.other.singular = "<pri><target><reset> hat gerade <gold>ein Coin."
 coins.other.plural = "<pri><target><reset> hat gerade <gold><coins> Coins."
 
-xp.self = "Du hast <pri><xp><reset> XP und bist somit Level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
-xp.other = "<target><reset> hat <pri><xp><reset> XP und ist somit Level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
+xp = """
+  <br><yellow>Level Statistiken von <gold><bold><name><reset>
+  <br>Platzierung: <rank><reset>
+  <br>Level: <level><reset>
+  <br>Gesammelte Erfahrung: <xp><reset>/<yellow><xp_needed><reset>
+  <br><dark_gray>| » <xp_bar><reset>
+  <br>Gesammelte Achievements: <pri><achievements><reset>/<sec><total_achievements><reset>
+"""
 
 ping.self = "Dein Ping ist: <pri><ping>"
 ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
@@ -86,3 +94,6 @@ stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<re
 
 [moderation]
 warned = "<pri><target><reset> wurde für <sec><reason><reset>gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+
+error.warn.self = "Du kannst dich nicht selbst warnen!"
+error.warn.team = "Das Team ist unantastbar!"
