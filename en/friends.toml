@@ -1,0 +1,103 @@
+friend.accept = "Accept"
+friend.accept.error = "Cloudn't accept the friend request"
+friend.decline = "Decline"
+friend.lastOnline = "Last Seen: "
+friend.sent = "Sent: "
+friend.request = """
+You've received a friend request by <target><reset>:<br>
+<green><click:run_command:'%s'>[<bold>Accept</bold>]</click></green>
+<red> <click:run_command:'%s'>[<bold>Decline</bold>]</click></red>
+"""
+
+friend.join = "<sec><bold>●<reset> Your friend <friend><reset> is now <sec>online<reset>."
+friend.leave = "<red><bold>●<reset> Your friend <friend><reset> is now <red>offline<reset>."
+
+[gui.friend]
+settings.clan.title = "Clansettings"
+settings.requests.title = "Requestsettings"
+
+main.title = "Friends"
+party.title = "Partys"
+changeStatus.title = "Change Friendstatus"
+requests.title = "Friendrequests"
+settings.title = "Settings"
+settings.request.title = "Request Settings"
+settings.clanRequests.title = "Clan Request Settings"
+
+premium = "<gold>Premium Only"
+premium.lore = "<red>You've found a premium function!"
+
+target.inviteClan = "Invite to clan"
+target.favourite.add = "Add Favorite"
+target.favourite.remove = "Remove Favorite"
+target.inviteParty = "Invite to party"
+target.jump = "Jump"
+target.remove = "Remove friend"
+
+[gui.friend.settings.friendRequests]
+title = "Friend Request Settings"
+default = "<gray>Player"
+default.lore = "<gray>You can receive friend requests by players"
+premium = "<gold>Premium"
+premium.lore = "<gray>You can receive friend requests by premiums"
+youtube = "<dark_red>YT"
+youtube.lore = "<gray>You can receive friend requests by youtubers"
+vip = "<dark_red>VIP"
+vip.lore = "<gray>You can receive friend requests by streamers"
+team = "<red>Team"
+team.lore = "<gray>You can receive friend requests by our team"
+party = "<light_purple>Party"
+party.lore = "<gray>You can receive friend requests by party members"
+clan = "<yellow>Clan"
+clan.lore = "<gray>You can receive friend requests by clan members"
+
+[gui.friend.settings.friend]
+title = "Friend Settings"
+allowPrivateMessages = "Allow Private Messages"
+allowPrivateMessages.lore = "Your friends can send you private messages"
+allowOfflinePrivateMessages = "Allow Offline Messages (WIP)"
+allowOfflinePrivateMessages.lore = "Coming soon: Friends can send you messages while you're offline"
+announceFriendOnlineStatus = "Show Online- and Offline Messages"
+announceFriendOnlineStatus.lore = "Receive messages when friends join or leave the server"
+allowSpectate = "Allow Spectate (WIP)"
+allowSpectate.lore = "Coming soon: Allow friends to spectate your games"
+showOnlineStatus = "Show Online Status"
+showOnlineStatus.lore = "Allows your friends to see if you're online"
+
+[commands.friend]
+error.notFriend = "That isn't your friend."
+
+add = "A friend request has been sent to <target><reset>."
+add.friend = "That's already your friend."
+add.off = "This user doesn't accept your requests."
+accept = "You've accepted the friend request by <target><reset>."
+accept.noRequest = "You haven't received a friend request from this user."
+
+decline = "You've declined the friend request by <target><reset>."
+decline.all = "You've declined <pri><requests> friend requests<reset>."
+
+remove = "Removed friend."
+remove.error = "An error occurred. Was that really your friend?"
+
+favourite.add = "Added <target><reset> to your favorites."
+favourite.add.error = "Adding to favorites failed."
+favourite.remove = "Removed <target><reset> from your favorites."
+favourite.remove.error = "Removing to favorites failed."
+
+list = """Your friend list (Page <page><reset>):<br>
+<list>
+"""
+
+clear = "You've removed <pri><friends> friends<reset>."
+clear.all.confirm = "Are you sure, that you want to delete <bold>all your friends</bold> (<bold>including favorites</bold>?) This decision is final! <br><confirm>"
+clear.confirm = "Are you sure, that you want to delete <bold>all your friends</bold>, except favorites? This decision is final! <br><confirm>"
+
+cancel = "You've cancelled the friend request to <target><reset>."
+cancel.noRequest = "You haven't sent friend request to <target><reset>."
+cancel.all = "You've cancelled <pri><requests> friend requests<reset>."
+
+request = """Friend Requests (Page <page><reset>): <br>
+<list>
+"""
+
+msg.disabled = "This friend has private messages disabled!"
