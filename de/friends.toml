@@ -100,4 +100,4 @@ request = """Freundschaftsanfragen (Seite <page><reset>): <br>
 <list>
 """
 
-msg.disabled = ""
+msg.disabled = "Dieser Freund akzeptiert deine Nachrichten nicht!"
