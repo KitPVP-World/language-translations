@@ -31,6 +31,14 @@ error.kit.unknown = "Kit was not found."
 next = "Next Page"
 previous = "Previous Page"
 
+
+[time.relative]
+seconds = "%s seconds ago"
+minutes = "%s minutes ago"
+hours = "%s hours ago"
+days = "%s days ago"
+months = "%s months ago"
+
 # Chat
 [chat]
 message.tooSimilar = "This message is too similar to your last one."
