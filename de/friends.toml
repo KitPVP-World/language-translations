@@ -24,6 +24,9 @@ settings.title = "Einstellungen"
 settings.request.title = "Anfrageeinstellungen"
 settings.clanRequests.title = "Clananfrageeinstellungen"
 
+premium = "<gold>Premium Funktion"
+premium.lore = "<red>Dies ist eine Premiumfunktion!"
+
 target.inviteClan = "Zum Clan einladen"
 target.favourite.add = "Als Favorite hinzufügen"
 target.favourite.remove = "Als Favorite entfernen"
@@ -96,3 +99,5 @@ cancel.all = "Du hast <pri><requests> Freundschaftsanfragen<reset> abgebrochen."
 request = """Freundschaftsanfragen (Seite <page><reset>): <br>
 <list>
 """
+
+msg.disabled = ""
