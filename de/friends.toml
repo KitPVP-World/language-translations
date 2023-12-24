@@ -32,6 +32,7 @@ target.favourite.add = "Als Favorite hinzufügen"
 target.favourite.remove = "Als Favorite entfernen"
 target.inviteParty = "In Party einladen"
 target.jump = "Nachspringen"
+target.spectate = "Zuschauen"
 target.remove = "Freund entfernen"
 
 [gui.friend.settings.friendRequests]
