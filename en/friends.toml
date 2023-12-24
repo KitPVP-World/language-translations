@@ -13,13 +13,13 @@ friend.join = "<sec><bold>●<reset> Your friend <friend><reset> is now <sec>onl
 friend.leave = "<red><bold>●<reset> Your friend <friend><reset> is now <red>offline<reset>."
 
 [gui.friend]
-settings.clan.title = "Clansettings"
-settings.requests.title = "Requestsettings"
+settings.clan.title = "Clan Settings"
+settings.requests.title = "Request Settings"
 
 main.title = "Friends"
 party.title = "Partys"
-changeStatus.title = "Change Friendstatus"
-requests.title = "Friendrequests"
+changeStatus.title = "Change Friend Status"
+requests.title = "Friend Requests"
 settings.title = "Settings"
 settings.request.title = "Request Settings"
 settings.clanRequests.title = "Clan Request Settings"
