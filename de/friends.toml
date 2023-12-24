@@ -70,6 +70,7 @@ error.notFriend = "Dieser Spieler ist nicht dein Freund."
 add = "Du hast eine Freundschaftsanfrage an <target><reset> gesendet."
 add.friend = "Dieser Spieler ist schon dein Freund."
 add.off = "Dieser Spieler akzeptiert deine Anfrage nicht."
+add.timeout = "Bitte warte einen Moment bevor du neue Freunde hinzufügst!"
 accept = "Du hast die Freundschaftsanfrage von <target><reset> angenommen."
 accept.noRequest = "Du hast keine Freundschaftsanfrage von diesem Spieler bekommen."
 
