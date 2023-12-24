@@ -70,6 +70,7 @@ error.notFriend = "That isn't your friend."
 add = "A friend request has been sent to <target><reset>."
 add.friend = "That's already your friend."
 add.off = "This user doesn't accept your requests."
+add.timeout = "Please wait a minute before you can add friends again."
 accept = "You've accepted the friend request by <target><reset>."
 accept.noRequest = "You haven't received a friend request from this user."
 
