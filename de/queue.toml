@@ -14,6 +14,9 @@ requestSent = "Du hast den Spieler <pri><target><reset> in <kit><reset> herausge
 decline = "Du hast die Anfrage abgeleht."
 accept = "Du hast die Anfrage von <pri><name><reset> angenommen."
 
+[commands.spectate]
+noRunningGame = "Dieser Spieler ist derzeit in keinem laufendem Spiel."
+
 [gui.challenge]
 title = "Herausfordern"
 
