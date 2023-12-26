@@ -105,3 +105,4 @@ request = """Freundschaftsanfragen (Seite <page><reset>): <br>
 """
 
 msg.disabled = "Dieser Freund akzeptiert deine Nachrichten nicht!"
+spectate.disabled = "Dieser Freund erlaubt das Zuschauen nicht!"
