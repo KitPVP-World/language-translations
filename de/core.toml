@@ -116,6 +116,7 @@ error.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem
 admin.profile.loading = "Lade Profil von <target><reset>..."
 admin.profile = """
   Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
+  Spieler Id: <player_id><br>
   <br>
   Status: <status><reset><br>
   Zuletzt Online: <last_online><reset><br>
