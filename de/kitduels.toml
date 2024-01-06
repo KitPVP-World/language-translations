@@ -26,7 +26,7 @@ stats = """
 """
 
 elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset> besiegt."
-win = "In einem epischen Kampf gegen Leben und Tod entschied <pri><name><reset>."
+win = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
 
 [features]
 leave = "<red>Verlassen"
