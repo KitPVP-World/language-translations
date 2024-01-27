@@ -111,7 +111,8 @@ stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<re
 [moderation]
 warned = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
 report = "Du hast den Spieler <pri><target><reset> für <sec><reason> gemeldet."
-error.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem Chat gesperrt: <br><reason>"
+error.chat.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem Chat gesperrt: <br><reason>"
+error.chat.block = "Ich weiß du bist sauer, aber bitte bleib <bold>respektvoll</bold>."
 
 admin.profile.loading = "Lade Profil von <target><reset>..."
 admin.profile = """
