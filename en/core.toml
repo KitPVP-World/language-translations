@@ -114,7 +114,8 @@ stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<re
 [moderation]
 warned = "<pri><target><reset> was warnt for <sec><reason><reset> and is now for <red><days_banned><reset> days banned."
 report = "You reported the player <pri><target><reset> for <sec><reason>."
-error.mute = "You were banned from the chat for <red><duration><reset> because of misbehavior: <br><reason>"
+error.chat.block = "I know you are mad, but please be <bold>respectful</bold>."
+error.chat.mute = "You were banned from the chat for <red><duration><reset> because of misbehavior: <br><reason>"
 
 admin.profile.loading = "Loading Profile of <target><reset>..."
 admin.profile = """
