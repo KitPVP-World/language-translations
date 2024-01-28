@@ -29,6 +29,8 @@ elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (
 win = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
 
 [features]
+inventory = "<aqua>Inventar"
+teleport = "Teleportieren"
 leave = "<red>Verlassen"
 
 [commands.game]
