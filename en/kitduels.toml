@@ -28,6 +28,8 @@ elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>has defeated <red>
 win = "In an epic battle against life and death, <pri><name> <reset> won."
 
 [features]
+inventory = "<aqua>Inventory"
+teleport = "<yellow>Teleport"
 leave = "<red>Leave"
 
 [commands.game]
