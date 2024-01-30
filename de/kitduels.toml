@@ -30,7 +30,7 @@ win = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
 
 [features]
 inventory = "<aqua>Inventar"
-teleport = "Teleportieren"
+teleport = "<yellow>Teleportieren"
 leave = "<red>Verlassen"
 
 [commands.game]
