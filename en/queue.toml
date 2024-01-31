@@ -16,6 +16,9 @@ accept = "You accepted <pri><name>'s<reset> request."
 
 [gui.challenge]
 title = "Challenge"
+gui.challenge.firstTo = "<gray>First To<dark_gray>: <green><rounds>"
+gui.challenge.custom = "<gray>Custom Kit<dark_gray>: <yellow><kit>"
+gui.challenge.custom.unselected = "You do not have a kit selected!"
 
 [queue]
 join = "You have entered the <pri><queue><reset>."
