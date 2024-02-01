@@ -21,7 +21,7 @@ win.firstTo = """
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
 win.firstTo.end = """
-<name><reset><yellow> has won
+<team><reset><yellow> has won
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
 
