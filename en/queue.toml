@@ -9,7 +9,13 @@ requestReceived = """
   <br><green><click:run_command:'/duel %1$s accept'>[<bold>Accept</bold>]</click></green>
   <red> <click:run_command:'/duel %1$s decline'>[<bold>Deny</bold>]</click></red>
 """
+requestReceived.firstTo = """
+  <pri><user><reset> challenges you in <kit><reset> <yellow>FT<firstTo><reset>.
+  <br><green><click:run_command:'/duel %1$s accept'>[<bold>Accept</bold>]</click></green>
+  <red> <click:run_command:'/duel %1$s decline'>[<bold>Deny</bold>]</click></red>
+"""
 requestSent = "You have challenged <pri><target><reset> in <kit><reset>."
+requestSent.firstTo = "You have challenged <pri><target><reset> in <kit><reset> <yellow>FT<firstTo><reset>."
 
 decline = "You declined the request."
 accept = "You accepted <pri><name>'s<reset> request."
