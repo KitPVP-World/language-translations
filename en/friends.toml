@@ -1,5 +1,4 @@
 friend.accept = "Accept"
-friend.accept.target = "<target><reset> accepted your friend request."
 friend.accept.error = "Cloudn't accept the friend request"
 friend.decline = "Decline"
 friend.lastOnline = "Last Seen: "
@@ -81,6 +80,7 @@ add.off = "This user doesn't accept your requests."
 add.timeout = "Please wait a minute before you can add friends again."
 add.tooManyRequests = "Du hast dein Maximum an Freundschaftsanfragen erreicht! (<max>)"
 accept = "You've accepted the friend request by <target><reset>."
+accept.target = "<target><reset> accepted your friend request."
 accept.noRequest = "You haven't received a friend request from this user."
 accept.tooManyFriends = "Du hast dein Maximum an Freunden erreicht! (<max>)"
 
