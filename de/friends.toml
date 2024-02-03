@@ -65,6 +65,12 @@ allowSpectate.lore = "In Entwicklung: Erlaube deinen Freunden deine Spiele zu be
 showOnlineStatus = "Onlinestatus anzeigen"
 showOnlineStatus.lore = "Erlaube deinen Freunden zu sehen ob du Online bist"
 
+[gui.friend.settings.spectate]
+title = "Zuschauer Einstellungen"
+everyone = "Jeder"
+friends = "Freunde"
+none = "Niemand"
+
 [commands.friend]
 error.notFriend = "Dieser Spieler ist nicht dein Freund."
 
