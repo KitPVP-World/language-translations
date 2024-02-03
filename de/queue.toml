@@ -9,7 +9,13 @@ requestReceived = """
   <br><green><click:run_command:'/duel %1$s accept'>[<bold>Annehmen</bold>]</click></green>
   <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
 """
+requestReceived.firstTo = """
+  <pri><user><reset> fordert dich in <kit><reset> <yellow>FT<first_to><reset>.
+  <br><green><click:run_command:'/duel %1$s accept'>[<bold>Annehmen</bold>]</click></green>
+  <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
+"""
 requestSent = "Du hast den Spieler <pri><target><reset> in <kit><reset> herausgefordert."
+requestSent.firstTo = "Du hast den Spieler <pri><target><reset> in <kit><reset> <yellow>FT<first_to><reset> herausgefordert."
 
 decline = "Du hast die Anfrage abgeleht."
 accept = "Du hast die Anfrage von <pri><name><reset> angenommen."
@@ -19,6 +25,9 @@ noRunningGame = "Dieser Spieler ist derzeit in keinem laufendem Spiel."
 
 [gui.challenge]
 title = "Herausfordern"
+firstTo = "<gray>First To<dark_gray>: <green><rounds>"
+custom = "<gray>Eigenes Kit<dark_gray>: <yellow><kit>"
+unselected = "Du hast kein Kit ausgewählt!"
 
 [queue]
 join = "Du hast die <pri><queue><reset> betreten."
