@@ -16,6 +16,14 @@ win = """
 <team>
 <br><yellow>hat gewonnen!
 """
+win.firstTo = """
+<gray>Runde <round><reset>
+<br><aqua><self_points><dark_gray> - <red><opponent_points>
+"""
+win.firstTo.end = """
+<team><reset><yellow> hat gewonnen
+<br><aqua><self_points><dark_gray> - <red><opponent_points>
+"""
 
 [win]
 stats = """
@@ -26,7 +34,7 @@ stats = """
 """
 
 elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset> besiegt."
-win = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
+single = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
 
 [features]
 inventory = "<aqua>Inventar"
