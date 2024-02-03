@@ -87,7 +87,7 @@ accept.tooManyFriends = "Du hast dein Maximum an Freunden erreicht! (<max>)"
 decline = "You've declined the friend request by <target><reset>."
 decline.all = "You've declined <pri><requests> friend requests<reset>."
 
-remove = "Removed friend."
+remove = "Friend <target><reset> removed."
 remove.error = "An error occurred. Was that really your friend?"
 
 favourite.add = "Added <target><reset> to your favorites."
