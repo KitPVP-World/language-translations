@@ -10,7 +10,7 @@ requestReceived = """
   <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
 """
 requestReceived.firstTo = """
-  <pri><user><reset> fordert dich in <kit><reset> <yellow>FT<first_to><reset>.
+  <pri><user><reset> fordert dich in <kit><reset> <yellow>FT<first_to><reset> heraus.
   <br><green><click:run_command:'/duel %1$s accept'>[<bold>Annehmen</bold>]</click></green>
   <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
 """
