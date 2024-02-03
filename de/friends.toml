@@ -88,7 +88,7 @@ accept.tooManyFriends.other = "Dieser Spieler hat sein Maximum an Freunden errei
 decline = "Du hast die Freundschaftsanfrage von <target><reset> abgelehnt."
 decline.all = "Du hast <pri><requests> Freundschaftsanfragen<reset> abgelehnt."
 
-remove = "Dieser Spieler ist nun nicht mehr dein Freund."
+remove = "<target><reset> ist nun nicht mehr dein Freund."
 remove.error = "Beim Entfernen ist ein Fehler aufgetreten. War dieser Spieler überhaupt dein Freund?"
 
 favourite.add = "<target><reset> wurde zu deinen Favoriten hinzugefügt."
