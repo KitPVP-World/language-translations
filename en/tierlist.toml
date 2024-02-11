@@ -1,0 +1,9 @@
+[linking]
+request = """
+  <red>Do not accept this request by strangers!
+  <br><color:#5865f2><discord_username><reset> wants to <sec>link</sec> their <color:#5865f2>Discord account<reset> with this minecraft account.
+  <br><green><click:run_command:'/link %1$s accept'>[<bold>Link</bold>]</click></green><red> <click:run_command:'/duel %1$s decline'>[<bold>Block</bold>]</click></red>
+"""
+noRequest = "Either this request has <pri>expired</pri> or you have not received a request from this user."
+linked = "Your account has been <sec>linked</sec> with <pri><discord_username></pri>!"
+denied = "The link request by <pri><discord_username></pri> has been <sec>denied</sec>."
