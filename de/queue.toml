@@ -6,13 +6,13 @@ norequest = "Du hast keine Anfrage von diesem Spieler bekommen."
 self = "Warum willst du dich selbst bekämpfen?"
 requestReceived = """
   <pri><user><reset> fordert dich in <kit><reset> heraus.
-  <br><green><click:run_command:'/duel %1$s accept'>[<bold>Annehmen</bold>]</click></green>
-  <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
+  <br><green><click:run_command:'/duel %1$s accept'>[<bold>✔ Annehmen</bold>]</click></green>
+  <red> <click:run_command:'/duel %1$s decline'>[<bold>❌ Ablehnen</bold>]</click></red>
 """
 requestReceived.firstTo = """
   <pri><user><reset> fordert dich in <kit><reset> <yellow>FT<first_to><reset> heraus.
-  <br><green><click:run_command:'/duel %1$s accept'>[<bold>Annehmen</bold>]</click></green>
-  <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
+  <br><green><click:run_command:'/duel %1$s accept'>[<bold>✔ Annehmen</bold>]</click></green>
+  <red> <click:run_command:'/duel %1$s decline'>[<bold>❌ Ablehnen</bold>]</click></red>
 """
 requestSent = "Du hast den Spieler <pri><target><reset> in <kit><reset> herausgefordert."
 requestSent.firstTo = "Du hast den Spieler <pri><target><reset> in <kit><reset> <yellow>FT<first_to><reset> herausgefordert."
