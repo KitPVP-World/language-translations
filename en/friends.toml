@@ -5,8 +5,8 @@ friend.lastOnline = "Last Seen: "
 friend.sent = "Sent: "
 friend.request = """
 You've received a friend request by <target><reset>:<br>
-<green><click:run_command:'%s'>[<bold>Accept</bold>]</click></green>
-<red> <click:run_command:'%s'>[<bold>Decline</bold>]</click></red>
+<green><click:run_command:'%s'>[<bold>✔ Accept</bold>]</click></green>
+<red> <click:run_command:'%s'>[<bold>❌ Decline</bold>]</click></red>
 """
 
 friend.join = "<sec><bold>●<reset> Your friend <friend><reset> is now <sec>online<reset>."
