@@ -9,3 +9,6 @@ linked = "Your account has been <sec>linked</sec> with <pri><discord_username></
 denied = "The link request by <pri><discord_username></pri> has been <sec>denied</sec>."
 unlink = "The link has been revoked."
 noConnection = "You are not linked yet!"
+
+[commands.test]
+none = "You don't have an open test with this player."
