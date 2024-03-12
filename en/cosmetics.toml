@@ -1,0 +1,5 @@
+[cosmetics.rarity]
+common = "Common"
+rare = "Rare"
+epic = "Epic"
+legendary = "Legendary"
