@@ -3,3 +3,11 @@ common = "Common"
 rare = "Rare"
 epic = "Epic"
 legendary = "Legendary"
+
+[cosmetics.armor]
+leather = "Leather Armor"
+chain = "Chainmail Armor"
+gold = "Golden Armor"
+iron = "Iron Armor"
+diamond = "Diamond Armor"
+netherite = "Netherite Armor"
