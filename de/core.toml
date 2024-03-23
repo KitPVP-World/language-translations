@@ -92,19 +92,18 @@ nick.unnicked = "Du bist nicht genickt."
 
 uuid = "Deine UUID ist: <hover:show_text:'Rechtsklick zum kopieren'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
 
-[commands.help]
-header = "<pri>Informationen zu allen Commands:"
-
-[commands.help.command]
-leave = "<yellow>/l <dark_gray>-<reset> Verlässt die Runde, welche du gerade spielst"
-coins = "<yellow><click:suggest_command:'/coins '>/coins</click> <dark_gray>-</dark_gray> <reset>Zeigt deine Coins"
-friends = "<yellow><click:suggest_command:'/friends'>/friends</click> <dark_gray>-<reset> Öffnet das Freundemenü"
-friend_add = "<yellow><click:suggest_command:'/friend add '>/friend add</click> <dark_gray>-<reset> Öffnet das Freundemenü"
-clans = "<yellow><click:suggest_command:'/clan'>/clan</click> <dark_gray>-<reset> Öffnet das Clanmenü"
-report = "<yellow><click:suggest_command:'/report '>/report</click> <dark_gray>-<reset> Meldet ein Spieler bei dem Serverteam"
-bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> Meldet ein Bug bei dem Serverteam"
-profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Zeigt die Ranked Stats von dem Spieler"
-stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Zeigt die allgemeinen Stats von dem Spieler"
+[commands]
+help = """
+    <gold>Informationen zu Commands
+    <br>
+    <br><click:suggest_command:'/l '><yellow>/l</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
+    <br><click:suggest_command:'/hub '><yellow>/hub</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
+    <br><click:suggest_command:'/duel '><yellow>/duel</yellow> [<yellow>name</yellow>]</click> <dark_gray>- <reset>Fordert den Spieler heraus
+    <br><click:suggest_command:'/profile '><yellow>/profile</click> <dark_gray>- <reset>Zeigt die Ranked Stats in jedem Kit an
+    <br><click:suggest_command:'/coins '><yellow>/coins</click> <dark_gray>-</dark_gray> <reset>Zeigt deine Coins</gray>
+    <br><click:suggest_command:'/friends'><yellow>/friends</click> <dark_gray>- <reset>Öffnet das Freundemenü
+    <br><click:suggest_command:'/friend add '>/<yellow>friend add</click> <dark_gray>- <reset>Fügt ein Spieler als Freund hinzu
+"""
 
 # Moderation Stuff
 
