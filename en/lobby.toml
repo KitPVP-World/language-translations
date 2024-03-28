@@ -23,7 +23,7 @@ lobby = "<aqua>Lobby"
 
 nick.nicked = "<gray>You are <dark_gray>: <green>nicked"
 nick.unnicked = "<gray>You are<dark_gray>: <red>not nicked"
-nicked.development = "In development"
+nick.development = "This feature is currently in development. Thanks TheAntCraft I needed to add this message because you spammed :)"
 
 [kitsorting]
 saved = "The inventory sorting has been saved."
