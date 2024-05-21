@@ -15,10 +15,5 @@ jobs:
       repository_url: ${{ secrets.repository_url }}
     steps:
       - uses: actions/checkout@v3
-      - name: Set up JDK 17
-        uses: actions/setup-java@v3
-        with:
-          java-version: '17'
-          distribution: 'temurin'
       - name: Validate
-        run: java -jar lib/translations-validator-master-SNAPSHOT-proguarded.jar debug publish
+        run: lib/translation-compiler publish
