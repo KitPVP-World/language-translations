@@ -17,6 +17,7 @@ untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bol
 
 # Generic Things
 [generic]
+back = "Zurück"
 error.clickitem = "Während du dieses Item geklickt hast, ist ein Fehler aufgetreten. Versuche es erneut oder kontaktiere den Support."
 error = "Ein Fehler ist aufgetreten."
 error.target.offline = "Dieser Spieler ist nicht online."
