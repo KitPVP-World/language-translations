@@ -21,6 +21,7 @@ error.clickitem = "An unexpected error occurred trying to click that item"
 
 # Generic Things
 [generic]
+back = "Back"
 error.clickitem = "An error occurred. Try again or contact support."
 error = "An error occurred."
 error.target.offline = "This player is not online."
