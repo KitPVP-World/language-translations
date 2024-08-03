@@ -25,8 +25,12 @@ nick.nicked = "<gray>You are <dark_gray>: <green>nicked"
 nick.unnicked = "<gray>You are<dark_gray>: <red>not nicked"
 nick.development = "This feature is currently in development. Thanks TheAntCraft I needed to add this message because you spammed :)"
 
-[kitsorting]
-saved = "The inventory sorting has been saved."
+[gui.lobbySwitcher]
+title = "Lobby Wechseln"
+premium = "The server you are trying to connect to requires you to have at least the <gold>Premium rank</gold>."
+
+[kitLayout]
+saved = "The kit layout has been saved."
 error = "An error occurred. Please try again or contact support."
 reset = "Reset"
 
