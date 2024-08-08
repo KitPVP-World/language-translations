@@ -15,6 +15,9 @@ untranslated.lore = """
 """
 untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Hilf mit!<reset>"
 
+[gui.viewKit]
+title = "Kit Übersicht"
+
 # Generic Things
 [generic]
 back = "Zurück"

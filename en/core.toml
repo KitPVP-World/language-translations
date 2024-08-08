@@ -15,6 +15,9 @@ untranslated.lore = """
 """
 untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Help here!<reset>"
 
+[gui.viewKit]
+title = "View Kit"
+
 # Common
 [gui.common]
 error.clickitem = "An unexpected error occurred trying to click that item"
