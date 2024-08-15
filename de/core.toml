@@ -112,11 +112,35 @@ help = """
 # Moderation Stuff
 
 [moderation]
-warned = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+warn = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+warned.chat = "Du wurdest für <pri><reason><reset> gewarnt und hast nun folgende Strafen erhalten: <br><punishments>"
+warned.title.chat = "Chat Bann"
+warned.title.kiting = "Achtung Kiting"
 report = "Du hast den Spieler <pri><target><reset> für <sec><reason> gemeldet."
+report.admin = """
+<pri><reported></pri> wurde von <sec><executor></sec> gemeldet:<br>
+<reason> <dark_gray>- <description><br>
+<br>
+<dark_gray>[<bold><yellow>Report Bearbeiten</bold></yellow>] [<bold><green>Profil</bold></green>] [<bold><red>Alts</bold></red>]
+
+"""
 error.chat.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem Chat gesperrt: <br><reason>"
 error.chat.block = "Ich weiß du bist sauer, aber bitte bleib <bold>respektvoll</bold>."
 
+[moderation.report.reason]
+cheating = "Cheating"
+chat = "Chat Nachricht(en)"
+kiting = "Kiting"
+skin = "Skin"
+name = "Benutzername"
+clan = "Clan-Name"
+status = "Freundesstatus"
+hunting = "Hunting"
+teaming = "Teaming"
+boosting = "Boosting"
+trolling = "Trolling"
+
+[moderation.admin]
 admin.profile.loading = "Lade Profil von <target><reset>..."
 admin.profile = """
   Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
@@ -142,22 +166,9 @@ admin.alts = """
   Verdächtige Accounts von <pri><target><reset> (<rank><reset>)<br>
   <br>
   <alts><br>
-  <own_profile><reset> (Eigenes Profil) 
+  <own_profile><reset> (Eigenes Profil)
   <br>
   Alts-Ladezeit: <loading_time>ms<reset>
 """
-
-[moderation.report.reason]
-cheating = "Cheating"
-chat = "Chat Nachricht(en)"
-kiting = "Kiting"
-skin = "Skin"
-name = "Benutzername"
-clan = "Clan-Name"
-status = "Freundesstatus"
-hunting = "Hunting"
-teaming = "Teaming"
-boosting = "Boosting"
-trolling = "Trolling"
 
 [gui]
