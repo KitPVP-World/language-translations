@@ -141,10 +141,10 @@ boosting = "Boosting"
 trolling = "Trolling"
 
 [moderation.admin]
-admin.profile.loading = "Lade Profil von <target><reset>..."
-admin.profile = """
+profile.loading = "Lade Profil von <target><reset>..."
+profile = """
   Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
-  Spieler Id: <player_id><br>
+  Benutzer Id: <user_id><br>
   <br>
   Status: <status><reset><br>
   Zuletzt Online: <last_online><reset><br>
@@ -157,12 +157,12 @@ admin.profile = """
   NameMC Profil: <namemc><reset><br>
   Crafty Profil: <crafty><reset><br>
   Laby Profil: <laby><reset><br>
-  Verdächtige Alts: <hover:show_text:'<yellow>Anzeigen'><alts><reset><br>
+  Direkt Verdächtige Alts: <hover:show_text:'<yellow>Baum Anzeigen'><alts><reset><br>
   <br>
   Profil-Ladezeit: <loading_time>ms<reset>
 """
 
-admin.alts = """
+alts = """
   Verdächtige Accounts von <pri><target><reset> (<rank><reset>)<br>
   <br>
   <alts><br>
