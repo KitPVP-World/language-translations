@@ -1,5 +1,5 @@
-[connection]
-build = "Du wirst auf den <pri>BauServer<reset> verbunden"
+[commands.connect]
+build = "Du wirst auf den <pri>Bau Server<reset> verbunden."
 
 [commands.duel]
 norequest = "Du hast keine Anfrage von diesem Spieler bekommen."
