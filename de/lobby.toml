@@ -9,7 +9,8 @@ property.list = "<green><bold>Properties<reset>:<newline><properties>"
 lobby.set = "Lobby-Welt wurde gesetzt."
 boundary.set = "Boundary wurde gesetzt."
 spawn.set = "Spawnpunkt wurde gesetzt."
-end = "Config wurde gespeichert."
+upload = "Config wurde erfolgreich hochgeladen: <url>"
+upload.failed = "Fehler beim Config hochladen ist aufgetreten: <statusCode>"
 
 help = "<red><bold>SETUP: <reset><newline>1. <click:run_command:'/setup lobby'>Lobby-Welt setzen</click><newline>2. <click:suggest_command:'/setup boundary 30'>Boundary setzen (Minimum Y Höhe)</click><newline>3. <click:run_command:'/setup spawnpoint'>Spawn setzen</click><newline>4. <click:run_command:'/setup queueNPC'>Queue NPC setzen</click><newline>4. <click:run_command:'/setup properties'>Properties bearbeiten</click><newline>5. <click:run_command:'/setup end'>Setup fertigstellen</click>"
 
