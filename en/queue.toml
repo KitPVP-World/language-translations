@@ -1,9 +1,9 @@
-[connection]
-build = "You will be connected to the <pri>BauServer<reset>"
+[commands.connection]
+build = "You will be connected to the <pri>Build Server<reset>."
 
 [commands.duel]
 norequest = "You have not received a request from this player."
-self = "Why would you want to fight yourself?"
+self = "Sorry, why would you want to fight against yourself? That's Stats-Boosting!"
 requestReceived = """
   <pri><user><reset> challenges you in <kit><reset>.
   <br><green><click:run_command:'/duel %1$s accept'>[<bold>✔ Accept</bold>]</click></green>

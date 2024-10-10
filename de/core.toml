@@ -3,7 +3,7 @@ untranslated = "<text>"
 # Languages
 language.change = """
   Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset>.
-  <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>."
+  <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>.
 """
 
 [gui.languages]
@@ -13,7 +13,16 @@ untranslated.lore = """
   <green>Hilf mit<gray>, das Netzwerk
   <br><gray>in deine Sprache zu übersetzen.
 """
-untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Hilf mit!<reset>"
+untranslated.book = """
+    <black><bold>Vielen Dank</bold>, dass versuchst KitPvP.world zu verbessern!
+    <br>Für das Übersetzen von KitPvP.world in mehr Sprachen, wirst du <bold>einzigartige Belohnungen</bold> erhalten. Bitte
+    <bold> öffne ein Ticket</bold> dazu auf unseren Discord:
+    <br><click:open_url:'https://dc.kitpvp.world'>                            <br>
+    <dark_gray>[<color:#5865f2><bold>Discord beitreten</bold></color>]                                         <br>
+"""
+
+[gui.viewKit]
+title = "Kit Übersicht"
 
 # Generic Things
 [generic]
@@ -28,9 +37,16 @@ error.kit.unknown = "Kit wurde nicht gefunden."
 next = "Seite vor"
 previous = "Seite zurück"
 
+[time]
+seconds = "%s Sekunden"
+minutes = "%s Minuten"
+hours = "%s Stunden"
+days = "%s Tage"
+months = "%s Monate"
+
 [time.relative]
 seconds = "Vor %s s"
-minutes = "Vor %s min."
+minutes = "Vor %s min"
 hours = "Vor %s h"
 days = "Vor %s d"
 months = "Vor %s m"
@@ -71,6 +87,24 @@ ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
 
 language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Übersetztr auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
 
+rank.singular = "Dein Rang <rank><reset> ist noch für 1 Tag aktiv."
+rank.plural = "Dein Rang <rank><reset> ist noch für <days> Tage aktiv."
+rank.infinite = "Dein Rang <rank><reset> ist unbegrenzt aktiv."
+rank.none = "Du besitzt keinen Rang."
+
+stats = """
+    <br><yellow>Duel Statistiken von <gold><bold><name></bold></gold> (<range>)<reset>
+    <br><hover:show_text:'Klicke um das Profil zu betrachten'><click:run_command:'/profile %1$s'>[<gold><bold>Profil betrachten</bold></gold>]<reset>
+    <br>Globaler Rang: <global_rank><reset>
+    <br>Globale Elo: <global_elo><reset>
+    <br>K/D: <gray><kills_deaths><reset>
+    <br>Spiele gespielt: <gray><games_played><reset>
+    <br>Höchste Siegesserie: <top_winstreak><reset>
+    <br><hover:show_text:'Klicke für mehr Informationen'><click:run_command:'/level %1$s'>Level: <level> <reset>
+"""
+stats.currentSeason = "Seasonal"
+stats.alltime = "Alltime"
+
 [commands.ranks]
 set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
 reload = "<green>Reloaded."
@@ -101,6 +135,7 @@ help = """
     <br><click:suggest_command:'/hub '><yellow>/hub</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
     <br><click:suggest_command:'/duel '><yellow>/duel</yellow> [<yellow>name</yellow>]</click> <dark_gray>- <reset>Fordert den Spieler heraus
     <br><click:suggest_command:'/profile '><yellow>/profile</click> <dark_gray>- <reset>Zeigt die Ranked Stats in jedem Kit an
+    <br><click:suggest_command:'/stats '><yellow>/stats</click> <dark_gray>- <reset>Zeigt einen Überblick über deine Stats
     <br><click:suggest_command:'/coins '><yellow>/coins</click> <dark_gray>-</dark_gray> <reset>Zeigt deine Coins</gray>
     <br><click:suggest_command:'/friends'><yellow>/friends</click> <dark_gray>- <reset>Öffnet das Freundemenü
     <br><click:suggest_command:'/friend add '>/<yellow>friend add</click> <dark_gray>- <reset>Fügt ein Spieler als Freund hinzu
@@ -109,40 +144,20 @@ help = """
 # Moderation Stuff
 
 [moderation]
-warned = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+warn = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+warned.chat = "Du wurdest für <pri><reason><reset> gewarnt und hast nun folgende Strafen erhalten: <br><punishments>"
+warned.title.chat = "Chat Bann"
+warned.title.kiting = "Achtung Kiting"
 report = "Du hast den Spieler <pri><target><reset> für <sec><reason> gemeldet."
+report.admin = """
+<pri><reported></pri> wurde von <sec><executor></sec> gemeldet:<br>
+<reason> <dark_gray>- <description><br>
+<br>
+<dark_gray>[<bold><yellow>Report Bearbeiten</bold></yellow>] [<bold><green>Profil</bold></green>] [<bold><red>Alts</bold></red>]
+
+"""
 error.chat.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem Chat gesperrt: <br><reason>"
 error.chat.block = "Ich weiß du bist sauer, aber bitte bleib <bold>respektvoll</bold>."
-
-admin.profile.loading = "Lade Profil von <target><reset>..."
-admin.profile = """
-  Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
-  Spieler Id: <player_id><br>
-  <br>
-  Status: <status><reset><br>
-  Zuletzt Online: <last_online><reset><br>
-  Dauer der Session: <session_time><reset><br>
-  <br>
-  Client Brand: <brand><reset><br>
-  IP: <ip><reset><br>
-  ISP (Host Name): <host_name><reset><br>
-  <br>
-  NameMC Profil: <namemc><reset><br>
-  Crafty Profil: <crafty><reset><br>
-  Laby Profil: <laby><reset><br>
-  Verdächtige Alts: <hover:show_text:'<yellow>Anzeigen'><alts><reset><br>
-  <br>
-  Profil-Ladezeit: <loading_time>ms<reset>
-"""
-
-admin.alts = """
-  Verdächtige Accounts von <pri><target><reset> (<rank><reset>)<br>
-  <br>
-  <alts><br>
-  <own_profile><reset> (Eigenes Profil) 
-  <br>
-  Alts-Ladezeit: <loading_time>ms<reset>
-"""
 
 [moderation.report.reason]
 cheating = "Cheating"
@@ -156,5 +171,36 @@ hunting = "Hunting"
 teaming = "Teaming"
 boosting = "Boosting"
 trolling = "Trolling"
+
+[moderation.admin]
+profile.loading = "Lade Profil von <target><reset>..."
+profile = """
+  Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
+  Benutzer Id: <user_id><br>
+  <br>
+  Status: <status><reset><br>
+  Zuletzt Online: <last_online><reset><br>
+  Dauer der Session: <session_time><reset><br>
+  <br>
+  Client Brand: <brand><reset><br>
+  IP: <ip><reset><br>
+  ISP (Host Name): <host_name><reset><br>
+  <br>
+  NameMC Profil: <namemc><reset><br>
+  Crafty Profil: <crafty><reset><br>
+  Laby Profil: <laby><reset><br>
+  Direkt Verdächtige Alts: <hover:show_text:'<yellow>Baum Anzeigen'><alts><reset><br>
+  <br>
+  Profil-Ladezeit: <loading_time>ms<reset>
+"""
+
+alts = """
+  Verdächtige Accounts von <pri><target><reset> (<rank><reset>)<br>
+  <br>
+  <alts><br>
+  <own_profile><reset> (Eigenes Profil)
+  <br>
+  Alts-Ladezeit: <loading_time>ms<reset>
+"""
 
 [gui]
