@@ -109,6 +109,8 @@ ping.other = "The Ping of the player <sec><target><reset> is: <pri><ping>"
 
 language.unknown = "Language not found. <pri>Help us<reset> translate the network into your language on <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color>."
 
+lobby.alreadyConnected = "You are already connected to a lobby server."
+
 [commands.ranks]
 set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
 reload = "<green>Reloaded."
