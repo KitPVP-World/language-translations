@@ -1,0 +1,50 @@
+[arena]
+disabled = "<red>Serverwide disabled"
+autosave = "<bold><color:#88ff88>SAVED!<reset> The world has been auto-saved."
+save = "<bold><color:#88ff88>SAVED!<reset> <pri><username><reset> saved the current world. That makes them a hero!"
+
+[commands.arena]
+create = "Die Arena <pri><key><reset> wird erstellt. Sobald diese bereit ist wirst du automatisch dorthin teleportiert."
+create.alreadyExists = "An arena with the same name already exists. Would you like to teleport to it? <pri><bold><click:run_command:'/arena goto %s'>Yes"
+create.namespace.minecraft = "You cannot create an arena without any <bold><pri>:</pri></bold> or with them </pri>minecraft</pri> namespace."
+create.namespace.length = "The key cannot be longer than 255 characters."
+
+not_arena = "<bold><red>WHAT?!<reset> The world, you are currently in, isn't an arena."
+
+rename = "<bold><pri>RENAMED!<reset> Your <pri>current arena's</pri> display name to <sec><name><reset>."
+icon = "<bold><pri>NICE ICON!<reset> Changed icon of your <pri>current arena</pri> to <sec><icon><reset>."
+
+goto = "Teleported to arena <key>"
+
+enable = "<bold><color:#ff8888>ENABLED!<reset></green> Published arena <pri><key><reset> to be played."
+disable = "<bold><color:#ff8888>DISABLED!<reset></green> Published arena <pri><key><reset> from being played."
+
+list.namespace = "Listing all arenas of namespace <namespace>: <br><arenas>"
+list.all = "Listing all arenas: <br><arenas>"
+list.none = "There are no arenas available to show."
+
+export.complete = "The current arena <sec><arena></sec> has been successfully uploaded to <pri><url></pri>."
+export.failed = "Failed to export the current arena: <error>"
+
+publish.save = "Publishing started, please stay still."
+publish.unfinished = "Publication failed, you do not have set all parameters for the arena (missing <missing_count>)"
+publish.success = "Publication for arena <pri><displayName><reset> finished successfully"
+
+[gui.arena.settings]
+title = "Arena Settings"
+name.input = "Please enter the new arena name in chat:"
+
+position.set = "Position was set to <pos><reset>."
+
+[gui.arena.publication]
+title = "Publish Arena"
+confirm = "<green><bold>Confirm Publication"
+
+[gui.arena.worlds]
+create = "<click:suggest_command:'/arena create '><bold><sec>Click here</sec></bold> to create a new arena"
+
+[gui.selectItem]
+title = "Select an item from your inventory"
+cancel = "<red>Cancel"
+set = "<green>Set Item"
+item = "<sec>Selected Item"

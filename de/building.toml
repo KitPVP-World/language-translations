@@ -1,4 +1,7 @@
 [commands.arena]
+create.alreadyExists = "An arena with the same name already exists. Would you like to teleport to it? <pri><bold><click:run_command:'%s'>Yes"
+
+[commands.arena]
 activate = "Arena wurde aktiviert."
 disable = "Arena wurde deaktivert."
 

@@ -1,4 +1,4 @@
- [gui.profile]
+[gui.profile]
 title = "<red>Profile"
 achievements = "Achievements"
 next.lore = "<yellow>to season <season>"
