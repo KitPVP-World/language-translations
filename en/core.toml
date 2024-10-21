@@ -112,7 +112,10 @@ language.unknown = "Language not found. <pri>Help us<reset> translate the networ
 lobby.alreadyConnected = "You are already connected to a lobby server."
 
 [commands.ranks]
-set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
+add = "Added the rank of <pri><target><reset> to <sec><rank><reset."
+remove = "Added the rank of <pri><target><reset> to <sec><rank><reset."
+add = "Added the rank of <pri><target><reset> to <sec><rank><reset."
+
 reload = "<green>Reloaded."
 
 [commands.test]
@@ -132,6 +135,17 @@ nick.unnick = "You are unnicked now."
 nick.unnicked = "You are not nicked"
 
 uuid = "Your UUID is: <hover:show_text:'Click to copy'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
+
+[commands.service]
+maintenance.allow = "You <sec>allowed</sec> the user <target><reset> to join while in maintenance mode."
+maintenace.allow.already = "The user <target><reset> is already on the allowlist."
+maintenance.disallow = "You <red>removed</red> the user <target><reset> from the maintenace allowlist."
+maintenace.disallow.already = "The user <target><reset> not added to the allowlist."
+maintenance.list = """
+Showing the status of the maintenance:
+<br> ● Maintenance Status: <status><reset>
+<br> ● Maintenance Allowed Users: <list>
+"""
 
 [commands]
 help = """
