@@ -1,5 +1,6 @@
 [commands.connection]
 build = "You will be connected to the <pri>Build Server<reset>."
+noService = "No service found."
 
 [commands.duel]
 norequest = "You have not received a request from this player."
