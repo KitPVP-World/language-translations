@@ -24,7 +24,7 @@ lobby = "<aqua>Lobby"
 
 nick.nicked = "<gray>You are <dark_gray>: <green>nicked"
 nick.unnicked = "<gray>You are<dark_gray>: <red>not nicked"
-nick.development = "This feature is currently in development. Thanks TheAntCraft I needed to add this message because you spammed :)"
+nick.development = "This feature is currently in development."
 
 [gui.lobbySwitcher]
 title = "Lobby Wechseln"
