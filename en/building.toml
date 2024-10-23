@@ -1,3 +1,9 @@
+[commands.kit]
+info = "Currently selected kit: <pri><kit_id>"
+unselected = "You don't have a kit selected. <click:suggest_command:'/kit select '>/kit select <tag>" # Du hast kein Kit ausgewählt. /kit select <tag>
+rename = "<bold><pri>RENAMED!<reset> Your <pri>selected kit's</pri> (<kit_id>) display name to <sec><name><reset>."
+list = "Global Kits: <list>"
+
 [arena]
 disabled = "<red>Serverwide disabled"
 autosave = "<bold><color:#88ff88>SAVED!<reset> The world has been auto-saved."
@@ -28,13 +34,13 @@ export.failed = "Failed to export the current arena: <error>"
 
 publish.save = "Publishing started, please stay still."
 publish.unfinished = "Publication failed, you do not have set all parameters for the arena (missing <missing_count>)"
-publish.success = "Publication for arena <pri><displayName><reset> finished successfully"
+publish.success = "Publication for arena <pri><display_name><reset> finished successfully"
 
 [gui.arena.settings]
 title = "Arena Settings"
 name.input = "Please enter the new arena name in chat:"
 
-position.set = "Position was set to <pos><reset>."
+set.position = "Position was set to <pos><reset>."
 
 [gui.arena.publication]
 title = "Publish Arena"
