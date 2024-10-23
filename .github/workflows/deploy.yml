@@ -1,4 +1,4 @@
-name: Publish the languages to the repository
+name: Build and deploy the language.bundle to the repository
 
 on:
   workflow_dispatch:
@@ -7,11 +7,15 @@ on:
     tags:
       - 'v*'
 
+concurrency:
+  group: production
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
 jobs:
-  build:
+  deploy:
     environment: "promoted"
     runs-on: ubuntu-latest
     env:
