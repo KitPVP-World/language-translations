@@ -2,12 +2,17 @@ name: Publish the languages to the repository
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    tags:
+      - 'v*'
 
 permissions:
   contents: read
 
 jobs:
   build:
+    environment: "promoted"
     runs-on: ubuntu-latest
     env:
       repository_username: ${{ secrets.repository_username }}
