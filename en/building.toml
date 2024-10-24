@@ -22,8 +22,8 @@ icon = "<bold><pri>NICE ICON!<reset> Changed icon of your <pri>current arena</pr
 
 goto = "Teleported to arena <key>"
 
-enable = "<bold><color:#ff8888>ENABLED!<reset></green> Published arena <pri><key><reset> to be played."
-disable = "<bold><color:#ff8888>DISABLED!<reset></green> Published arena <pri><key><reset> from being played."
+enable = "<bold><color:#ff8888>ENABLED!<reset> Published arena <pri><key><reset> to be played."
+disable = "<bold><color:#ff8888>DISABLED!<reset> Published arena <pri><key><reset> from being played."
 
 list.namespace = "Listing all arenas of namespace <namespace>: <br><arenas>"
 list.all = "Listing all arenas: <br><arenas>"
@@ -35,6 +35,10 @@ export.failed = "Failed to export the current arena: <error>"
 publish.save = "Publishing started, please stay still."
 publish.unfinished = "Publication failed, you do not have set all parameters for the arena (missing <missing_count>)"
 publish.success = "Publication for arena <pri><display_name><reset> finished successfully"
+
+import = "<bold><color:#3061e8>IMPORTED!<reset> <arena><reset> successfully."
+import.anvil.big = "<bold><red>HUGE!<reset> The world you are trying to import is <italic>too</italic> big."
+import.anvil.invalid = "<bold><red>INVALID!<reset> The anvil world is invalid: <message>"
 
 [gui.arena.settings]
 title = "Arena Settings"
