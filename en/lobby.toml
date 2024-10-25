@@ -77,3 +77,4 @@ levelup.title = """
   <br><level> <gray>→ <new_level>
 """
 discord = "Join <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color>: <dark_gray>[<sec>Click Here</sec>]</dark_gray></click>"
+store = "<click:open_url:'https://store.kitpvp.world'>Hey, if you like our projects so far and You want to support us on our future projects, consider purchasing a Rank on <gold><bold>store.kitpvp.world</gold></bold> :)"
