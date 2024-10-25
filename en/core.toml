@@ -38,7 +38,7 @@ untranslated.book = """
     <dark_gray>[<color:#5865f2><bold>Join our Discord</bold></color>]                        <br>
 """
 
-[gui.viewKit]
+[gui.kitView]
 title = "View Kit"
 
 # Common

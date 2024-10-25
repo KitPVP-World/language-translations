@@ -38,7 +38,7 @@ untranslated.book = """
     <dark_gray>[<color:#5865f2><bold>Discord beitreten</bold></color>]                                         <br>
 """
 
-[gui.viewKit]
+[gui.kitView]
 title = "Kit Übersicht"
 
 # Generic Things
