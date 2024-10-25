@@ -23,7 +23,7 @@ globalItem = """
 """
 
 kitItem = """
-    "<gray>Platz<dark_gray>: <elorank>
+    <gray>Platz<dark_gray>: <elorank>
     <br><gray>Elo<dark_gray>: <elo>
     <br><gray>Höchste Elo<dark_gray>: <topelo>
     <br>
