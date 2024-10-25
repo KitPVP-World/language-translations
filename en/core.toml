@@ -109,7 +109,7 @@ rank.infinite = "Your rank <rank><reset> does not have a limit."
 rank.none = "You don't own any rank."
 
 stats = """
-    <br><yellow>Duels statistics of <gold><bold><name></bold></gold> (<range>)<reset>
+    <br><yellow>Duels statistics of <gold><bold><rank><reset> <name></bold></gold> (<range>)<reset>
     <br><hover:show_text:'Click to view profile'><click:run_command:'/profile %1$s'>[<gold><bold>View Profile</bold></gold>]<reset>
     <br>Global Rank: <global_rank><reset>
     <br>Global Elo: <global_elo><reset>
