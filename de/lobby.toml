@@ -10,7 +10,7 @@ nick.nicked = "<gray>Du Bist<dark_gray>: <green>Genickt"
 nick.unnicked = "<gray>Du Bist<dark_gray>: <red>Nicht Genickt"
 nick.development = "Dieses Feature ist derzeit noch in Entwicklung."
 
-[kitLayout]
+[gui.kitLayout]
 saved = "Die Kitsortierung wurde gespeichert."
 error = "Ein Fehler ist passiert. Bitte versuche es erneut und kontaktiere den Support."
 reset = "Zurücksetzen"
