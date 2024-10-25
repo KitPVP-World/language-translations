@@ -17,7 +17,7 @@ reset = "Zurücksetzen"
 
 [gui.lobbySwitcher]
 title = "Lobby Switcher"
-premium = "Du benötigst mindestens den <gold>Premium Rang</gold> um diesen Server zu betreten."
+champ = "Du benötigst mindestens den <gold>Champ Rang</gold> um diesen Server zu betreten."
 
 [leaderboard]
 loading = "Das Leaderboard läd derzeit noch! Der Vorgang kann bis zu 3 Sekunden dauern."
