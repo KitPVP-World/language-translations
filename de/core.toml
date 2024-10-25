@@ -6,6 +6,22 @@ language.change = """
   <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>.
 """
 
+[core.event.rank.update]
+utility = """
+    Du hast einen Spezialrang erhalten: <pri><rank></pri>
+    <br><click:open_url:'https://store.kitpvp.world'>Unterstütze uns weiterhin auf <sec>unserem Store</sec>:
+    <br><sec>https://store.kitpvp.world</sec>
+"""
+team = """
+    Du hast einen Teamrang erhalten: <pri><rank></pri>
+    Vielen Dank für deine Unterstützung.
+"""
+sponsor = """
+    Du hast eine Sponsorrang erhalten: <pri><rank></pri>
+    <br><click:open_url:'https://store.kitpvp.world'>Unterstütze uns weiterhin auf <sec>unserem Store</sec>:
+    <br><sec>https://store.kitpvp.world</sec>
+ """
+
 [gui.languages]
 title = "Sprache ändern"
 untranslated.name = "<gray>Sprache nicht gefunden?"
