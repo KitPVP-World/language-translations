@@ -7,19 +7,20 @@ language.change = """
 """
 
 [core.event.rank.update]
+rankedUnblock = """
+    Die Sperre in der Ranked Queue wurde für dich aufgehoben.
+"""
 utility = """
-    Du hast einen Spezialrang erhalten: <pri><rank></pri>
-    <br><click:open_url:'https://store.kitpvp.world'>Unterstütze uns weiterhin auf <sec>unserem Store</sec>:
-    <br><sec>https://store.kitpvp.world</sec>
+    Du hast einen besonderen Rang erhalten: <pri><rank><reset>
+    <br><sec>Vielen Dank</sec> für deine Unterstützung.
 """
 team = """
-    Du hast einen Teamrang erhalten: <pri><rank></pri>
-    Vielen Dank für deine Unterstützung.
+    Du hast einen Team-Rang erhalten: <pri><rank><reset>
+    <br><sec>Vielen Dank</sec> für deine Unterstützung.
 """
 sponsor = """
-    Du hast eine Sponsorrang erhalten: <pri><rank></pri>
-    <br><click:open_url:'https://store.kitpvp.world'>Unterstütze uns weiterhin auf <sec>unserem Store</sec>:
-    <br><sec>https://store.kitpvp.world</sec>
+    Danke für deinen Kauf auf <pri>kitpvp.world</pri>.
+    Du hast den <sec><rank><reset> Rang erhalten.
  """
 
 [gui.languages]

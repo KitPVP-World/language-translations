@@ -6,6 +6,23 @@ language.change = """
   <br>Help us translate the network into your language on <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color></click>.
 """
 
+[core.event.rank.update]
+rankedUnblock = """
+    You have been unblocked from the ranked queue.
+"""
+utility = """
+    You received a special rank: <pri><rank><reset>
+    <br><sec>Thank you</sec> for your support.
+"""
+team = """
+    You have received a team rank: <pri><rank><reset>
+    <br><sec>Thank you</sec> for your support.
+"""
+sponsor = """
+    Thank you for your purchase on <pri>kitpvp.world</pri>.
+    You have received the <sec><rank><reset> rank.
+ """
+
 [gui.languages]
 title = "Change language"
 untranslated.name = "<gray>Didn't find your language?"
