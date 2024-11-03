@@ -114,7 +114,7 @@ stats = """
     <br><hover:show_text:'Klicke um das Profil zu betrachten'><click:run_command:'/profile %1$s'>[<gold><bold>Profil betrachten</bold></gold>]<reset>
     <br>Globaler Rang: <global_rank><reset>
     <br>Globale Elo: <global_elo><reset>
-    <br>K/D: <gray><kills_deaths><reset>
+    <br><style_kills_deaths>K/D: <gray><kills_deaths><reset>
     <br>Spiele gespielt: <gray><games_played><reset>
     <br>Höchste Siegesserie: <top_winstreak><reset>
     <br><hover:show_text:'Klicke für mehr Informationen'><click:run_command:'/level %1$s'>Level: <level> <reset>
