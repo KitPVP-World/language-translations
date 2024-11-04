@@ -123,8 +123,11 @@ stats.currentSeason = "Seasonal"
 stats.alltime = "Alltime"
 
 [commands.ranks]
-set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
-reload = "<green>Reloaded."
+add.infinite = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt auf einen <sec>unbestimmten Zeitraum</sec>."
+add.limited = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt bis <sec><duration><reset>."
+remove = "Der Rang <rank><reset> wurde <pri><target><reset> entfernt."
+
+reload = "<green>Ränge wurden neugeladen."
 
 [commands.test]
 coins.set = "Deine Coins wurden auf <gold><coins><reset> gesetzt."

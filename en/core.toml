@@ -129,9 +129,9 @@ language.unknown = "Language not found. <pri>Help us<reset> translate the networ
 lobby.alreadyConnected = "You are already connected to a lobby server."
 
 [commands.ranks]
-add = "Added the rank of <pri><target><reset> to <sec><rank><reset."
-remove = "Added the rank of <pri><target><reset> to <sec><rank><reset."
-add = "Added the rank of <pri><target><reset> to <sec><rank><reset."
+add.infinite = "Added the rank <rank><reset> to <pri><target><reset> <sec>indefinetly</sec>."
+add.limited = "Added the rank <rank><reset> to <pri><target><reset> to till <sec><duration><reset>."
+remove = "Removed the rank <sec><rank><reset> of <pri><target><reset>."
 
 reload = "<green>Reloaded."
 
