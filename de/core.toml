@@ -110,7 +110,7 @@ rank.infinite = "Dein Rang <rank><reset> ist unbegrenzt aktiv."
 rank.none = "Du besitzt keinen Rang."
 
 stats = """
-    <br><yellow>Duel Statistiken von <gold><bold><rank><reset> <name></bold></gold> <yellow>(<range>)<reset>
+    <br><yellow>Duel Statistiken von <gold><bold><rank><reset> <name> <yellow>(<range>)<reset>
     <br><hover:show_text:'Klicke um das Profil zu betrachten'><click:run_command:'/profile %1$s'>[<gold><bold>Profil betrachten</bold></gold>]<reset>
     <br>Globaler Rang: <global_rank><reset>
     <br>Globale Elo: <global_elo><reset>
