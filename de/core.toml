@@ -104,11 +104,6 @@ ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
 
 language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Übersetztr auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
 
-rank.singular = "Dein Rang <rank><reset> ist noch für 1 Tag aktiv."
-rank.plural = "Dein Rang <rank><reset> ist noch für <days> Tage aktiv."
-rank.infinite = "Dein Rang <rank><reset> ist unbegrenzt aktiv."
-rank.none = "Du besitzt keinen Rang."
-
 stats = """
     <br><yellow>Duel Statistiken von <gold><bold><rank><reset> <name> <yellow>(<range>)<reset>
     <br><hover:show_text:'Klicke um das Profil zu betrachten'><click:run_command:'/profile %1$s'>[<gold><bold>Profil betrachten</bold></gold>]<reset>
@@ -122,10 +117,18 @@ stats = """
 stats.currentSeason = "Seasonal"
 stats.alltime = "Alltime"
 
-[commands.ranks]
+[commands.rank]
 add.infinite = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt auf einen <sec>unbestimmten Zeitraum</sec>."
 add.limited = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt bis <sec><duration><reset>."
 remove = "Der Rang <rank><reset> wurde <pri><target><reset> entfernt."
+
+singular = "Dein Rang <rank><reset> ist noch für 1 Tag aktiv."
+plural = "Dein Rang <rank><reset> ist noch für <days> Tage aktiv."
+infinite = "Dein Rang <rank><reset> ist unbegrenzt aktiv."
+none = "Du besitzt keinen Rang."
+
+target.none = "<target><reset> besitzt keine Ränge."
+target.info = "<target><reset> besitzt folgende Ränge: <br><ranks>"
 
 reload = "<green>Ränge wurden neugeladen."
 
