@@ -229,6 +229,7 @@ admin.alts = """
 """
 
 [gui]
+report.title = "Melden <name>"
 
 [tablist]
 header = "<aqua>You are playing on <yellow><bold>KITPVP.WORLD"

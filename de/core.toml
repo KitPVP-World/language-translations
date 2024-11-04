@@ -224,6 +224,7 @@ alts = """
 """
 
 [gui]
+report.title = "Report <name>"
 
 [tablist]
 header = "<aqua>Du spielst auf <yellow><bold>KITPVP.WORLD"
