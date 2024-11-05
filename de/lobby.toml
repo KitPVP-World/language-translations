@@ -14,6 +14,7 @@ nick.development = "Dieses Feature ist derzeit noch in Entwicklung."
 saved = "Die Kitsortierung wurde gespeichert."
 error = "Ein Fehler ist passiert. Bitte versuche es erneut und kontaktiere den Support."
 reset = "Zurücksetzen"
+select.title = "Kit Sortierung: Kit Auswählen"
 
 [gui.lobbySwitcher]
 title = "Lobby Switcher"
