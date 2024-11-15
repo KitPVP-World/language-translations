@@ -1,0 +1,19 @@
+[store.category]
+ranks="Ranks"
+xp_booster="XP Booster"
+coins_booster="Coins Booster"
+
+[store.category.ranks]
+champ="Champ"
+ultra="Ultra"
+grandChamp="Grand Champ"
+
+[store.category.xp_booster]
+xpBooster8h4x="XP Booster 400%% - 8h"
+xpBooster3d4x="XP Booster 400%% - 3d"
+xpBooster7d4x="XP Booster 400%% - 7d"
+
+[store.category.coins_booster]
+coinsBooster8h4x="Coins Booster 400%% - 8h"
+coinsBooster3d4x="Coins Booster 400%% - 3d"
+coinsBooster7d4x="Coins Booster 400%% - 7d"
