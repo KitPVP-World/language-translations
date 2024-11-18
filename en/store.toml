@@ -2,6 +2,7 @@
 ranks="Ranks"
 xp_booster="XP Booster"
 coins_booster="Coins Booster"
+more="More Stuff"
 
 [store.category.ranks]
 champ="Champ"
@@ -10,10 +11,54 @@ grandChamp="Grand Champ"
 
 [store.category.xp_booster]
 xpBooster8h4x="XP Booster 400%% - 8h"
+xpBooster8h4x.description="""
+<b>The 8h XP Boost contains:</b>
+<ul>
+    <li>A 8h XP Boost which increases the XP you gain to 400%%.</li>
+</ul>
+
+<i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+"""
 xpBooster3d4x="XP Booster 400%% - 3d"
+xpBooster3d4x.description="""
+<b>The 3d XP Boost contains:</b>
+<ul>
+    <li>A 3d XP Boost which increases the XP you gain to 400%%.</li>
+</ul>
+
+<i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+"""
 xpBooster7d4x="XP Booster 400%% - 7d"
+xpBooster7d4x.description="""
+<b>The 7d XP Boost contains:</b>
+<ul>
+    <li>A 7d XP Boost which increases the XP you gain to 400%%.</li>
+</ul>
+
+<i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+"""
 
 [store.category.coins_booster]
 coinsBooster8h4x="Coins Booster 400%% - 8h"
 coinsBooster3d4x="Coins Booster 400%% - 3d"
 coinsBooster7d4x="Coins Booster 400%% - 7d"
+
+
+[store.category.more]
+hatAstronaut="Astronaut Hat"
+hatAstronaut.description="""
+<b>The Astronaut Helmet Package contains:
+
+Access to the following cosmetics:</b>
+
+<ul>
+<li>Astronaut Helmet
+</ul>
+
+<i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+"""
+hatFeather="Feather Hat"
+trailCherryBlossom="Cherry Blossom Trail"
+
+[store.actions]
+free="Free"
