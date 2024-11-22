@@ -1,3 +1,10 @@
+[gui.cosmetics]
+armor.equip.all = "<red>Equip All"
+armor.unequip.all = "<red>Unequip All"
+armor.overview = "Armorset Overview"
+
+cosmetics.remove = "Remove equipped cosmetic"
+
 [cosmetics.rarity]
 common = "Common"
 rare = "Rare"
