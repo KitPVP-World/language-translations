@@ -1,0 +1,9 @@
+[gui.aim.settings]
+title = "Aim Training Settings"
+selected = "Ausgewählt"
+
+[training.aim]
+difficulty.easy = "<green>Easy"
+difficulty.medium = "<yellow>Medium"
+difficulty.hard = "<red>Hard"
+difficulty.impossible = "<dark_purple>Impossible"
