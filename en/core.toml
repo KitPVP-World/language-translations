@@ -19,7 +19,7 @@ team = """
     <br><sec>Thank you</sec> for your support.
 """
 sponsor = """
-    Thank you for your purchase on <pri>kitpvp.world</pri>.
+    Thank you for your purchase on <pri>KitPvP.world</pri>.<br>
     You have received the <sec><rank><reset> rank.
  """
 
