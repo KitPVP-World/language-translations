@@ -91,3 +91,33 @@ trailCherryBlossom="Cherry Blossom Trail"
 [store.actions]
 free="Free"
 view="View"
+
+[store.dialog]
+
+[store.dialog.paymentMethods]
+title="Payment Methods"
+description="""
+We support <strong>PayPal, credit/debit cards, and 150+ other payment methods</strong> through our secure encrypted gateway Tebex Checkout.
+
+<i>Please note that <bold>Paysafecard</bold> is not currently supported.</i>
+"""
+
+[store.dialog.refundPolicy]
+title="Refund Policy"
+description="""
+All sales are final.
+
+<ul>
+    <li>We do offer a refund on any item within 14 days after the purchase and without the activation by connecting to our Minecraft server. If you have any issues with any KitPvP World Product, please contact our Support Team.</li>
+
+    <li>If you are banned from the KitPvP World server for breaking our rules, you will lose <strong>access</strong> to your items for the duration of the ban, and will not be eligible for a refund either.</li>
+</ul>
+
+<strong>Please read our terms of service before purchasing.</strong>
+"""
+
+[store.dialog.login]
+title="Please enter your username"
+description="""
+
+"""
