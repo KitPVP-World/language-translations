@@ -9,28 +9,183 @@ champ="Champ"
 ultra="Ultra"
 grandChamp="Grand Champ"
 
+[store.category.ranks.key]
+usernameColor="Spielernamen Farbe"
+usernameColor.gold="Golden"
+usernameColor.aqua="Türkis"
+usernameColor.red="Rot"
+specialNameplate="Eigenes Namensschild"
+specialChatIcon="Eigenes Chat Symbol"
+noChatCooldown="Kein Chat Cooldown"
+colorizedGG="Gefärbtes GG"
+earlyAccess="Beta Zugriff"
+friendStatus="Freundes Status"
+champLobby="Zugriff Auf Champ Lobby"
+pvpBots2vs2="PvP Bots 2vs2"
+rankSpecificCosmetics="Cosmetics Für Rang"
+mapSelection="Map Auswahl"
+accessToReplay="Zugriff Auf Replays"
+publicParties="Öffentliche Parties"
+fly="Fliegen in Lobby"
+extendedReplayAccess="Erweiterter Replay Zugriff"
+extendedReplayAccess.3d="3 Tage"
+extendedReplayAccess.7d="7 Tage"
+replaySaveSlots="Replay Speicher Slots"
+clanMemberIncrease="Clan Member Erhöhung"
+coinXpBoost="Coin & XP Boost"
+partySize="Max Party Größe"
+friendSlots="Max Freunde"
+pvpBotsSaveSlots="PvP Bots Standard Slots"
+dailyRewardChest="Weitere Tägliche Belohnungstruhen"
+dailyRewardCoins="Weitere Tägliche Belohnungscoins"
+
 [store.category.xp_booster]
 xpBooster8h4x="XP Booster 400%% - 8 Std."
+xpBooster8h4x.description="""
+<b>Der 8 Std. XP Boost beeinhaltet:</b>
+<ul>
+    <li>Einen 8 Std. XP Boost, der die erworbene XP um 400%% erhöt.</li>
+</ul>
+
+<i>XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels und können durch dein Inventar eingesehen werden.</i>
+"""
 xpBooster3d4x="XP Booster 400%% - 3 Tage"
+xpBooster3d4x.description="""
+<b>Der 3 Tage XP Boost beeinhaltet:</b>
+<ul>
+    <li>Einen 3 Tage XP Boost, der die erworbene XP um 400%% erhöt.</li>
+</ul>
+
+<i>XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels und können durch dein Inventar eingesehen werden.</i>
+"""
 xpBooster7d4x="XP Booster 400%% - 7 Tage"
+xpBooster7d4x.description="""
+<b>Der 7 Tage XP Boost beeinhaltet:</b>
+<ul>
+    <li>Einen 7 Tage XP Boost, der die erworbene XP um 400%% erhöt.</li>
+</ul>
+
+<i>XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels und können durch dein Inventar eingesehen werden.</i>
+"""
 
 [store.category.coins_booster]
 coinsBooster8h4x="Coins Booster 400%% - 8 Std."
+coinsBooster8h4x.description="""
+<b>Der 8 Stunden Coins Booster beeinhaltet:</b>
+<ul>
+    <li>Einen 8 Stunden Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
+</ul>
+
+<i>Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
+"""
 coinsBooster3d4x="Coins Booster 400%% - 3 Tage"
+coinsBooster3d4x.description="""
+<b>Der 3 Tage Coins Booster beeinhaltet:</b>
+<ul>
+    <li>Einen 3 Tage Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
+</ul>
+
+<i>Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
+"""
 coinsBooster7d4x="Coins Booster 400%% - 7 Tage"
+coinsBooster7d4x.description="""
+<b>Der 7 Tage Coins Booster beeinhaltet:</b>
+<ul>
+    <li>Einen 7 Tage Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
+</ul>
+
+<i>Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
+"""
+
 
 [store.category.more]
 hatAstronaut="Astronauten Helm"
+hatAstronaut.description="""
+<b>Das Astronauten Helm Paket beeinhaltet:
+
+Zugriff auf folgende <i>Cosmetics</i>:</b>
+
+<ul>
+<li>Astronauten Helm</li>
+</ul>
+
+<i>Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+"""
 hatFeather="Feder Hut"
+hatFeather.description="""
+<b>Das Feder Helm Paket beeinhaltet:
+
+Zugriff auf folgende <i>Cosmetics</i>:</b>
+
+<ul>
+<li>Feder Helm</li>
+</ul>
+
+<i>Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+"""
 trailCherryBlossom="Cherry Blossom Spur"
+trailCherryBlossom.description="""
+<b>Das Cherry Blossom Spur Paket beeinhaltet:
+
+Zugriff auf folgende <i>Cosmetics</i>:</b>
+
+<ul>
+<li>Cherry Blossum Spur</li>
+</ul>
+
+<i>Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+"""
 
 [store.actions]
 free="Kostenlos"
 view="Anschauen"
 
+[store.dialog]
+
+[store.dialog.support]
+title="Support"
+description="""
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.
+Treten Sie in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a>
+Oder auf unserem Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
+"""
+
+[store.dialog.paymentMethods]
+title="Bezahlungsmethoden"
+description="""
+Wir unterstützen <strong>PayPal, Kredit/Debit Karten, und über 150 weitere Bezahlungsmethoden</strong> durch unser sicher und verschüsseltes Gateway bei Tebex Checkout.
+
+<i>Anzumerken ist, dass wir derzeit <bold>Paysafecard</bold> nicht unterstützen.</i>
+"""
+
+[store.dialog.refundPolicy]
+title="Refund Policy"
+description="""
+Alle Bezahlungen sind entgültig.
+
+<ul>
+    <li>Wir bieten eine Rückerstattung für jeden Gegenstand für maximal 14 Tage nach dem Kauf an und ohne Aktivierung, indem Sie unseren Minecraft: Java Edition Server betreten. Sollten Sie ein Problem mit jeglichem KitPvP.world Produkt haben, kontaktiere uns bitte über das Support Team.</li>
+
+    <li>Wenn Ihr Account von dem KitPvP.world Minecraft: Java Edition Server durch das Brechen unserer Regeln, gesperrt werden, werden Sie sofortig den <strong>Zugriff</strong> auf die erlangten Produkt für die Dauer der Sperre verlieren, und keine Rückerstattung erhalten.</li>
+</ul>
+
+<strong>Bitte lesen Sie unsere Nutzungsbedingungen vor dem Kauf.</strong>
+"""
+
+[store.dialog.login]
+title="Bitte gebe deinen Spielernamen ein"
+username.title="Was ist mein Spielername?"
+username.description="""
+Wenn du nicht weißt, was dein Spielername ist, dann wende dich im Minecraft Launcher unten rechts neben dem Spielen Kopf.
+"""
+
+[store.footer]
+purchaseNote = """
+Alle Käufe, die hier gemacht werden, sind für den öffentlichen KitPvP.world Minecraft: Java Edition Server unter der IP “kitpvp.world”. Alle Transaktionen sind gesichert durch Tebex.
+"""
 
 [store.footer.tebex]
-description="Our checkout process is owned & operated by Tebex Limited, who handle product fulfilment, billing support and refunds."
+description="Der Kaufprozess ist besessen & betrieben durch Tebex Limited, die die Produkt Vollziehung, den Abrechnungssupport und Rückerstattungen übernehmen."
 impressum="Impressum"
-tos="Terms & Conditions"
-privacy_policy="Privacy Policy"
+tos="Nutzungsbedingungen"
+privacy_policy="Datenschutzerklärung"

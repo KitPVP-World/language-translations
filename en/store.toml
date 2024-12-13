@@ -28,6 +28,8 @@ accessToReplay="Access To Replays"
 publicParties="Public Parties"
 fly="Fly in Lobby"
 extendedReplayAccess="Extended Replay Access"
+extendedReplayAccess.3d="3 Days"
+extendedReplayAccess.7d="7 Days"
 replaySaveSlots="Replay Save Slots"
 clanMemberIncrease="Clan Member Increase"
 coinXpBoost="Coin & XP Boost"
@@ -42,7 +44,7 @@ xpBooster8h4x="XP Booster 400%% - 8h"
 xpBooster8h4x.description="""
 <b>The 8h XP Boost contains:</b>
 <ul>
-    <li>A 8h XP Boost which increases the XP you gain to 400%%.</li>
+    <li>A 8h XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
 <i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
@@ -51,7 +53,7 @@ xpBooster3d4x="XP Booster 400%% - 3d"
 xpBooster3d4x.description="""
 <b>The 3d XP Boost contains:</b>
 <ul>
-    <li>A 3d XP Boost which increases the XP you gain to 400%%.</li>
+    <li>A 3d XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
 <i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
@@ -60,7 +62,7 @@ xpBooster7d4x="XP Booster 400%% - 7d"
 xpBooster7d4x.description="""
 <b>The 7d XP Boost contains:</b>
 <ul>
-    <li>A 7d XP Boost which increases the XP you gain to 400%%.</li>
+    <li>A 7d XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
 <i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
@@ -68,8 +70,32 @@ xpBooster7d4x.description="""
 
 [store.category.coins_booster]
 coinsBooster8h4x="Coins Booster 400%% - 8h"
+coinsBooster8h4x.description="""
+<b>The 8h Coins Boost contains:</b>
+<ul>
+    <li>A 8h Coin Boost which increases the coins you gain by 400%%.</li>
+</ul>
+
+<i>Coins are a virtual currency used on KitPvP.world to purchase various items and upgrades. They hold no real-world value and do not provide any competitive gameplay advantages.</i>
+"""
 coinsBooster3d4x="Coins Booster 400%% - 3d"
+coinsBooster3d4x.description="""
+<b>The 3d Coins Boost contains:</b>
+<ul>
+    <li>A 3d Coin Boost which increases the coins you gain by 400%%.</li>
+</ul>
+
+<i>Coins are a virtual currency used on KitPvP.world to purchase various items and upgrades. They hold no real-world value (Thus, cannot be payed out) and do not provide any competitive gameplay advantages.</i>
+"""
 coinsBooster7d4x="Coins Booster 400%% - 7d"
+coinsBooster7d4x.description="""
+<b>The 7d Coins Boost contains:</b>
+<ul>
+    <li>A 7d Coin Boost which increases the coins you gain by 400%%.</li>
+</ul>
+
+<i>Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value and do not provide any competitive gameplay advantages.</i>
+"""
 
 
 [store.category.more]
@@ -80,13 +106,35 @@ hatAstronaut.description="""
 Access to the following cosmetics:</b>
 
 <ul>
-<li>Astronaut Helmet
+<li>Astronaut Helmet</li>
 </ul>
 
 <i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 hatFeather="Feather Hat"
+hatFeather.description="""
+<b>The Feather Helmet Package contains:
+
+Access to the following cosmetics:</b>
+
+<ul>
+<li>Feather Helmet</li>
+</ul>
+
+<i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+"""
 trailCherryBlossom="Cherry Blossom Trail"
+trailCherryBlossom.description="""
+<b>The Cherry Blossom Trail Package contains:
+
+Access to the following cosmetics:</b>
+
+<ul>
+<li>Cherry Blossom Trail</li>
+</ul>
+
+<i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+"""
 
 [store.actions]
 free="Free"
@@ -97,9 +145,9 @@ view="View"
 [store.dialog.support]
 title="Support"
 description="""
-We currently only provide support via <a href="mailto:support@kitpvp.world"><strong>E-Mail</strong></a> or <a href="https://dc.kitpvp.world">on our public <strong>Discord</strong> server</a>.
-Get in contact with us at <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a>
-Or on our Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.
+Tritt in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a>
+Oder auf unserem Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
 """
 
 [store.dialog.paymentMethods]
@@ -116,7 +164,7 @@ description="""
 All sales are final.
 
 <ul>
-    <li>We do offer a refund on any item within 14 days after the purchase and without the activation by connecting to our Minecraft server. If you have any issues with any KitPvP World Product, please contact our Support Team.</li>
+    <li>We do offer a refund on any item within 14 days after the purchase and without the activation by connecting to our Minecraft: Java Edition server. If you have any issues with any KitPvP World Product, please contact our Support Team.</li>
 
     <li>If you are banned from the KitPvP World server for breaking our rules, you will lose <strong>access</strong> to your items for the duration of the ban, and will not be eligible for a refund either.</li>
 </ul>
@@ -126,8 +174,14 @@ All sales are final.
 
 [store.dialog.login]
 title="Please enter your username"
-description="""
+username.title="What is my username?"
+username.description="""
+If you don’t know what your username is, then please refer to your Minecraft launcher towards the right of the play button.
+"""
 
+[store.footer]
+purchaseNote = """
+All purchases made here are for the KitPvP.World public Minecraft: Java Edition server on the IP “kitpvp.world”. All transactions are secured by Tebex.
 """
 
 [store.footer.tebex]
