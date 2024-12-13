@@ -94,6 +94,14 @@ view="View"
 
 [store.dialog]
 
+[store.dialog.support]
+title="Support"
+description="""
+We currently only provide support via <a href="mailto:support@kitpvp.world"><strong>E-Mail</strong></a> or <a href="https://dc.kitpvp.world">on our public <strong>Discord</strong> server</a>.
+Get in contact with us at <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a>
+Or on our Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
+"""
+
 [store.dialog.paymentMethods]
 title="Payment Methods"
 description="""
@@ -121,3 +129,9 @@ title="Please enter your username"
 description="""
 
 """
+
+[store.footer.tebex]
+description="Our checkout process is owned & operated by Tebex Limited, who handle product fulfilment, billing support and refunds."
+impressum="Impressum"
+tos="Terms & Conditions"
+privacy_policy="Privacy Policy"
