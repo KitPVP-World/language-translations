@@ -146,24 +146,24 @@ cancel="Cancel"
 [store.dialog.support]
 title="Support"
 description="""
-Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.
-Tritt in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a>
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
+Tritt in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a><br>
 Oder auf unserem Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
 """
 
 [store.dialog.paymentMethods]
 title="Payment Methods"
 description="""
-We support <strong>PayPal, credit/debit cards, and 150+ other payment methods</strong> through our secure encrypted gateway Tebex Checkout.
-
+We support <strong>PayPal, credit/debit cards, and 150+ other payment methods</strong> through our secure encrypted gateway Tebex Checkout.<br>
+<br>
 <i>Please note that <bold>Paysafecard</bold> is not currently supported.</i>
 """
 
 [store.dialog.refundPolicy]
 title="Refund Policy"
 description="""
-All sales are final.
-
+All sales are final.<br>
+<br>
 <ul>
     <li>We do offer a refund on any item within 14 days after the purchase and without the activation by connecting to our Minecraft: Java Edition server. If you have any issues with any KitPvP World Product, please contact our Support Team.</li>
 

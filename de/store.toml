@@ -146,24 +146,24 @@ cancel="Abbrechen"
 [store.dialog.support]
 title="Support"
 description="""
-Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.
-Treten Sie in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a>
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
+Treten Sie in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a><br>
 Oder auf unserem Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
 """
 
 [store.dialog.paymentMethods]
 title="Bezahlungsmethoden"
 description="""
-Wir unterstützen <strong>PayPal, Kredit/Debit Karten, und über 150 weitere Bezahlungsmethoden</strong> durch unser sicher und verschüsseltes Gateway bei Tebex Checkout.
-
+Wir unterstützen <strong>PayPal, Kredit/Debit Karten, und über 150 weitere Bezahlungsmethoden</strong> durch unser sicher und verschüsseltes Gateway bei Tebex Checkout.<br>
+<br>
 <i>Anzumerken ist, dass wir derzeit <bold>Paysafecard</bold> nicht unterstützen.</i>
 """
 
 [store.dialog.refundPolicy]
 title="Refund Policy"
 description="""
-Alle Bezahlungen sind entgültig.
-
+Alle Bezahlungen sind entgültig.<br>
+<br>
 <ul>
     <li>Wir bieten eine Rückerstattung für jeden Gegenstand für maximal 14 Tage nach dem Kauf an und ohne Aktivierung, indem Sie unseren Minecraft: Java Edition Server betreten. Sollten Sie ein Problem mit jeglichem KitPvP.world Produkt haben, kontaktiere uns bitte über das Support Team.</li>
 
