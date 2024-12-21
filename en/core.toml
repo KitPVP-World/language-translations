@@ -237,3 +237,11 @@ report.title = "Melden <name>"
 [tablist]
 header = "<aqua>You are playing on <yellow><bold>KITPVP.WORLD"
 footer = "<green>ѕᴜᴘᴘᴏʀᴛ ᴜѕ ᴏɴ <red><bold>STORE.KITPVP.WORLD"
+
+[booster.type]
+coins = "<gold>Coins Booster</gold>"
+xp = "<color:#00FF7F>XP Booster</color>"
+
+[booster.unit]
+coins = "<gold>Coins</gold>"
+xp = "<color:#00FF7F>XP</color>"

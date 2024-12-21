@@ -234,5 +234,9 @@ header = "<aqua>Du spielst auf <yellow><bold>KITPVP.WORLD"
 footer = "<green>ᴜɴᴛᴇʀѕᴛüᴛᴢᴇ ᴜɴѕ ᴀᴜꜰ <red><bold>STORE.KITPVP.WORLD"
 
 [booster.type]
-coins = "Coins Booster"
-xp = "XP Booster"
+coins = "<gold>Coins Booster</gold>"
+xp = "<color:#00FF7F>XP Booster</color>"
+
+[booster.unit]
+coins = "<gold>Coins</gold>"
+xp = "<color:#00FF7F>XP</color>"
