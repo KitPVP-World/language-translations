@@ -232,3 +232,7 @@ report.title = "Report <name>"
 [tablist]
 header = "<aqua>Du spielst auf <yellow><bold>KITPVP.WORLD"
 footer = "<green>ᴜɴᴛᴇʀѕᴛüᴛᴢᴇ ᴜɴѕ ᴀᴜꜰ <red><bold>STORE.KITPVP.WORLD"
+
+[booster.type]
+coins = "Coins Booster"
+xp = "XP Booster"
