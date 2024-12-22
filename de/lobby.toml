@@ -80,6 +80,6 @@ levelup.title = """
   <green>Level Up!
   <br><level> <gray>→ <new_level>
 """
-discord = "Join auf <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>unseren Discord</color>: <dark_gray>[<sec>Klick Hier</sec>]</dark_gray></click>"
+discord = "Join auf <click:open_url:'https://discord.gg/Pk4CJ6dwHA'><color:#5865f2>unseren Discord</color>: <dark_gray>[<sec>Klick Hier</sec>]</dark_gray></click>"
 store = "<click:open_url:'https://store.kitpvp.world'>Hey, falls dir unsere Projekte bisher gefallen und Du uns bei weiteren unterstützen möchtest, überlege dir doch einen Rang auf <gold><bold>store.kitpvp.world</bold></gold> zu kaufen :)"
 bots = "PvP Bots werden am 24.12 releasen."

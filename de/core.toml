@@ -3,7 +3,7 @@ untranslated = "<text>"
 # Languages
 language.change = """
   Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset>.
-  <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>.
+  <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://discord.gg/Pk4CJ6dwHA'><color:#5865f2>unserem Discord</color></click>.
 """
 
 [core.event.rank.update]
@@ -34,7 +34,7 @@ untranslated.book = """
     <black><bold>Vielen Dank</bold>, dass versuchst KitPvP.world zu verbessern!
     <br>Für das Übersetzen von KitPvP.world in mehr Sprachen, wirst du <bold>einzigartige Belohnungen</bold> erhalten. Bitte
     <bold> öffne ein Ticket</bold> dazu auf unseren Discord:
-    <br><click:open_url:'https://dc.kitpvp.world'>                            <br>
+    <br><click:open_url:'https://discord.gg/Pk4CJ6dwHA'>                            <br>
     <dark_gray>[<color:#5865f2><bold>Discord beitreten</bold></color>]                                         <br>
 """
 
@@ -102,7 +102,7 @@ xp = """
 ping.self = "Dein Ping ist: <pri><ping>"
 ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
 
-language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Übersetztr auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
+language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Übersetztr auf <click:open_url'https://discord.gg/Pk4CJ6dwHA'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
 
 stats = """
     <br><yellow>Duel Statistiken von <gold><bold><rank><reset> <name> <yellow>(<range>)<reset>

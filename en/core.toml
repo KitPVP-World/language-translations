@@ -3,7 +3,7 @@ untranslated = "<text>"
 # Languages
 language.change = """
   Your language is now English (United States.)
-  <br>Help us translate the network into your language on <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color></click>.
+  <br>Help us translate the network into your language on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>.
 """
 
 [core.event.rank.update]
@@ -34,7 +34,7 @@ untranslated.book = """
     <black><bold>Thank you</bold> for trying to improve KitPvP.world!
     <br>For translating KitPvP.world into more languages, you'll receive <bold>unique rewards</bold>.
     <br>Please <bold>open a ticket</bold> on our discord server:
-    <br><click:open_url:'https://dc.kitpvp.world'>                                       <br>
+    <br><click:open_url:'https://discord.gg/JEYwEcRHnw'>                                       <br>
     <dark_gray>[<color:#5865f2><bold>Join our Discord</bold></color>]                        <br>
 """
 
@@ -119,7 +119,7 @@ stats.alltime = "Alltime"
 ping.self = "Ping: <pri><ping>"
 ping.other = "The Ping of the player <sec><target><reset> is: <pri><ping>"
 
-language.unknown = "Language not found. <pri>Help us<reset> translate the network into your language on <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color>."
+language.unknown = "Language not found. <pri>Help us<reset> translate the network into your language on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color>."
 
 lobby.alreadyConnected = "You are already connected to a lobby server."
 
