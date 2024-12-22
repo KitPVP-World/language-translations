@@ -5,6 +5,8 @@ armor.overview = "Armorset Overview"
 
 cosmetics.remove = "Remove equipped cosmetic"
 
+ranks = "Rank-Cosmetics"
+
 [cosmetics.rarity]
 common = "Common"
 rare = "Rare"
@@ -30,3 +32,8 @@ slime = "Slime"
 pig = "Pig"
 turtle = "Turtle"
 silverfish = "Silverfish"
+
+[gui.boosters]
+use = "Used <type><reset>, you will now gain <multiplier><reset> more <unit_type> for <duration><reset>."
+use.active = "You already have an <type><reset> active."
+use.fail = "Failed to use the booster. Is it already used?"
