@@ -146,9 +146,9 @@ cancel="Abbrechen"
 [store.dialog.support]
 title="Support"
 description="""
-Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://dc.kitpvp.world">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://discord.gg/GeBWtEaR8S">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
 Treten Sie in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a><br>
-Oder auf unserem Discord: <a href="https://dc.kitpvp.world"><code>dc.kitpvp.world</code></a>
+Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S"><code>dc.kitpvp.world</code></a>
 """
 
 [store.dialog.paymentMethods]
@@ -198,3 +198,6 @@ description="Der Kaufprozess ist besessen & betrieben durch Tebex Limited, die d
 impressum="Impressum"
 tos="Nutzungsbedingungen"
 privacy_policy="Datenschutzerklärung"
+
+[store.links]
+discord="https://discord.gg/GeBWtEaR8S" # KitPvP German - Extra Link for Store Tracking
