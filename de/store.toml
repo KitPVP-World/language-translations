@@ -138,6 +138,8 @@ Cosmetics können mit "/cosmetics" oder über den fünften Slot in der Hotbar au
 [store.actions]
 free="Kostenlos"
 view="Anschauen"
+confirm="Bestätigen"
+cancel="Abbrechen"
 
 [store.dialog]
 
@@ -176,6 +178,13 @@ title="Bitte gebe deinen Spielernamen ein"
 username.title="Was ist mein Spielername?"
 username.description="""
 Wenn du nicht weißt, was dein Spielername ist, dann wende dich im Minecraft Launcher unten rechts neben dem Spielen Kopf.
+"""
+
+[store.dialog.logout]
+title="""
+Bist du dir sicher, dass Du dich abmelden möchtest?
+<br>
+Dein Einkaufswagen wir dadurch zurückgesetzt.
 """
 
 [store.footer]

@@ -138,6 +138,8 @@ Cosmetics can be selected with the "/cosmetics" command or the 5th slot in the L
 [store.actions]
 free="Free"
 view="View"
+confirm="Confirm"
+cancel="Cancel"
 
 [store.dialog]
 
@@ -176,6 +178,13 @@ title="Please enter your username"
 username.title="What is my username?"
 username.description="""
 If you don’t know what your username is, then please refer to your Minecraft launcher towards the right of the play button.
+"""
+
+[store.dialog.logout]
+title="""
+Are you sure you want to log out?
+<br>
+This will reset your cart.
 """
 
 [store.footer]
