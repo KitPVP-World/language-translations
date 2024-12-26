@@ -106,9 +106,9 @@ Coin Booster can be activated in the Coin Booster GUI, which you can access with
 [store.category.more]
 hatAstronaut="Astronaut Hat"
 hatAstronaut.description="""
-<b>The Astronaut Helmet Package contains:
-
-Access to the following cosmetics:</b>
+<b>The Astronaut Helmet Package contains:</b>
+<br>
+<b>Access to the following cosmetics:</b>
 
 <ul>
 <li>Astronaut Helmet</li>
@@ -118,9 +118,9 @@ Access to the following cosmetics:</b>
 """
 hatFeather="Feather Hat"
 hatFeather.description="""
-<b>The Feather Helmet Package contains:
-
-Access to the following cosmetics:</b>
+<b>The Feather Helmet Package contains:</b>
+<br>
+<b>Access to the following cosmetics:</b>
 
 <ul>
 <li>Feather Helmet</li>
@@ -130,9 +130,9 @@ Access to the following cosmetics:</b>
 """
 trailCherryBlossom="Cherry Blossom Trail"
 trailCherryBlossom.description="""
-<b>The Cherry Blossom Trail Package contains:
-
-Access to the following cosmetics:</b>
+<b>The Cherry Blossom Trail Package contains:</b>
+<br>
+<b>Access to the following cosmetics:</b>
 
 <ul>
 <li>Cherry Blossom Trail</li>
