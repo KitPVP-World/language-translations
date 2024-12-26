@@ -185,7 +185,7 @@ title="Abmelden"
 description="""
 Bist du dir sicher, dass Du dich abmelden möchtest?
 <br>
-Dein Einkaufswagen wir dadurch zurückgesetzt.
+Dein Einkaufswagen wir dadurch <span class="underline">zurückgesetzt</span>.
 """
 
 [store.footer]

@@ -185,7 +185,7 @@ title="Logout"
 description="""
 Are you sure you want to log out?
 <br>
-This will reset your cart.
+This will <span class="underline">reset</span> your cart.
 """
 
 [store.footer]
