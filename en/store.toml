@@ -42,30 +42,30 @@ dailyRewardCoins="Bonus Daily Reward Coins"
 [store.category.xp_booster]
 xpBooster8h4x="XP Booster 400%% - 8h"
 xpBooster8h4x.description="""
-<b>The 8h XP Boost contains:</b>
-<ul>
-    <li>A 8h XP Boost which increases the XP you gain by 400%%.</li>
+<span class="font-semibold">The 8h XP Boost contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">An 8h XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
-<i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
 xpBooster3d4x="XP Booster 400%% - 3d"
 xpBooster3d4x.description="""
-<b>The 3d XP Boost contains:</b>
-<ul>
-    <li>A 3d XP Boost which increases the XP you gain by 400%%.</li>
+<span class="font-semibold">The 3d XP Boost contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">A 3d XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
-<i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
 xpBooster7d4x="XP Booster 400%% - 7d"
 xpBooster7d4x.description="""
-<b>The 7d XP Boost contains:</b>
-<ul>
-    <li>A 7d XP Boost which increases the XP you gain by 400%%.</li>
+<span class="font-semibold">The 7d XP Boost contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">A 7d XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
-<i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
 usageDescription="""
 XP Booster can be activated in the XP Booster GUI, which you can access with "/booster xp" or over the Cosmetics GUI and then on XP Booster, which you can access with the "/cosmetics" command or over your 5th slot in the lobby.
@@ -76,7 +76,7 @@ coinsBooster8h4x="Coins Booster 400%% - 8h"
 coinsBooster8h4x.description="""
 <span class="font-semibold">The package [8h Coins Boost] contains:</span>
 <ul class="list-disc list-inside">
-    <li class="font-medium">A 8h Coin Boost which increases the coins you gain by 400%%.</li>
+    <li class="font-medium">An 8h Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
 <i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
