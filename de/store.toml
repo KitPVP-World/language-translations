@@ -106,7 +106,7 @@ Coin Booster können in dem Coin Booster GUI aktiviert werden, welches du mit "/
 [store.category.more]
 hatAstronaut="Astronauten Helm"
 hatAstronaut.description="""
-<span class="font-semibold">Das Astronauten Helm Paket beeinhaltet:</span>
+<span class="font-semibold">Das Paket [Astronauten Helm] beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Astronauten Helm</li>
 </ul>
@@ -115,7 +115,7 @@ hatAstronaut.description="""
 """
 hatFeather="Feder Hut"
 hatFeather.description="""
-<span class="font-semibold">Das Feder Helm Paket beeinhaltet:</span>
+<span class="font-semibold">Das Paket [Feder Helm] beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Feder Helm</li>
 </ul>
@@ -124,7 +124,7 @@ hatFeather.description="""
 """
 trailCherryBlossom="Cherry Blossom Spur"
 trailCherryBlossom.description="""
-<span class="font-semibold">Das Cherry Blossom Spur Paket beeinhaltet:</span>
+<span class="font-semibold">Das Paket [Cherry Blossom Spur] beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Cherry Blossum Spur</li>
 </ul>
