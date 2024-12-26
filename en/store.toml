@@ -67,7 +67,6 @@ xpBooster7d4x.description="""
 
 <i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
-
 usageDescription="""
 XP Booster can be activated in the XP Booster GUI, which you can access with "/booster xp" or over the Cosmetics GUI and then on XP Booster, which you can access with the "/cosmetics" command or over your 5th slot in the lobby.
 """
@@ -100,7 +99,6 @@ coinsBooster7d4x.description="""
 
 <i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
-
 usageDescription="""
 Coin Booster can be activated in the Coin Booster GUI, which you can access with "/booster coins" or over the cosmetics GUI and then on Coin Booster, which you can access with the /cosmetics command or over your 5th slot in the lobby.
 """
@@ -142,7 +140,6 @@ Access to the following cosmetics:</b>
 
 <i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
-
 usageDescription="""
 Cosmetics can be selected with the /cosmetics command or the 5th slot in the lobby.
 """
