@@ -141,7 +141,7 @@ trailCherryBlossom.description="""
 <i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 usageDescription="""
-Cosmetics can be selected with the /cosmetics command or the 5th slot in the lobby.
+Cosmetics can be selected with the "/cosmetics" command or the 5th slot in the Lobby.
 """
 
 [store.actions]

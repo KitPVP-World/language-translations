@@ -141,7 +141,7 @@ trailCherryBlossom.description="""
 <i>Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
 """
 usageDescription="""
-Cosmetics können mit /cosmetics oder über den fünften Slot in der Hotbar ausgewählt werden.
+Cosmetics können mit "/cosmetics" oder über den fünften Slot in der Hotbar ausgewählt werden.
 """
 
 [store.actions]
