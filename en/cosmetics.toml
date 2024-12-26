@@ -27,6 +27,20 @@ epic = "Epic"
 legendary = "Legendary"
 rank = "Rank"
 
+[cosmetics.hats]
+astronaut="Astronaut Hat"
+feather="Feather Hat"
+champ="Champ Hat"
+grand_champ="Grand Champ Hat"
+ultra="Ultra Hat"
+
+[cosmetics.trail_particles]
+hearts="Hearts Trail"
+cherry_blossom="Cherry Blossom Trail"
+champ="Champ Trail"
+grand_champ="Grand Champ Trail"
+ultra="Ultra Trail"
+
 [cosmetics.armor]
 leather = "Leather Armorset"
 chain = "Chainmail Armorset"
@@ -38,7 +52,7 @@ champ = "Champ Armorset"
 grand_champ = "Grand Champ Armorset"
 ultra = "Ultra Armorset"
 
-[cosmetics.pet]
+[cosmetics.pets]
 wolf = "Dog"
 cat = "Cat"
 rabbit = "Bunny"

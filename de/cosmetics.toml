@@ -27,6 +27,20 @@ epic = "Episch"
 legendary = "Legendär"
 rank = "Rang"
 
+[cosmetics.hats]
+astronaut="Astronauten Kopf"
+feather="Feather Kopf"
+champ="Champ Kopf"
+grand_champ="Grand Champ Kopf"
+ultra="Ultra Kopf"
+
+[cosmetics.trail_particles]
+hearts="Herzen Spur"
+cherry_blossom="Cherry Blossom Spur"
+champ="Champ Spur"
+grand_champ="Grand Champ Spur"
+ultra="Ultra Spur"
+
 [cosmetics.armor]
 leather = "Leder Rüstungsset"
 chain = "Ketten Rüstungsset"
