@@ -106,39 +106,30 @@ Coin Booster can be activated in the Coin Booster GUI, which you can access with
 [store.category.more]
 hatAstronaut="Astronaut Hat"
 hatAstronaut.description="""
-<b>The Astronaut Helmet Package contains:</b>
-<br>
-<b>Access to the following cosmetics:</b>
-
-<ul>
-<li>Astronaut Helmet</li>
+<span class="font-semibold">The Astronaut Helmet Package contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">Astronaut Helmet</li>
 </ul>
 
-<i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 hatFeather="Feather Hat"
 hatFeather.description="""
-<b>The Feather Helmet Package contains:</b>
-<br>
-<b>Access to the following cosmetics:</b>
-
-<ul>
-<li>Feather Helmet</li>
+<span class="font-semibold">The Feather Helmet Package contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">Feather Helmet</li>
 </ul>
 
-<i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 trailCherryBlossom="Cherry Blossom Trail"
 trailCherryBlossom.description="""
-<b>The Cherry Blossom Trail Package contains:</b>
-<br>
-<b>Access to the following cosmetics:</b>
-
-<ul>
-<li>Cherry Blossom Trail</li>
+<span class="font-semibold">The Cherry Blossom Trail Package contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">Cherry Blossom Trail</li>
 </ul>
 
-<i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 usageDescription="""
 Cosmetics can be selected with the "/cosmetics" command or the 5th slot in the Lobby.
