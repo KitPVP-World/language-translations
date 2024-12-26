@@ -5,7 +5,20 @@ armor.overview = "Armorset Overview"
 
 cosmetics.remove = "Remove equipped cosmetic"
 
-ranks = "Rank-Cosmetics"
+[cosmetics.category]
+hats="<aqua>Hats"
+pets="<blue>Pets"
+ranks = "<gold>Rank-Cosmetics"
+particles="<gold>Particle Overview"
+trail_particles="Trails"
+join_particles="Join Particle"
+kill_particles="Kill Particle"
+mystic_particles="Mysterious Particles"
+gadgets="<dark_green>Gadgets"
+armor="<yellow>Wardrobe"
+effects="<white>Effects"
+abilitities="<green>Abilities"
+balloons="<light_purple>Balloons"
 
 [cosmetics.rarity]
 common = "Common"
