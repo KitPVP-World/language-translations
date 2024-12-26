@@ -67,7 +67,8 @@ xpBooster7d4x.description="""
 
 <i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
-xpBoosterUsageDescription="""
+
+usageDescription="""
 XP Booster können in dem XP Booster GUI aktiviert werden, welches du mit "/booster xp" oder über das Cosmetics GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar, öffnen kannst.
 """
 
@@ -99,7 +100,8 @@ coinsBooster7d4x.description="""
 
 <i>Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
-coinBoosterUsageDescription="""
+
+usageDescription="""
 Coin Booster können in dem Coin Booster GUI aktiviert werden, welches du mit "/booster coins" öffnen kannst oder über das Cosmetic GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar öffnen kannst.
 """
 
@@ -140,7 +142,8 @@ Zugriff auf folgende <i>Cosmetics</i>:</b>
 
 <i>Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
 """
-cosmeticUsageDescription="""
+
+usageDescription="""
 Cosmetics können mit /cosmetics oder über den fünften Slot in der Hotbar ausgewählt werden.
 """
 
