@@ -42,30 +42,33 @@ dailyRewardCoins="Weitere Tägliche Belohnungscoins"
 [store.category.xp_booster]
 xpBooster8h4x="XP Booster 400%% - 8 Std."
 xpBooster8h4x.description="""
-<b>Der 8 Std. XP Boost beeinhaltet:</b>
-<ul>
-    <li>Einen 8 Std. XP Boost, der die erworbene XP um 400%% erhöt.</li>
+<span class="font-semibold">Das Paket [8. Std. XP Boost] beinhaltet:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">Einen 8 Std. XP Boost, der die erworbene XP um 400% erhöht.</li>
 </ul>
 
-<i>XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels und können durch dein Inventar eingesehen werden.</i>
+<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
 xpBooster3d4x="XP Booster 400%% - 3 Tage"
 xpBooster3d4x.description="""
-<b>Der 3 Tage XP Boost beeinhaltet:</b>
-<ul>
-    <li>Einen 3 Tage XP Boost, der die erworbene XP um 400%% erhöt.</li>
+<span class="font-semibold">Das Paket [3 Tage XP Boost] beinhaltet:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">Einen 3 Tage XP Boost, der die erworbene XP um 400% erhöht.</li>
 </ul>
 
-<i>XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels und können durch dein Inventar eingesehen werden.</i>
+<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
 xpBooster7d4x="XP Booster 400%% - 7 Tage"
 xpBooster7d4x.description="""
 <b>Der 7 Tage XP Boost beeinhaltet:</b>
-<ul>
-    <li>Einen 7 Tage XP Boost, der die erworbene XP um 400%% erhöt.</li>
+<ul class="list-disc list-inside">
+    <li class="font-medium">Einen 7 Tage XP Boost, der die erworbene XP um 400%% erhöht.</li>
 </ul>
 
-<i>XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels und können durch dein Inventar eingesehen werden.</i>
+<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
+"""
+xpBoosterUsageDescription="""
+XP Booster können in dem XP Booster GUI aktiviert werden, welches du mit "/booster xp" oder über das Cosmetics GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar, öffnen kannst.
 """
 
 [store.category.coins_booster]
@@ -96,7 +99,9 @@ coinsBooster7d4x.description="""
 
 <i>Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
-
+coinBoosterUsageDescription="""
+Coin Booster können in dem Coin Booster GUI aktiviert werden, welches du mit "/booster coins" öffnen kannst oder über das Cosmetic GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar öffnen kannst.
+"""
 
 [store.category.more]
 hatAstronaut="Astronauten Helm"
@@ -134,6 +139,9 @@ Zugriff auf folgende <i>Cosmetics</i>:</b>
 </ul>
 
 <i>Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+"""
+cosmeticUsageDescription="""
+Cosmetics können mit /cosmetics oder über den fünften Slot in der Hotbar ausgewählt werden.
 """
 
 [store.actions]

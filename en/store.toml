@@ -67,36 +67,41 @@ xpBooster7d4x.description="""
 
 <i>XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
+xpBoosterUsageDescription="""
+XP Booster can be activated in the XP Booster GUI, which you can access with "/booster xp" or over the Cosmetics GUI and then on XP Booster, which you can access with the "/cosmetics" command or over your 5th slot in the lobby.
+"""
 
 [store.category.coins_booster]
 coinsBooster8h4x="Coins Booster 400%% - 8h"
 coinsBooster8h4x.description="""
-<b>The 8h Coins Boost contains:</b>
-<ul>
-    <li>A 8h Coin Boost which increases the coins you gain by 400%%.</li>
+<span class="font-semibold">The package [8h Coins Boost] contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">A 8h Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
-<i>Coins are a virtual currency used on KitPvP.world to purchase various items and upgrades. They hold no real-world value and do not provide any competitive gameplay advantages.</i>
+<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
 coinsBooster3d4x="Coins Booster 400%% - 3d"
 coinsBooster3d4x.description="""
-<b>The 3d Coins Boost contains:</b>
-<ul>
-    <li>A 3d Coin Boost which increases the coins you gain by 400%%.</li>
+<span class="font-semibold">The package [3d Coins Boost] contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">A 3d Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
-<i>Coins are a virtual currency used on KitPvP.world to purchase various items and upgrades. They hold no real-world value (Thus, cannot be payed out) and do not provide any competitive gameplay advantages.</i>
+<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
 coinsBooster7d4x="Coins Booster 400%% - 7d"
 coinsBooster7d4x.description="""
-<b>The 7d Coins Boost contains:</b>
-<ul>
-    <li>A 7d Coin Boost which increases the coins you gain by 400%%.</li>
+<span class="font-semibold">The package [7d Coins Boost] contains:</span>
+<ul class="list-disc list-inside">
+    <li class="font-medium">A 7d Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
-<i>Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value and do not provide any competitive gameplay advantages.</i>
+<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
-
+coinBoosterUsageDescription="""
+Coin Booster can be activated in the Coin Booster GUI, which you can access with "/booster coins" or over the cosmetics GUI and then on Coin Booster, which you can access with the /cosmetics command or over your 5th slot in the lobby.
+"""
 
 [store.category.more]
 hatAstronaut="Astronaut Hat"
@@ -134,6 +139,9 @@ Access to the following cosmetics:</b>
 </ul>
 
 <i>Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+"""
+cosmeticUsageDescription="""
+Cosmetics can be selected with the /cosmetics command or the 5th slot in the lobby.
 """
 
 [store.actions]
