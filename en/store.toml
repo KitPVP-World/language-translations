@@ -181,7 +181,8 @@ If you don’t know what your username is, then please refer to your Minecraft l
 """
 
 [store.dialog.logout]
-title="""
+title="Logout"
+description="""
 Are you sure you want to log out?
 <br>
 This will reset your cart.
