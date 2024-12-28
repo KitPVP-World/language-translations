@@ -154,7 +154,7 @@ Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S"><code>dc.kitpv
 [store.dialog.paymentMethods]
 title="Payment Methods"
 description="""
-We support <strong>PayPal, credit/debit cards, and 150+ other payment methods</strong> through our secure encrypted gateway Tebex Checkout.<br>
+We support <strong>PayPal, credit/debit cards and 120+ other payment methods</strong> through our secure encrypted gateway Tebex Checkout.<br>
 <br>
 <i>Please note that <bold>Paysafecard</bold> is not currently supported.</i>
 """
