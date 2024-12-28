@@ -190,7 +190,7 @@ This will reset your cart.
 
 [store.footer]
 purchaseNote = """
-All purchases made here are for the KitPvP.World public Minecraft: Java Edition server on the IP “kitpvp.world”. All transactions are secured by Tebex.
+All purchases made here are for the KitPvP.World public Minecraft: Java Edition server on the IP “KitPvP.world”. All transactions are secured by Tebex.
 """
 
 [store.footer.tebex]

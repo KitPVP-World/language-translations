@@ -190,7 +190,7 @@ Dein Einkaufswagen wir dadurch zurückgesetzt.
 
 [store.footer]
 purchaseNote = """
-Alle Käufe, die hier gemacht werden, sind für den öffentlichen KitPvP.world Minecraft: Java Edition Server unter der IP “kitpvp.world”. Alle Transaktionen sind gesichert durch Tebex.
+Alle Käufe, die hier gemacht werden, sind für den öffentlichen KitPvP.world Minecraft: Java Edition Server unter der IP “KitPvP.world”. Alle Transaktionen sind gesichert durch Tebex.
 """
 
 [store.footer.tebex]
