@@ -47,8 +47,7 @@ xpBooster8h4x.description="""
     <li class="font-medium">An 8h XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
-<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster.
- They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
 xpBooster3d4x="XP Booster 400%% - 3d"
 xpBooster3d4x.description="""
@@ -57,8 +56,7 @@ xpBooster3d4x.description="""
     <li class="font-medium">A 3d XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
-<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster.
- They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
 xpBooster7d4x="XP Booster 400%% - 7d"
 xpBooster7d4x.description="""
@@ -67,12 +65,10 @@ xpBooster7d4x.description="""
     <li class="font-medium">A 7d XP Boost which increases the XP you gain by 400%%.</li>
 </ul>
 
-<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster.
- They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
+<i class="font-light">XP Boosters are virtual items that increase the experience points (XP) you earn, helping you level up faster. They provide no gameplay advantages beyond faster leveling and can be managed through your inventory.</i>
 """
 usageDescription="""
-XP Booster can be activated in the XP Booster GUI, which you can access with "/booster xp" or over the Cosmetics GUI and then on XP Booster,
- which you can access with the "/cosmetics" command or over your 5th slot in the lobby.
+XP Booster can be activated in the XP Booster GUI, which you can access with "/booster xp" or over the Cosmetics GUI and then on XP Booster, which you can access with the "/cosmetics" command or over your 5th slot in the lobby.
 """
 
 [store.category.coins_booster]
@@ -83,8 +79,7 @@ coinsBooster8h4x.description="""
     <li class="font-medium">An 8h Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
-<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades.
- They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
+<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
 coinsBooster3d4x="Coins Booster 400%% - 3d"
 coinsBooster3d4x.description="""
@@ -93,8 +88,7 @@ coinsBooster3d4x.description="""
     <li class="font-medium">A 3d Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
-<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades.
- They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
+<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
 coinsBooster7d4x="Coins Booster 400%% - 7d"
 coinsBooster7d4x.description="""
@@ -103,12 +97,10 @@ coinsBooster7d4x.description="""
     <li class="font-medium">A 7d Coin Boost which increases the coins you gain by 400%%.</li>
 </ul>
 
-<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades.
- They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
+<i class="font-light">Coins are a virtual currency used on KitPvP.world to purchase various cosmetic items and upgrades. They hold no real-world value (thus cannot be paid out) and do not provide any competitive gameplay advantages.</i>
 """
 usageDescription="""
-Coin Booster can be activated in the Coin Booster GUI, which you can access with "/booster coins" or
- over the cosmetics GUI and then on Coin Booster, which you can access with the /cosmetics command or over your 5th slot in the lobby.
+Coin Booster can be activated in the Coin Booster GUI, which you can access with "/booster coins" or over the cosmetics GUI and then on Coin Booster, which you can access with the /cosmetics command or over your 5th slot in the lobby.
 """
 
 [store.category.more]
@@ -119,8 +111,7 @@ hatAstronaut.description="""
     <li class="font-medium">Astronaut Helmet</li>
 </ul>
 
-<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance.
- They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 hatFeather="Feather Hat"
 hatFeather.description="""
@@ -129,8 +120,7 @@ hatFeather.description="""
     <li class="font-medium">Feather Helmet</li>
 </ul>
 
-<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance.
- They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 trailCherryBlossom="Cherry Blossom Trail"
 trailCherryBlossom.description="""
@@ -139,8 +129,7 @@ trailCherryBlossom.description="""
     <li class="font-medium">Cherry Blossom Trail</li>
 </ul>
 
-<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance.
- They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
+<i class="font-light">Cosmetics are virtual wearable items that allow you to customize your in-game appearance. They offer no gameplay advantages and can be accessed through your Items slot in the Lobby.</I>
 """
 usageDescription="""
 Cosmetics can be selected with the "/cosmetics" command or the 5th slot in the Lobby.
@@ -157,8 +146,7 @@ cancel="Cancel"
 [store.dialog.support]
 title="Support"
 description="""
-Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a>
- oder <a href="https://discord.gg/GeBWtEaR8S">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://discord.gg/GeBWtEaR8S">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
 Tritt in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a><br>
 Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S"><code>dc.kitpvp.world</code></a>
 """
@@ -177,11 +165,9 @@ description="""
 All sales are final.<br>
 <br>
 <ul>
-    <li>We do offer a refund on any item within 14 days after the purchase and without the activation by connecting
-     to our Minecraft: Java Edition server. If you have any issues with any KitPvP World Product, please contact our Support Team.</li>
+    <li>We do offer a refund on any item within 14 days after the purchase and without the activation by connecting to our Minecraft: Java Edition server. If you have any issues with any KitPvP World Product, please contact our Support Team.</li>
 
-    <li>If you are banned from the KitPvP World server for breaking our rules, you will lose <strong>access</strong>
-     to your items for the duration of the ban, and will not be eligible for a refund either.</li>
+    <li>If you are banned from the KitPvP World server for breaking our rules, you will lose <strong>access</strong> to your items for the duration of the ban, and will not be eligible for a refund either.</li>
 </ul>
 
 <strong>Please read our terms of service before purchasing.</strong>
