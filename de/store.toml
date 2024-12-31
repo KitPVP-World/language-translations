@@ -47,7 +47,8 @@ xpBooster8h4x.description="""
     <li class="font-medium">Einen 8 Std. XP Boost, der die erworbene XP um 400%% erhöht.</li>
 </ul>
 
-<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
+<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen,
+ um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
 xpBooster3d4x="XP Booster 400%% - 3 Tage"
 xpBooster3d4x.description="""
@@ -56,7 +57,8 @@ xpBooster3d4x.description="""
     <li class="font-medium">Einen 3 Tage XP Boost, der die erworbene XP um 400%% erhöht.</li>
 </ul>
 
-<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
+<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen,
+ um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
 xpBooster7d4x="XP Booster 400%% - 7 Tage"
 xpBooster7d4x.description="""
@@ -65,10 +67,12 @@ xpBooster7d4x.description="""
     <li class="font-medium">Einen 7 Tage XP Boost, der die erworbene XP um 400%% erhöht.</li>
 </ul>
 
-<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
+<i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen,
+ um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
 usageDescription="""
-XP Booster können in dem XP Booster GUI aktiviert werden, welches du mit "/booster xp" oder über das Cosmetics GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar, öffnen kannst.
+XP Booster können in dem XP Booster GUI aktiviert werden, welches du mit "/booster xp" oder über das Cosmetics GUI,
+ welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar, öffnen kannst.
 """
 
 [store.category.coins_booster]
@@ -79,7 +83,9 @@ coinsBooster8h4x.description="""
     <li class="font-medium">Einen 8 Stunden Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
 </ul>
 
-<i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
+<i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird,
+ um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert
+ (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
 coinsBooster3d4x="Coins Booster 400%% - 3 Tage"
 coinsBooster3d4x.description="""
@@ -88,7 +94,9 @@ coinsBooster3d4x.description="""
     <li class="font-medium">Einen 3 Tage Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
 </ul>
 
-<i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
+<i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird,
+ um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert
+ (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
 coinsBooster7d4x="Coins Booster 400%% - 7 Tage"
 coinsBooster7d4x.description="""
@@ -97,10 +105,13 @@ coinsBooster7d4x.description="""
     <li class="font-medium">Einen 7 Tage Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
 </ul>
 
-<i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
+<i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird,
+ um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert
+ (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
 usageDescription="""
-Coin Booster können in dem Coin Booster GUI aktiviert werden, welches du mit "/booster coins" öffnen kannst oder über das Cosmetic GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar öffnen kannst.
+Coin Booster können in dem Coin Booster GUI aktiviert werden, welches du mit "/booster coins" öffnen kannst oder
+ über das Cosmetic GUI, welches du mit "/cosmetics" oder über den fünften Slot in der Hotbar öffnen kannst.
 """
 
 [store.category.more]
@@ -111,7 +122,8 @@ hatAstronaut.description="""
     <li class="font-medium">Astronauten Helm</li>
 </ul>
 
-<i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+<i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern.
+ Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</i>
 """
 hatFeather="Feder Hut"
 hatFeather.description="""
@@ -120,7 +132,8 @@ hatFeather.description="""
     <li class="font-medium">Feder Helm</li>
 </ul>
 
-<i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+<i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern.
+ Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</i>
 """
 trailCherryBlossom="Cherry Blossom Spur"
 trailCherryBlossom.description="""
@@ -129,7 +142,8 @@ trailCherryBlossom.description="""
     <li class="font-medium">Cherry Blossum Spur</li>
 </ul>
 
-<i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
+<i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern.
+ Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</i>
 """
 usageDescription="""
 Cosmetics können mit "/cosmetics" oder über den fünften Slot in der Hotbar ausgewählt werden.
@@ -146,7 +160,8 @@ cancel="Abbrechen"
 [store.dialog.support]
 title="Support"
 description="""
-Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://discord.gg/GeBWtEaR8S">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
+Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder
+ <a href="https://discord.gg/GeBWtEaR8S">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
 Treten Sie in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a><br>
 Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S"><code>dc.kitpvp.world</code></a>
 """
@@ -154,7 +169,8 @@ Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S"><code>dc.kitpv
 [store.dialog.paymentMethods]
 title="Bezahlungsmethoden"
 description="""
-Wir unterstützen <strong>PayPal, Kredit/Debit Karten und über 120 weitere Zahlungsmethoden</strong> durch unser sicher und verschüsseltes Gateway bei Tebex Checkout.<br>
+Wir unterstützen <strong>PayPal, Kredit/Debit Karten und über 120 weitere Zahlungsmethoden</strong> durch unser sicher
+ und verschüsseltes Gateway bei Tebex Checkout.<br>
 <br>
 <i>Anzumerken ist, dass wir derzeit <bold>Paysafecard</bold> nicht unterstützen.</i>
 """
@@ -165,9 +181,11 @@ description="""
 Alle Bezahlungen sind entgültig.<br>
 <br>
 <ul>
-    <li>Wir bieten eine Rückerstattung für jeden Gegenstand für maximal 14 Tage nach dem Kauf an und ohne Aktivierung, indem Sie unseren Minecraft: Java Edition Server betreten. Sollten Sie ein Problem mit jeglichem KitPvP.world Produkt haben, kontaktiere uns bitte über das Support Team.</li>
+    <li>Wir bieten eine Rückerstattung für jeden Gegenstand für maximal 14 Tage nach dem Kauf an und ohne Aktivierung,
+     indem Sie unseren Minecraft: Java Edition Server betreten. Sollten Sie ein Problem mit jeglichem KitPvP.world Produkt haben, kontaktiere uns bitte über das Support Team.</li>
 
-    <li>Wenn Ihr Account von dem KitPvP.world Minecraft: Java Edition Server durch das Brechen unserer Regeln, gesperrt werden, werden Sie sofortig den <strong>Zugriff</strong> auf die erlangten Produkt für die Dauer der Sperre verlieren, und keine Rückerstattung erhalten.</li>
+    <li>Wenn Ihr Account von dem KitPvP.world Minecraft: Java Edition Server durch das Brechen unserer Regeln,
+     gesperrt werden, werden Sie sofortig den <strong>Zugriff</strong> auf die erlangten Produkt für die Dauer der Sperre verlieren, und keine Rückerstattung erhalten.</li>
 </ul>
 
 <strong>Bitte lesen Sie unsere Nutzungsbedingungen vor dem Kauf.</strong>
@@ -190,7 +208,8 @@ Dein Einkaufswagen wir dadurch zurückgesetzt.
 
 [store.footer]
 purchaseNote = """
-Alle Käufe, die hier gemacht werden, sind für den öffentlichen KitPvP.world Minecraft: Java Edition Server unter der IP “KitPvP.world”. Alle Transaktionen sind gesichert durch Tebex.
+Alle Käufe, die hier gemacht werden, sind für den öffentlichen KitPvP.world Minecraft: Java Edition Server unter der IP “KitPvP.world”.
+ Alle Transaktionen sind gesichert durch Tebex.
 """
 
 [store.footer.tebex]
