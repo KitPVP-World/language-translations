@@ -68,3 +68,8 @@ silverfish = "Silberfisch"
 use = "<type><reset> benutzt, du wirst nun <multiplier><reset> mehr <unit_type> für <duration><reset> bekommen."
 use.active = "Du hast bereits einen <type><reset> aktiv."
 use.fail = "Benutzung des Boosters ist fehlgeschlagen. Wurde dieser Booster bereits benutzt?"
+item.lore = """
+    <gray>Seltenheit</gray><dark_gray>:</dark_gray> <rarity><reset><br>
+    <gray>Multiplikator</gray><dark_gray>:</dark_gray> <rarity_color><multiplier></rarity_color><br>
+    <gray>Dauer</gray><dark_gray>:</dark_gray> <rarity_color><duration></rarity_color>
+"""
