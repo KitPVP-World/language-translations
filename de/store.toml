@@ -9,6 +9,9 @@ champ="Champ"
 ultra="Ultra"
 grandChamp="Grand Champ"
 
+inDevelopmentNote="Rangvorteile werden in den nächsten Wochen vergrößert werden, da Cosmetics und weitere Vorteile sich noch in Entwicklung befinden."
+purchaseNote="Das Kaufen von niedrigeren Rängen wird dir ein Rabatt geben, wenn du in Zukunft upgraden möchtest."
+
 [store.category.ranks.key]
 usernameColor="Spielernamen Farbe"
 usernameColor.gold="Golden"
