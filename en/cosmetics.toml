@@ -3,7 +3,7 @@ armor.equip.all = "<red>Equip All"
 armor.unequip.all = "<red>Unequip All"
 armor.overview = "Armorset Overview"
 
-cosmetics.remove = "Remove equipped cosmetic"
+remove = "Remove equipped cosmetic"
 
 [cosmetics.category]
 ranks = "<red>Rank Cosmetics"
@@ -44,6 +44,7 @@ feather.lore="""
 wolf = "Dog"
 cat = "Cat"
 rabbit = "Bunny"
+panda="Baby Panda"
 sheep = "Sheep"
 cow = "Cow"
 chicken = "Chicken"
@@ -62,9 +63,9 @@ horse="Horse"
 magma_cube="Magma Cube"
 
 [cosmetics.trail_particles]
-ultra="Ultra Trail"
-grand_champ="Grand Champ Trail"
-champ="Champ Trail"
+ultra="<red>Ultra Trail"
+grand_champ="<aqua>Grand Champ Trail"
+champ="<gold>Champ Trail"
 hearts="Hearts Trail"
 cherry_blossom="Cherry Blossom Trail"
 cherry_blossom.lore="""
@@ -73,9 +74,9 @@ cherry_blossom.lore="""
 """
 
 [cosmetics.join_particles]
-ultra="Ultra Join Particle"
-grand_champ="Grand Champ Join Particle"
-champ="Champ Join Particle"
+ultra="<red>Ultra Join Particle"
+grand_champ="<aqua>Grand Champ Join Particle"
+champ="<gold>Champ Join Particle"
 
 [cosmetics.kill_particles]
 
@@ -83,9 +84,9 @@ champ="Champ Join Particle"
 grappling_hook="Grappling Hook"
 
 [cosmetics.armor]
-ultra = "Ultra Armorset"
-grand_champ = "Grand Champ Armorset"
-champ = "Champ Armorset"
+ultra = "<red>Ultra Armorset"
+grand_champ = "<aqua>Grand Champ Armorset"
+champ = "<gold>Champ Armorset"
 netherite = "Netherite Armorset"
 diamond = "Diamond Armorset"
 iron = "Iron Armorset"
@@ -101,9 +102,9 @@ slow_falling="Slow Falling"
 double_jump="Double Jump"
 
 [cosmetics.balloons]
-ultra="Ultra Balloon"
-grand_champ="Grand Champ Balloon"
-champ="Champ Balloon"
+ultra="<red>Ultra Balloon"
+grand_champ="<aqua>Grand Champ Balloon"
+champ="<gold>Champ Balloon"
 orange="Orange Balloon"
 red="Red Balloon"
 purple="Purple Balloon"

@@ -3,7 +3,7 @@ armor.equip.all = "<red>Alles anziehen"
 armor.unequip.all = "<red>Alles ausziehen"
 armor.overview = "Rüstungsset Übersicht"
 
-cosmetics.remove = "Cosmetic ausziehen"
+remove = "Cosmetic ausziehen"
 
 [cosmetics.category]
 ranks = "<red>Rang Cosmetics"
@@ -44,6 +44,7 @@ feather.lore="""
 wolf = "Hund"
 cat = "Katze"
 rabbit = "Hase"
+panda="Baby Panda"
 sheep = "Schaf"
 cow = "Kuh"
 chicken = "Huhn"
