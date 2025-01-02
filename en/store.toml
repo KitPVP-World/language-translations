@@ -150,8 +150,8 @@ cancel="Cancel"
 title="Support"
 description="""
 Wir bieten gerade nur den Support über <a href="mailto:support@kitpvp.world"><strong>unsere E-Mail</strong></a> oder <a href="https://discord.gg/GeBWtEaR8S">auf unserem öffentlichen <strong>Discord</strong> Server</a> an.<br>
-Tritt in Kontakt mit uns unter <a href="mailto:support@kitpvp.world"><code>support@kitpvp.world</code></a><br>
-Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S"><code>dc.kitpvp.world</code></a>
+Tritt in Kontakt mit uns unter <a href="mailto:support@kitpvp.world" class="copy-to-clipboard"><code>support@kitpvp.world</code></a><br>
+Oder auf unserem Discord: <a href="https://discord.gg/GeBWtEaR8S" class="sky-blue-400"><code>dc.kitpvp.world</code></a>
 """
 
 [store.dialog.paymentMethods]
@@ -190,6 +190,17 @@ Are you sure you want to log out?
 <br>
 This will reset your cart.
 """
+
+[store.dialog.resourcePack]
+title="Get The KitPvP Texture Pack"
+description="How to download the \"KitPvP.world\" Texture Pack Overlay"
+tutorial="""
+1. Join the <a href="https://discord.gg/GeBWtEaR8S" class="sky-blue-400"><code>KitPvP Discord</code></a>.<br>
+2. Go to the <code>┠🌅server-overlay</code> channel.<br>
+3. Download the Texturepack.<br>
+4. Put it at the top of your Texture Pack Selection List.
+"""
+downloadFromDiscord="Download From Discord"
 
 [store.footer]
 purchaseNote = """
