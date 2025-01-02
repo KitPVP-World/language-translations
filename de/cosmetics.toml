@@ -6,20 +6,20 @@ armor.overview = "Rüstungsset Übersicht"
 cosmetics.remove = "Cosmetic ausziehen"
 
 [cosmetics.category]
+ranks = "<color:#E8CA98>Rang Cosmetics"
 hats="<aqua>Köpfe"
 pets="<blue>Haustiere"
-ranks = "<color:#E8CA98>Rang-Cosmetics"
+mounts="<light_green>Mounts"
 particles="<gold>Partikelübersicht"
-trail_particles="Spuren"
-join_particles="Join Partikel"
-kill_particles="Kill Partikel"
-mystic_particles="Mysteriöse Partikel"
+trail_particles="<gold>Spuren"
+join_particles="<gold>Join Partikel"
+kill_particles="<gold>Kill Partikel"
+mystic_particles="<light_purple>Mysteriöse Partikel"
 gadgets="<dark_green>Gadgets"
 armor="<yellow>Kleiderschrank"
 effects="<color:#ffd8ad>Effekte"
 abilities="<green>Fähigkeiten"
 balloons="<light_purple>Balloons"
-mounts="<light_green>Mounts"
 
 [cosmetics.rarity]
 common = "Üblich"
@@ -29,29 +29,16 @@ legendary = "Legendär"
 rank = "Rang"
 
 [cosmetics.hats]
-astronaut="Astronauten Kopf"
-feather="Feather Kopf"
-champ="Champ Kopf"
-grand_champ="Grand Champ Kopf"
-ultra="Ultra Kopf"
-
-[cosmetics.trail_particles]
-hearts="Herzen Spur"
-cherry_blossom="Cherry Blossom Spur"
-champ="Champ Spur"
-grand_champ="Grand Champ Spur"
-ultra="Ultra Spur"
-
-[cosmetics.armor]
-leather = "Leder Rüstungsset"
-chain = "Ketten Rüstungsset"
-gold = "Gold Rüstungsset"
-iron = "Eisen Rüstungsset"
-diamond = "Diamant Rüstungsset"
-netherite = "Netherite Rüstungsset"
-champ = "Champ Rüstungsset"
-grand_champ = "Grand Champ Rüstungsset"
-ultra = "Ultra Rüstungsset"
+astronaut="Astronaut Hat"
+astronaut.lore="""
+    <color:#00FF7F>Kostenlos<br>
+    <gray>auf <gold>store.kitpvp.world<gray>.
+"""
+feather="Feather Hat"
+feather.lore="""
+    <color:#00FF7F>Kostenlos<br>
+    <gray>auf <gold>store.kitpvp.world<gray>.
+"""
 
 [cosmetics.pet]
 wolf = "Hund"
@@ -64,6 +51,58 @@ slime = "Schleim"
 pig = "Schwein"
 turtle = "Turtle"
 silverfish = "Silberfisch"
+
+[cosmetics.trail_particles]
+ultra="Ultra Spur"
+grand_champ="Grand Champ Spur"
+champ="Champ Spur"
+hearts="Herzen Spur"
+cherry_blossom="Cherry Blossom Spur"
+cherry_blossom.lore="""
+    <color:#00FF7F>Free<br>
+    <gray>auf <gold>store.kitpvp.world<gray>.
+"""
+
+[cosmetics.join_particles]
+ultra="Ultra Join Partikel"
+grand_champ="Grand Champ Join Partikel"
+champ="Champ Join Partikel"
+
+[cosmetics.kill_particles]
+
+[cosmetics.armor]
+ultra = "Ultra Rüstungsset"
+grand_champ = "Grand Champ Rüstungsset"
+champ = "Champ Rüstungsset"
+netherite = "Netherite Rüstungsset"
+diamond = "Diamant Rüstungsset"
+iron = "Eisen Rüstungsset"
+gold = "Gold Rüstungsset"
+chain = "Ketten Rüstungsset"
+
+[cosmetics.effects]
+speed="Speed"
+jump_boost="Sprungkraft"
+slow_falling="Langsamer Fall"
+
+[cosmetics.abilities]
+double_jump="Doppelsprung"
+
+[cosmetics.balloons]
+ultra="Ultra Balln"
+grand_champ="Grand Champ Ballon"
+champ='Champ Ballon'
+orange="Orange Ballon"
+red="Red Ballon"
+purple="Purple Ballon"
+pink="Pink Ballon"
+light_pink="Light Pink Ballon"
+white="White Ballon"
+light_gray="Light Gray Ballon"
+yellow="Yellow Ballon"
+lime="Lime Ballon"
+green="Green Ballon"
+light_blue="Light Blue Ballon"
 
 [gui.boosters]
 use = "<type><reset> benutzt, du wirst nun <multiplier><reset> mehr <unit_type> für <duration><reset> bekommen."

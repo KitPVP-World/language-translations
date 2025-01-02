@@ -6,20 +6,20 @@ armor.overview = "Armorset Overview"
 cosmetics.remove = "Remove equipped cosmetic"
 
 [cosmetics.category]
+ranks = "<color:#E8CA98>Rank Cosmetics"
 hats="<aqua>Hats"
 pets="<blue>Pets"
-ranks = "<color:#E8CA98>Rank-Cosmetics"
+mounts="<light_green>Mounts"
 particles="<gold>Particle Overview"
-trail_particles="Trails"
-join_particles="Join Particle"
-kill_particles="Kill Particle"
-mystic_particles="Mysterious Particles"
+trail_particles="<gold>Trails"
+join_particles="<gold>Join Particle"
+kill_particles="<gold>Kill Particle"
+mystic_particles="<light_purple>Mysterious Particles"
 gadgets="<dark_green>Gadgets"
 armor="<yellow>Wardrobe"
 effects="<color:#ffd8ad>Effects"
 abilties="<green>Abilities"
 balloons="<light_purple>Balloons"
-mounts="<light_green>Mounts"
 
 [cosmetics.rarity]
 common = "Common"
@@ -30,28 +30,15 @@ rank = "Rank"
 
 [cosmetics.hats]
 astronaut="Astronaut Hat"
+astronaut.lore="""
+    <color:#00FF7F>Free<br>
+    <gray>on <gold>store.kitpvp.world<gray>.
+"""
 feather="Feather Hat"
-champ="Champ Hat"
-grand_champ="Grand Champ Hat"
-ultra="Ultra Hat"
-
-[cosmetics.trail_particles]
-hearts="Hearts Trail"
-cherry_blossom="Cherry Blossom Trail"
-champ="Champ Trail"
-grand_champ="Grand Champ Trail"
-ultra="Ultra Trail"
-
-[cosmetics.armor]
-leather = "Leather Armorset"
-chain = "Chainmail Armorset"
-gold = "Golden Armorset"
-iron = "Iron Armorset"
-diamond = "Diamond Armorset"
-netherite = "Netherite Armorset"
-champ = "Champ Armorset"
-grand_champ = "Grand Champ Armorset"
-ultra = "Ultra Armorset"
+feather.lore="""
+    <color:#00FF7F>Free<br>
+    <gray>on <gold>store.kitpvp.world<gray>.
+"""
 
 [cosmetics.pets]
 wolf = "Dog"
@@ -64,6 +51,70 @@ slime = "Slime"
 pig = "Pig"
 turtle = "Turtle"
 silverfish = "Silverfish"
+
+[cosmetics.mounts]
+flying_squid="Flying Squid"
+teleporting_enderman="Teleporting Enderman"
+climbing_cave_spider="Climbing Cave Spider"
+iron_golem="Iron Golem"
+panda="Panda"
+horse="Horse"
+magma_cube="Magma Cube"
+
+[cosmetics.trail_particles]
+ultra="Ultra Trail"
+grand_champ="Grand Champ Trail"
+champ="Champ Trail"
+hearts="Hearts Trail"
+cherry_blossom="Cherry Blossom Trail"
+cherry_blossom.lore="""
+    <color:#00FF7F>Free<br>
+    <gray>on <gold>store.kitpvp.world<gray>.
+"""
+
+[cosmetics.join_particles]
+ultra="Ultra Join Particle"
+grand_champ="Grand Champ Join Particle"
+champ="Champ Join Particle"
+
+[cosmetics.kill_particles]
+
+[cosmetics.gadgets]
+grappling_hook="Grappling Hook"
+
+[cosmetics.armor]
+ultra = "Ultra Armorset"
+grand_champ = "Grand Champ Armorset"
+champ = "Champ Armorset"
+netherite = "Netherite Armorset"
+diamond = "Diamond Armorset"
+iron = "Iron Armorset"
+gold = "Golden Armorset"
+chain = "Chainmail Armorset"
+
+[cosmetics.effects]
+speed="Speed"
+jump_boost="Jump Boost"
+slow_falling="Slow Falling"
+
+[cosmetics.abilities]
+double_jump="Double Jump"
+
+[cosmetics.balloons]
+ultra="Ultra Balloon"
+grand_champ="Grand Champ Balloon"
+champ='Champ Balloon'
+orange="Orange Balloon"
+red="Red Balloon"
+purple="Purple Balloon"
+pink="Pink Balloon"
+light_pink="Light Pink Balloon"
+white="White Balloon"
+light_gray="Light Gray Balloon"
+yellow="Yellow Balloon"
+lime="Lime Balloon"
+green="Green Balloon"
+light_blue="Light Blue Balloon"
 
 [gui.boosters]
 use = "Used <type><reset>, you will now gain <multiplier><reset> more <unit_type> for <duration><reset>."
