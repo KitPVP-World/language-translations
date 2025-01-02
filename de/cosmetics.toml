@@ -40,7 +40,7 @@ feather.lore="""
     <gray>auf <gold>store.kitpvp.world<gray>.
 """
 
-[cosmetics.pet]
+[cosmetics.pets]
 wolf = "Hund"
 cat = "Katze"
 rabbit = "Hase"
@@ -53,28 +53,37 @@ pig = "Schwein"
 turtle = "Turtle"
 silverfish = "Silberfisch"
 
+[cosmetics.mounts]
+flying_squid="Flug-Tintenfisch"
+teleporting_enderman="Teleport-Enderman"
+climbing_cave_spider="Kletterspinne"
+iron_golem="Eisengolem"
+panda="Panda"
+horse="Pferd"
+magma_cube="Magma Cube"
+
 [cosmetics.trail_particles]
-ultra="Ultra Spur"
-grand_champ="Grand Champ Spur"
-champ="Champ Spur"
+ultra="<red>Ultra Spur"
+grand_champ="<aqua>Grand Champ Spur"
+champ="<gold>Champ Spur"
 hearts="Herzen Spur"
-cherry_blossom="Cherry Blossom Spur"
+cherry_blossom="Kirschblüten Spur"
 cherry_blossom.lore="""
     <color:#00FF7F>Free<br>
     <gray>auf <gold>store.kitpvp.world<gray>.
 """
 
 [cosmetics.join_particles]
-ultra="Ultra Join Partikel"
-grand_champ="Grand Champ Join Partikel"
-champ="Champ Join Partikel"
+ultra="<red>Ultra Join Partikel"
+grand_champ="<aqua>Grand Champ Join Partikel"
+champ="<gold>Champ Join Partikel"
 
 [cosmetics.kill_particles]
 
 [cosmetics.armor]
-ultra = "Ultra Rüstungsset"
-grand_champ = "Grand Champ Rüstungsset"
-champ = "Champ Rüstungsset"
+ultra = "<red>Ultra Rüstungsset"
+grand_champ = "<aqua>Grand Champ Rüstungsset"
+champ = "<gold>Champ Rüstungsset"
 netherite = "Netherite Rüstungsset"
 diamond = "Diamant Rüstungsset"
 iron = "Eisen Rüstungsset"
@@ -90,9 +99,9 @@ slow_falling="Langsamer Fall"
 double_jump="Doppelsprung"
 
 [cosmetics.balloons]
-ultra="Ultra Balln"
-grand_champ="Grand Champ Ballon"
-champ="Champ Ballon"
+ultra="<red>Ultra Balln"
+grand_champ="<aqua>Grand Champ Ballon"
+champ="<gold>Champ Ballon"
 orange="Orange Ballon"
 red="Red Ballon"
 purple="Purple Ballon"
