@@ -6,10 +6,10 @@ armor.overview = "Armorset Overview"
 cosmetics.remove = "Remove equipped cosmetic"
 
 [cosmetics.category]
-ranks = "<color:#E8CA98>Rank Cosmetics"
+ranks = "<red>Rank Cosmetics"
 hats="<aqua>Hats"
 pets="<blue>Pets"
-mounts="<light_green>Mounts"
+mounts="<yellow>Mounts"
 particles="<gold>Particle Overview"
 trail_particles="<gold>Trails"
 join_particles="<gold>Join Particle"
@@ -18,7 +18,7 @@ mystic_particles="<light_purple>Mysterious Particles"
 gadgets="<dark_green>Gadgets"
 armor="<yellow>Wardrobe"
 effects="<color:#ffd8ad>Effects"
-abilties="<green>Abilities"
+abilities="<green>Abilities"
 balloons="<light_purple>Balloons"
 
 [cosmetics.rarity]

@@ -6,10 +6,10 @@ armor.overview = "Rüstungsset Übersicht"
 cosmetics.remove = "Cosmetic ausziehen"
 
 [cosmetics.category]
-ranks = "<color:#E8CA98>Rang Cosmetics"
+ranks = "<red>Rang Cosmetics"
 hats="<aqua>Köpfe"
 pets="<blue>Haustiere"
-mounts="<light_green>Mounts"
+mounts="<yellow>Mounts"
 particles="<gold>Partikelübersicht"
 trail_particles="<gold>Spuren"
 join_particles="<gold>Join Partikel"
