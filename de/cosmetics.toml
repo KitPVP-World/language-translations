@@ -41,6 +41,8 @@ feather.lore="""
 """
 
 [cosmetics.pets]
+blaze = "Blaze"
+fox = "Weißer Fox"
 wolf = "Hund"
 cat = "Katze"
 rabbit = "Hase"
