@@ -112,8 +112,8 @@ stats = """
     <br><style_kills_deaths>K/D: <gray><kills_deaths><reset>
     <br>Spiele gespielt: <gray><games_played><reset>
     <br>Höchste Siegesserie: <top_winstreak><reset>
-    <br>Coins: <dark_gray>[<coins><reset>]</dark_gray> <gold>+<coins_booster>% Booster
-    <br><hover:show_text:'Klicke für mehr Informationen'><click:run_command:'/level %1$s'>Level: <dark_gray>[<level><reset>]</dark_gray> <color:#00FF7F>+<level_booster>% Booster<reset>
+    <br>Coins: <dark_gray>[<coins><reset>]</dark_gray> <gold>+<coins_booster>%% Booster
+    <br><hover:show_text:'Klicke für mehr Informationen'><click:run_command:'/level %1$s'>Level: <dark_gray>[<level><reset>]</dark_gray> <color:#00FF7F>+<level_booster>%% Booster<reset>
 """
 stats.currentSeason = "Seasonal"
 stats.alltime = "Alltime"
