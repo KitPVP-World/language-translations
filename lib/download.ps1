@@ -8,6 +8,8 @@ $downloadHash = "49b2b1a1408b6a3bc71cde227fb16d00c558cda4"
 $downloadUrl = "https://maven.kitpvp.world/snapshots/world/kitpvp/translation-compiler/${downloadHash}/translation-compiler-win-x64.exe"
 $outputFile = "bin/translation-compiler-${downloadHash}"
 
+New-Item -ItemType HardLink -Path "lib/translation-compiler.exe" -Target "$outputFile"
+
 # --- Check if file already exists ---
 if (Test-Path -Path $outputFile -PathType Leaf)
 {
@@ -72,5 +74,3 @@ Catch
     }
     exit 1
 }
-
-New-Item -ItemType SymbolicLink -Path "bin/translation-compiler" -Value $outputFile

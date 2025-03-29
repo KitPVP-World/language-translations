@@ -8,6 +8,8 @@ downloadHash="49b2b1a1408b6a3bc71cde227fb16d00c558cda4"
 downloadUrl="https://maven.kitpvp.world/snapshots/world/kitpvp/translation-compiler/${downloadHash}/translation-compiler-linux-x64"
 outputFile="bin/translation-compiler-${downloadHash}"
 
+ln -sf ${outputFile} lib/translation-compiler
+
 if [ -e "${outputFile}" ]; then
     echo "INFO: '${outputFile}' binary is already present."
     exit 0
@@ -38,4 +40,3 @@ if [ -z "${repository_password:-}" ]; then
 fi
 
 curl -L -f -u "${repository_username}:${repository_password}" -o "${outputFile}" "${downloadUrl}"
-ln -s ${outputFile} bin/translation-compiler
