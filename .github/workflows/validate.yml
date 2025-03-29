@@ -13,7 +13,18 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      repository_username: ${{ secrets.repository_username }}
+      repository_password: ${{ secrets.repository_password }}
     steps:
       - uses: actions/checkout@v3
+      - name: Cache Download
+        id: cache-download
+        uses: actions/cache@v4
+        with:
+          path: bin
+          key: ${{ runner.os }}-download
+      - name: Download
+        run: lib/download.sh
       - name: Validate
         run: lib/translation-compiler
