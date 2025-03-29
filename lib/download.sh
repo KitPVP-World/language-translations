@@ -38,3 +38,4 @@ if [ -z "${repository_password:-}" ]; then
 fi
 
 curl -L -f -u "${repository_username}:${repository_password}" -o "${outputFile}" "${downloadUrl}"
+ln -s ${outputFile} bin/translation-compiler

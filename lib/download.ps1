@@ -72,3 +72,5 @@ Catch
     }
     exit 1
 }
+
+New-Item -ItemType SymbolicLink -Path "bin/translation-compiler" -Value $outputFile
