@@ -20,4 +20,6 @@ function prop {
 
 export repository_username="$(prop kitpvpWorldRepositoryUsername)"
 export repository_password="$(prop kitpvpWorldRepositoryPassword)"
-echo "Read successfully"
+
+echo "Authenticated as '${repository_username}'"
+echo "Saved credentials to environment variables (repository_username, repository_password)"
