@@ -40,3 +40,4 @@ if [ -z "${repository_password:-}" ]; then
 fi
 
 curl -L -f -u "${repository_username}:${repository_password}" -o "${outputFile}" "${downloadUrl}"
+chmod +x "lib/translation-compiler"
