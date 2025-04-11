@@ -33,8 +33,7 @@ stats = """
   <br>Hits taken: <aqua><hits_taken_self></aqua>/<red><hits_taken_opponent></red>
   <br>Crits taken: <aqua><crits_taken_self></aqua>/<red><crits_taken_opponent></red>
 """
-elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>has defeated <red><loser> (<loserelo>) (-<loserelodifference>) <reset>in Kit <kit><reset>."
-elo.firstLost = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>has defeated <red><loser> (<loserelo>) (🔒) <reset>in Kit <kit><reset>."
+elo = "<winner> <reset><isSoloGame:has:have> defeated <red><loser> <reset>in Kit <kit><reset>."
 single = "In an epic battle against life and death, <pri><name> <reset> won."
 
 [features]

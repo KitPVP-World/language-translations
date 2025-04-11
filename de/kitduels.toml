@@ -33,8 +33,7 @@ stats = """
   <br>Davon Crits: <aqua><crits_taken_self></aqua>/<red><crits_taken_opponent></red>
 """
 
-elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset> besiegt."
-elo.firstLost = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (🔒) <reset>in Kit <kit><reset> besiegt."
+elo = "<winner> <reset><isSoloGame:hat:haben> <red><loser> <reset>in Kit <kit><reset> besiegt."
 single = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
 
 [features]
