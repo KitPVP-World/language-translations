@@ -223,7 +223,7 @@ profile = """
   Profile loading time: <loading_time>ms<reset>
 """
 
-admin.alts = """
+alts = """
   Suspicious accounts of <pri><target><reset> (<rank><reset>)<br>
   <br>
   <alts><br>
