@@ -118,6 +118,19 @@ stats = """
 stats.currentSeason = "Seasonal"
 stats.alltime = "Alltime"
 
+help = """
+    <gold>Informationen zu Commands
+    <br>
+    <br><click:suggest_command:'/l '><yellow>/l</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
+    <br><click:suggest_command:'/hub '><yellow>/hub</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
+    <br><click:suggest_command:'/duel '><yellow>/duel</yellow> [<yellow>name</yellow>]</click> <dark_gray>- <reset>Fordert den Spieler heraus
+    <br><click:suggest_command:'/profile '><yellow>/profile</click> <dark_gray>- <reset>Zeigt die Ranked Stats in jedem Kit an
+    <br><click:suggest_command:'/stats '><yellow>/stats</click> <dark_gray>- <reset>Zeigt einen Überblick über deine Stats
+    <br><click:suggest_command:'/coins '><yellow>/coins</click> <dark_gray>-</dark_gray> <reset>Zeigt deine Coins</gray>
+    <br><click:suggest_command:'/friends'><yellow>/friends</click> <dark_gray>- <reset>Öffnet das Freundemenü
+    <br><click:suggest_command:'/friend add '>/<yellow>friend add</click> <dark_gray>- <reset>Fügt ein Spieler als Freund hinzu
+"""
+
 [commands.rank]
 add.infinite = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt auf einen <sec>unbestimmten Zeitraum</sec>."
 add.limited = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt bis <sec><duration><reset>."
@@ -151,18 +164,15 @@ nick.unnicked = "Du bist nicht genickt."
 
 uuid = "Deine UUID ist: <hover:show_text:'Rechtsklick zum kopieren'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
 
-[commands]
-help = """
-    <gold>Informationen zu Commands
-    <br>
-    <br><click:suggest_command:'/l '><yellow>/l</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
-    <br><click:suggest_command:'/hub '><yellow>/hub</click> <dark_gray>-<reset> Bringt dich zurück in die Lobby
-    <br><click:suggest_command:'/duel '><yellow>/duel</yellow> [<yellow>name</yellow>]</click> <dark_gray>- <reset>Fordert den Spieler heraus
-    <br><click:suggest_command:'/profile '><yellow>/profile</click> <dark_gray>- <reset>Zeigt die Ranked Stats in jedem Kit an
-    <br><click:suggest_command:'/stats '><yellow>/stats</click> <dark_gray>- <reset>Zeigt einen Überblick über deine Stats
-    <br><click:suggest_command:'/coins '><yellow>/coins</click> <dark_gray>-</dark_gray> <reset>Zeigt deine Coins</gray>
-    <br><click:suggest_command:'/friends'><yellow>/friends</click> <dark_gray>- <reset>Öffnet das Freundemenü
-    <br><click:suggest_command:'/friend add '>/<yellow>friend add</click> <dark_gray>- <reset>Fügt ein Spieler als Freund hinzu
+[commands.service]
+maintenance.allow = "Du hast dem Benutzer <target><reset> <sec>erlaubt</sec>, während des Wartungsmodus beizutreten."
+maintenance.allow.already = "Der Benutzer <target><reset> ist bereits auf der Erlaubnisliste."
+maintenance.disallow = "Du hast den Benutzer <target><reset> von der Wartungs-Erlaubnisliste <red>entfernt</red>."
+maintenance.disallow.already = "Der Benutzer <target><reset> wurde nicht zur Erlaubnisliste hinzugefügt."
+maintenance.list = """
+Anzeige des Wartungsstatus:
+<br> ● Wartungsstatus: <status><reset>
+<br> ● Zugelassene Benutzer im Wartungsmodus: <list>
 """
 
 # Moderation Stuff
