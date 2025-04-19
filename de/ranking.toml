@@ -13,11 +13,11 @@ globalItem = """
     <br><gray>Elo<dark_gray>: <elo>
     <br><gray>Höchste Elo<dark_gray>: <topelo>
     <br>
-    <br><gray>Gespielte Spiele<dark_gray>:  <gamesplayed>
-    <br><gray>Gewonnene Spiele<dark_gray>: <gameswon>
+    <br><gray>Gespielte Spiele<dark_gray>: <yellow><gamesplayed>
+    <br><gray>Gewonnene Spiele<dark_gray>: <yellow><gameswon>
     <br>
-    <br><gray>Winstreak<dark_gray>: <winstreak>
-    <br><gray>Höchste Winstreak<dark_gray>: <topwinstreak>
+    <br><gray>Winstreak<dark_gray>: <yellow><winstreak>
+    <br><gray>Höchste Winstreak<dark_gray>: <yellow><topwinstreak>
     <br>
     <br><gray>Spielzeit<dark_gray>: <yellow><playtime>
 """
@@ -27,9 +27,9 @@ kitItem = """
     <br><gray>Elo<dark_gray>: <elo>
     <br><gray>Höchste Elo<dark_gray>: <topelo>
     <br>
-    <br><gray>Gespielte Spiele<dark_gray>: <gamesplayed>
-    <br><gray>Gewonnene Spiele<dark_gray>: <gameswon>
+    <br><gray>Gespielte Spiele<dark_gray>: <yellow><gamesplayed>
+    <br><gray>Gewonnene Spiele<dark_gray>: <yellow><gameswon>
     <br>
-    <br><gray>Winstreak<dark_gray>: <winstreak>
-    <br><gray>Höchste Winstreak<dark_gray>: <topwinstreak>
+    <br><gray>Winstreak<dark_gray>: <yellow><winstreak>
+    <br><gray>Höchste Winstreak<dark_gray>: <yellow><topwinstreak>
 """
