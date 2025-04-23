@@ -1,5 +1,6 @@
 [commands.connect]
 build = "Du wirst auf den <pri>Bau Server<reset> verbunden."
+noService = "Kein Server gefunden."
 
 [commands.duel]
 norequest = "Du hast keine Anfrage von diesem Spieler bekommen."
@@ -27,7 +28,10 @@ noRunningGame = "Dieser Spieler ist derzeit in keinem laufendem Spiel."
 title = "Herausfordern"
 firstTo = "<gray>First To<dark_gray>: <green><rounds>"
 custom = "<gray>Eigenes Kit<dark_gray>: <yellow><kit>"
-unselected = "Du hast kein Kit ausgewählt!"
+custom.unselected = "Du hast kein Kit ausgewählt!"
+
+[gui.mapSelection]
+title = "Map Selection"
 
 [queue]
 join = "Du hast die <pri><queue><reset> betreten."
@@ -36,3 +40,9 @@ matchFound = "Ein Match wurde gefunden."
 inNone = "Du warst in keiner Queue."
 block = "Dieser Account wurde blockiert und kann nur noch Unranked spielen. Spiel auf deinem Main Account. Falls du denkst, dass dies ein Fehler ist, öffne ein Ticket auf <click:open_url:'https://discord.gg/Pk4CJ6dwHA'><color:#5865f2>unserem Discord</color></click>."
 noGameServer = "Das Starten des Spiels ist fehlgeschlagen. Es wurden keine verfügbaren Game Server gefunden. Bitte versuche es später erneut."
+noArenaFound = "Du hast zu viele Arenen deaktiviert und wir konnten keine für dieses Spiel finden. Bitte, aktiviere Arenen für <kit><reset> wieder."
+disablingArenasNotice = "Die Deaktivierung von Arenen kann dazu führen, dass du verlängert auf Spiele warten musst oder keine Spiele gefunden werden."
+atLeastOneArenaActive = "Du musst mindestens eine Arena aktiviert lassen."
+
+[commands.queue.arena_settings]
+set = "Arena <pri><arena></pri> wurde für das Kit <kit> <value:'<sec>aktiviert</sec>':'<red>deaktiviert</red>'>."

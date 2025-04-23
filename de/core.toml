@@ -50,6 +50,7 @@ error.target.offline = "Dieser Spieler ist nicht online."
 error.target.unknown = "Dieser Spieler ist uns nicht bekannt."
 error.rank.unknown = "Dieser Rang existiert nicht."
 error.kit.unknown = "Kit wurde nicht gefunden."
+error.arena.unknown = "Arena <arena><reset> ist nicht bekannt."
 
 next = "Seite vor"
 previous = "Seite zurück"
