@@ -25,14 +25,25 @@ win.firstTo.end = """
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
 
-[win]
-stats = """
-  <br>Schaden erlitten: <aqua><damage_taken_self></aqua>/<red><damage_taken_opponent></red>
-  <br>Herzen verbleibend: <aqua><health_self>❤</aqua>/<red><health_opponent>❤</red>
-  <br>Schläge erlitten: <aqua><hits_taken_self></aqua>/<red><hits_taken_opponent></red>
-  <br>Davon Crits: <aqua><crits_taken_self></aqua>/<red><crits_taken_opponent></red>
-"""
+[kit.record]
+core.health_remaining = "Herzen verbleibend"
+core.damage_taken = "Schaden erlitten"
+core.hits_taken = "Schläge erlitten"
+core.crits_taken = "Davon Crits"
+core.totems_remaining = "Totems verbleibend"
+core.xp_bottles_remaining = "XP Flaschen verbleibend"
+uhc.lava_damage_taken = "Lavaschaden erlitten"
+uhc.projectile_damage_taken = "Pfeilschaden erlitten"
+uhc.golden_apple_remaining = "Gaps übrig"
+crystal.crystal_damage_taken = "Crystal Schaden erlitten"
+crystal.anchor_damage_taken = "Anchor Schaden erlitten"
+nethpot.health_potions_remaining = "Heilungstränke verbleibend"
+axe.sword_hits = "Davon Schwertschläge"
+axe.axe_hits = "Davon Axtschläge"
+axe.arrows_remaining = "Pfeile verbleibend"
+smp.potions_remaining = "Insgesamte Tränke verbleibend"
 
+[win]
 elo = "<winner> <reset><is_solo_game:hat:haben> <red><loser> <reset>in Kit <kit><reset> besiegt."
 single = "In einem epischen Kampf um Leben und Tod siegte <pri><name><reset>."
 

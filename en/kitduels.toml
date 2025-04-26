@@ -25,14 +25,25 @@ win.firstTo.end = """
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
 
+[kit.record]
+core.health_remaining = "Health remaining"
+core.damage_taken = "Damage taken"
+core.hits_taken = "Hits taken"
+core.crits_taken = "Crits taken"
+core.totems_remaining = "Totems remaining"
+core.xp_bottles_remaining = "XP Bottles remaining"
+uhc.lava_damage_taken = "Lava Damage taken"
+uhc.projectile_damage_taken = "Arrow Damage taken"
+uhc.golden_apple_remaining = "Gaps remaining"
+crystal.crystal_damage_taken = "Crystal Damage taken"
+crystal.anchor_damage_taken = "Anchor Damage taken"
+nethpot.health_potions_remaining = "Health Potions remaining"
+axe.sword_hits = "Hits with Sword"
+axe.axe_hits = "Hits with Axe"
+axe.arrows_remaining = "Arrows remaining"
+smp.potions_remaining = "Overall Potions remaining"
 
 [win]
-stats = """
-  <br>Damage taken: <aqua><damage_taken_self></aqua>/<red><damage_taken_opponent></red>
-  <br>Health remaining: <aqua><health_self>❤</aqua>/<red><health_opponent>❤</red>
-  <br>Hits taken: <aqua><hits_taken_self></aqua>/<red><hits_taken_opponent></red>
-  <br>Crits taken: <aqua><crits_taken_self></aqua>/<red><crits_taken_opponent></red>
-"""
 elo = "<winner> <reset><is_solo_game:has:have> defeated <red><loser> <reset>in Kit <kit><reset>."
 single = "In an epic battle against life and death, <pri><name> <reset> won."
 
