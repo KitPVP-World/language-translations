@@ -108,7 +108,7 @@ stats = """
     <br><yellow>Duel Statistiken von <gold><bold><rank><reset> <name> <yellow>(<range>)<reset>
     <br><hover:show_text:'Klicke um das Profil zu betrachten'><click:run_command:'/profile %1$s'>[<gold><bold>Profil betrachten</bold></gold>]<reset>
     <br>Globaler Rang: <global_rank><reset>
-    <br>Globale Elo: <global_elo><reset>
+    <br>Globale 🏆: <global_elo><reset>
     <br><style_kills_deaths>K/D: <yellow><kills_deaths><reset>
     <br>Spiele gespielt: <yellow><games_played><reset>
     <br>Höchste Siegesserie: <yellow><top_winstreak><reset>

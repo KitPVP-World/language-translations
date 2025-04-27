@@ -25,7 +25,7 @@ clan = """
   <br>Clan<gray>:
   <br><gray><clan>
   <br>
-  <br>Clan Elo<gray>:
+  <br>Clan 🏆<gray>:
   <br><gray><clanelo>
   <br>
   <br>Clan Level<gray>:
@@ -42,7 +42,7 @@ self = """
   <br>Rank<gray>:
   <br><rank>
   <br>
-  <br>Elo<gray>:
+  <br>🏆<gray>:
   <br><gray><elo>
   <br>
   <br>Playtime<gray>:
@@ -59,7 +59,7 @@ selfSecondary = """
   <br>Rank<gray>:
   <br><rank>
   <br>
-  <br>Elo<gray>:
+  <br>🏆<gray>:
   <br><gray><elo>
   <br>
   <br>Level<gray>:

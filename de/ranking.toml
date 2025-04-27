@@ -10,8 +10,8 @@ head.lore = """
 
 globalItem = """
     <gray>Platz<dark_gray>: <elorank>
-    <br><gray>Elo<dark_gray>: <elo>
-    <br><gray>Höchste Elo<dark_gray>: <topelo>
+    <br><gray>🏆<dark_gray>: <elo>
+    <br><gray>Höchste 🏆<dark_gray>: <topelo>
     <br>
     <br><gray>Gespielte Spiele<dark_gray>: <yellow><gamesplayed>
     <br><gray>Gewonnene Spiele<dark_gray>: <yellow><gameswon>
@@ -24,8 +24,8 @@ globalItem = """
 
 kitItem = """
     <gray>Platz<dark_gray>: <elorank>
-    <br><gray>Elo<dark_gray>: <elo>
-    <br><gray>Höchste Elo<dark_gray>: <topelo>
+    <br><gray>🏆<dark_gray>: <elo>
+    <br><gray>Höchste 🏆<dark_gray>: <topelo>
     <br>
     <br><gray>Gespielte Spiele<dark_gray>: <yellow><gamesplayed>
     <br><gray>Gewonnene Spiele<dark_gray>: <yellow><gameswon>
