@@ -25,8 +25,8 @@ settings.title = "Einstellungen"
 settings.request.title = "Anfrageeinstellungen"
 settings.clanRequests.title = "Clananfrageeinstellungen"
 
-champ = "<gold>Champ oder höher"
-champ.lore = "<gray>Benötigt mindestens den <gold>Champ</gold> Rang"
+requiresChamp = "<gold>Champ oder höher"
+requiresChamp.lore = "<gray>Benötigt mindestens den <gold>Champ</gold> Rang"
 
 target.inviteClan = "Zum Clan einladen"
 target.favourite.add = "Als Favorite hinzufügen"
