@@ -41,6 +41,12 @@ untranslated.book = """
 [gui.kitView]
 title = "Kit Übersicht"
 
+[core.gui.buy]
+title = "Kaufen"
+remainingCoins = "Coins danach übrig: "
+missingCoins = "Coins fehlend:"
+
+
 # Generic Things
 [generic]
 back = "Zurück"

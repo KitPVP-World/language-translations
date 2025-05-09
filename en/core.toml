@@ -41,9 +41,10 @@ untranslated.book = """
 [gui.kitView]
 title = "View Kit"
 
-# Common
-[gui.common]
-error.clickitem = "An unexpected error occurred trying to click that item"
+[core.gui.buy]
+title = "Buy"
+remainingCoins = "Coins afterwards: "
+missingCoins = "Coins missing:"
 
 # Generic Things
 [generic]
