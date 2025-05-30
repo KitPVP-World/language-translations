@@ -5,6 +5,17 @@ language.change = """
   Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset>.
   <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://discord.gg/Pk4CJ6dwHA'><color:#5865f2>unserem Discord</color></click>.
 """
+resourcePack.requirement = """
+<st><gradient:#F48C04:#FFE22C:-0.5>                               </gradient></st><br>
+<#FFE22C>Grüße, tapferer Kämpfer!<br>
+<br>
+<#A5ACB8>Um auf KitPvP.world zu<br>
+spielen, musst du unser<br>
+Resource Pack<br>
+akzeptieren.<br>
+<br>
+<st><gradient:#F48C04:#FFE22C:-0.5>                               </gradient></st>
+"""
 
 [core.event.rank.update]
 rankedUnblock = """

@@ -5,6 +5,17 @@ language.change = """
   Your language is now English (United States.)
   <br>Help us translate the network into your language on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>.
 """
+resourcePack.requirement = """
+<st><gradient:#F48C04:#FFE22C:-0.5>                               </gradient></st><br>
+<#FFE22C>Hey there, Warrior!<br>
+<br>
+<#A5ACB8>In order to play<br>
+ on the KitPvP.world<br>
+You need to accept our<br>
+resource pack.<br>
+<br>
+<st><gradient:#F48C04:#FFE22C:-0.5>                               </gradient></st>
+"""
 
 [core.event.rank.update]
 rankedUnblock = """
