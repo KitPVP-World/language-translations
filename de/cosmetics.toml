@@ -1,4 +1,5 @@
 [gui.cosmetics]
+title = "Cosmetics"
 armor.equip.all = "<red>Alles anziehen"
 armor.unequip.all = "<red>Alles ausziehen"
 armor.overview = "Rüstungsset Übersicht"
