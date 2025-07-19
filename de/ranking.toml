@@ -7,6 +7,8 @@ head.lore = """
     <rank><reset>
     <br><level><reset> 
 """
+season = "<gray>Season</gray><dark_gray>:</dark_gray> <yellow><season>"
+loadingSeason = "<gray>Lade Season</gray><dark_gray>:</dark_gray> <yellow><season>"
 
 globalItem = """
     <gray>Platz<dark_gray>: <elorank>
