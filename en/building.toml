@@ -13,7 +13,7 @@ create = "<bold><sec>CREATED!<reset> The kit and selected it (<pri><id><reset>)"
 select = "<bold><#d49de0>SELECTED!<reset> <pri><name><reset>"
 reset.error = "Could not reset the kit, an error occured."
 reset = "<bold><#ff0000>RESET!<reset>"
-list = "Global Kits: %s"
+list = "Global Kits: <list>"
 
 global.already = "The kit is already global."
 global.exists = "Ein Global Kit mit dem Namen <pri><name> <reset>existiert schon."

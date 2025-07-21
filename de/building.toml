@@ -13,7 +13,7 @@ create = "<bold><sec>ERSTELLT!<reset> Das Kit wurde erstellt und ausgewählt (<p
 select = "<bold><#d49de0>AUSGEWÄHLT!<reset> <pri><name><reset>"
 reset.error = "Ein Fehler ist aufgetreten, Kit konnte nicht zurückgesetzt werden."
 reset = "<bold><#ff0000>ZURÜCKGESETZT!<reset>"
-list = "Global Kits: %s"
+list = "Global Kits: <list>"
 
 global.already = "Dieses Kit ist schon global."
 global.exists = "Ein Global Kit mit dem Namen <pri><name> <reset>existiert schon."
