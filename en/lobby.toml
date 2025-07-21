@@ -13,7 +13,7 @@ nick.development = "This feature is currently in development."
 [gui.lobbySwitcher]
 title = "Lobby Wechseln"
 champ = "The server you are trying to connect to requires you to have at least the <gold>Champ rank</gold>."
-connected = " (Verbunden)"
+connected = " (Connected)"
 
 [gui.kitLayout]
 saved = "The kit layout has been saved."
