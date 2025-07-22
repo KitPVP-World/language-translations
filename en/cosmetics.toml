@@ -96,6 +96,11 @@ iron = "Iron Armorset"
 gold = "Golden Armorset"
 chain = "Chainmail Armorset"
 
+[cosmetics.armor_weapons]
+ultra = "Ultra - Challenge"
+grand_champ = "Grand Champ - Challenge"
+champ = "Champ - Challenge"
+
 [cosmetics.effects]
 speed="Speed"
 jump_boost="Jump Boost"

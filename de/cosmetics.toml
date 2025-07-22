@@ -93,6 +93,11 @@ iron = "Eisen Rüstungsset"
 gold = "Gold Rüstungsset"
 chain = "Ketten Rüstungsset"
 
+[cosmetics.armor_weapons]
+ultra = "Ultra - Herausfordern"
+grand_champ = "Grand Champ - Herausfordern"
+champ = "Champ - Herausfordern"
+
 [cosmetics.effects]
 speed="Speed"
 jump_boost="Sprungkraft"
