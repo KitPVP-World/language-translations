@@ -7,7 +7,7 @@ more = "Mehr Items"
 [store.category.ranks]
 champ="Champ"
 ultra="Ultra"
-grandChamp="Grand Champ"
+grand_champ="Grand Champ"
 
 inDevelopmentNote="Rangvorteile werden in den nächsten Wochen vergrößert werden, da Cosmetics und weitere Vorteile sich noch in Entwicklung befinden."
 purchaseNote="Das Kaufen von niedrigeren Rängen wird dir ein Rabatt geben, wenn du in Zukunft upgraden möchtest."
@@ -17,8 +17,7 @@ usernameColor="Spielernamen Farbe"
 usernameColor.gold="Golden"
 usernameColor.aqua="Türkis"
 usernameColor.red="Rot"
-specialNameplate="Eigenes Namensschild"
-specialChatIcon="Eigenes Chat Symbol"
+specialChatIcon="Eigenes Symbol"
 noChatCooldown="Kein Chat Cooldown"
 colorizedGG="Gefärbtes GG"
 earlyAccess="Beta Zugriff"
@@ -29,6 +28,7 @@ rankSpecificCosmetics="Cosmetics Für Rang"
 mapSelection="Map Auswahl"
 accessToReplay="Zugriff Auf Replays"
 publicParties="Öffentliche Parties"
+doubleJump="Doppel Sprung"
 fly="Fliegen in Lobby"
 extendedReplayAccess="Erweiterter Replay Zugriff"
 extendedReplayAccess.3d="3 Tage"
@@ -43,8 +43,8 @@ dailyRewardChest="Weitere Tägliche Belohnungstruhen"
 dailyRewardCoins="Weitere Tägliche Belohnungscoins"
 
 [store.category.xp_booster]
-xpBooster8h4x="XP Booster 400%% - 8 Std."
-xpBooster8h4x.description="""
+xp_booster_8h_4x="XP Booster 400%% - 8 Std."
+xp_booster_8h_4x.description="""
 <span class="font-semibold">Das Paket [8. Std. XP Boost] beinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Einen 8 Std. XP Boost, der die erworbene XP um 400%% erhöht.</li>
@@ -52,8 +52,8 @@ xpBooster8h4x.description="""
 
 <i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
-xpBooster3d4x="XP Booster 400%% - 3 Tage"
-xpBooster3d4x.description="""
+xp_booster_3d_4x="XP Booster 400%% - 3 Tage"
+xp_booster_3d_4x.description="""
 <span class="font-semibold">Das Paket [3 Tage XP Boost] beinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Einen 3 Tage XP Boost, der die erworbene XP um 400%% erhöht.</li>
@@ -61,8 +61,8 @@ xpBooster3d4x.description="""
 
 <i class="font-light">XP Booster sind virtuelle Gegenstände, die die erworbenen Erfahrungspunkte (XP) erhöhen, um Ihnen beim schnelleren Leveln zu helfen. Diese bieten keine weiteren Funktionen, außerhalb des schnelleren Levels.</i>
 """
-xpBooster7d4x="XP Booster 400%% - 7 Tage"
-xpBooster7d4x.description="""
+xp_booster_7d_4x="XP Booster 400%% - 7 Tage"
+xp_booster_7d_4x.description="""
 <b>Der 7 Tage XP Boost beeinhaltet:</b>
 <ul class="list-disc list-inside">
     <li class="font-medium">Einen 7 Tage XP Boost, der die erworbene XP um 400%% erhöht.</li>
@@ -75,8 +75,8 @@ XP Booster können in dem XP Booster GUI aktiviert werden, welches du mit "/boos
 """
 
 [store.category.coins_booster]
-coinsBooster8h4x="Coins Booster 400%% - 8 Std."
-coinsBooster8h4x.description="""
+coins_booster_8h_4x="Coins Booster 400%% - 8 Std."
+coins_booster_8h_4x.description="""
 <span class="font-semibold">Der 8 Stunden Coins Booster beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Einen 8 Stunden Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
@@ -84,8 +84,8 @@ coinsBooster8h4x.description="""
 
 <i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
-coinsBooster3d4x="Coins Booster 400%% - 3 Tage"
-coinsBooster3d4x.description="""
+coins_booster_3d_4x="Coins Booster 400%% - 3 Tage"
+coins_booster_3d_4x.description="""
 <span class="font-semibold">Der 3 Tage Coins Booster beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Einen 3 Tage Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
@@ -93,8 +93,8 @@ coinsBooster3d4x.description="""
 
 <i class="font-light">Coins sind eine virtuelle Währung, die auf KitPvP.world benutzt wird, um Ihnen unterschiedliche kosmetische Gegenstände und Verbesserungen. Diese Währung hat keinen echten Wert (Aufgrunddessen, können Coins auch nicht ausgezahlt werden.) und bieten keine kompetitive Spielvorteile.</i>
 """
-coinsBooster7d4x="Coins Booster 400%% - 7 Tage"
-coinsBooster7d4x.description="""
+coins_booster_7d_4x="Coins Booster 400%% - 7 Tage"
+coins_booster_7d_4x.description="""
 <span class="font-semibold">Der 7 Tage Coins Booster beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Einen 7 Tage Coins Booster, der die erworbenen Coins um 400%% erhöt.</li>
@@ -107,8 +107,8 @@ Coin Booster können in dem Coin Booster GUI aktiviert werden, welches du mit "/
 """
 
 [store.category.more]
-hatAstronaut="Astronauten Helm"
-hatAstronaut.description="""
+hat_astronaut="Astronauten Helm"
+hat_astronaut.description="""
 <span class="font-semibold">Das Paket [Astronauten Helm] beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Astronauten Helm</li>
@@ -116,8 +116,8 @@ hatAstronaut.description="""
 
 <i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
 """
-hatFeather="Feder Hut"
-hatFeather.description="""
+hat_feather="Feder Hut"
+hat_feather.description="""
 <span class="font-semibold">Das Paket [Feder Helm] beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Feder Helm</li>
@@ -125,8 +125,8 @@ hatFeather.description="""
 
 <i class="font-light">Cosmetics sind virtuell anziehbare Gegenstände, die Ihnen erlauben dein Erscheinungsbild zu verändern. Diese bieten keine kompetitiven Spielveränderungen und können über den Gegenstand Slot in der Lobby bearbeitet werden.</I>
 """
-trailCherryBlossom="Cherry Blossom Spur"
-trailCherryBlossom.description="""
+trail_cherry_blossom="Cherry Blossom Spur"
+trail_cherry_blossom.description="""
 <span class="font-semibold">Das Paket [Cherry Blossom Spur] beeinhaltet:</span>
 <ul class="list-disc list-inside">
     <li class="font-medium">Cherry Blossum Spur</li>
