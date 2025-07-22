@@ -96,10 +96,10 @@ iron = "Iron Armorset"
 gold = "Golden Armorset"
 chain = "Chainmail Armorset"
 
-[cosmetics.armor_weapons]
-ultra = "Ultra - Challenge"
-grand_champ = "Grand Champ - Challenge"
-champ = "Champ - Challenge"
+piece.helmet = "Helmet"
+piece.chestplate = "Chestplate"
+piece.leggings = "Leggings"
+piece.boots = "Boots"
 
 [cosmetics.effects]
 speed="Speed"
