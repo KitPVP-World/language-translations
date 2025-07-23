@@ -108,6 +108,16 @@ slow_falling="Slow Falling"
 
 [cosmetics.abilities]
 double_jump="Double Jump"
+double.jump.lore="""
+<gray>Unlocked with the <gold>Champ rank</gold><br>
+<gray>obtainable on <gold>store.kitpvp.world<gray>.
+"""
+flight = "Flight"
+double.jump.lore="""
+<gray>Unlocked with the <red>Ultra rank</gold><br>
+<gray>obtainable on <gold>store.kitpvp.world<gray>.
+"""
+
 
 [cosmetics.balloons]
 ultra="<red>Ultra Balloon"
