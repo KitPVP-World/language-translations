@@ -191,17 +191,6 @@ Are you sure you want to log out?
 This will reset your cart.
 """
 
-[store.dialog.resourcePack]
-title="Get The KitPvP Texture Pack"
-description="How to download the \"KitPvP.world\" Texture Pack Overlay"
-tutorial="""
-1. Join the <a href="https://discord.gg/GeBWtEaR8S" class="sky-blue-400"><code>KitPvP Discord</code></a>.<br>
-2. Go to the <code>┠🌅server-overlay</code> channel.<br>
-3. Download the Texturepack.<br>
-4. Put it at the top of your Texture Pack Selection List.
-"""
-downloadFromDiscord="Download From Discord"
-
 [store.footer]
 purchaseNote = """
 All purchases made here are for the KitPvP.World public Minecraft: Java Edition server on the IP “KitPvP.world”. All transactions are secured by Tebex.

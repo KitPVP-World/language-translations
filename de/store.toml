@@ -191,17 +191,6 @@ Bist du dir sicher, dass Du dich abmelden möchtest?
 Dein Einkaufswagen wir dadurch zurückgesetzt.
 """
 
-[store.dialog.resourcePack]
-title="Get The KitPvP Texture Pack"
-description="So downloadest Du das \"KitPvP.world\" Texture Pack Overlay"
-tutorial="""
-1. Join dem <a href="https://discord.gg/GeBWtEaR8S" class="sky-blue-400"><code>KitPvP Discord</code></a>.<br>
-2. Geh in den <code>┠🌅server-overlay</code> channel.<br>
-3. Download das Texture Pack.<br>
-4. Mach es ganz oben in deine Texture Pack Auswahl Liste.
-"""
-downloadFromDiscord="Von Discord Downloaden"
-
 [store.footer]
 purchaseNote = """
 Alle Käufe, die hier gemacht werden, sind für den öffentlichen KitPvP.world Minecraft: Java Edition Server unter der IP “KitPvP.world”. Alle Transaktionen sind gesichert durch Tebex.
