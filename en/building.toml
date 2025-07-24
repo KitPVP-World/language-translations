@@ -33,6 +33,7 @@ create = "Die Arena <pri><key><reset> wird erstellt. Sobald diese bereit ist wir
 create.alreadyExists = "An arena with the same name already exists. Would you like to teleport to it? <pri><bold><click:run_command:'/arena goto %s'>Yes"
 create.namespace.minecraft = "You cannot create an arena without any <bold><pri>:</pri></bold> or with them </pri>minecraft</pri> namespace."
 create.namespace.length = "The key cannot be longer than 255 characters."
+create.name.empty = "The arena name cannot be empty."
 
 not_arena = "<bold><red>WHAT?!<reset> The world, you are currently in, isn't an arena."
 
