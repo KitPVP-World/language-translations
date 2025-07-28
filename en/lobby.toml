@@ -11,7 +11,7 @@ nick.unnicked = "<gray>You are<dark_gray>: <red>not nicked"
 nick.development = "This feature is currently in development."
 
 [gui.kitLayout]
-saved = "The kit layout has been saved."
+saved = "The kit layout for <kit><reset> has been saved."
 error = "An error occurred. Please try again or contact support."
 reset = "Reset"
 reset.confirm = "Confirm Reset"
