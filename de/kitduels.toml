@@ -24,7 +24,7 @@ win.firstTo.end = """
 <team><reset><yellow> hat gewonnen
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
-killstreak = "%s<reset> hat eine <#00FF7F><bold><winstreak></bold>er Winstreak<reset> in <kit><reset> erreicht."
+winstreak = "%s<reset> hat eine <#00FF7F><bold><winstreak></bold>er Winstreak<reset> in <kit><reset> erreicht."
 
 [kit.record]
 core.health_remaining = "Herzen verbleibend"

@@ -25,7 +25,7 @@ win.firstTo.end = """
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
 # We have to use %s here to use the targets users' MiniMessages
-killstreak = "%s<reset> reached a <#00FF7F><bold><winstreak></bold>x winstreak<reset> in <kit><reset>."
+winstreak = "%s<reset> reached a <#00FF7F><bold><winstreak></bold>x winstreak<reset> in <kit><reset>."
 
 [kit.record]
 core.health_remaining = "Health remaining"
