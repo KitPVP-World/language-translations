@@ -20,7 +20,7 @@ select.title = "Kit Sortierung: Kit Auswählen"
 
 [gui.lobbySwitcher]
 title = "Lobby Switcher"
-champ = "Du benötigst mindestens den <gold>Champ Rang</gold> um diesen Server zu betreten."
+champ = "Du benötigst mindestens den <gold>Champ Rang</gold>, um diesen Server zu betreten."
 connected = " (Verbunden)"
 
 [leaderboard]
