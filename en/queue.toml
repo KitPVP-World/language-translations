@@ -33,6 +33,14 @@ custom.unselected = "You do not have a kit selected!"
 [gui.mapSelection]
 title = "Map Selection"
 
+[gui.quickQueue]
+title = "Queues"
+
+[gui.botSelection]
+title = "Select Bot"
+
+[gui.botSettings]
+title = "Bot Settings"
 
 [queue]
 join = "You have entered the <pri><queue><reset>."

@@ -33,6 +33,15 @@ custom.unselected = "Du hast kein Kit ausgewählt!"
 [gui.mapSelection]
 title = "Map Selection"
 
+[gui.quickQueue]
+title = "Warteschlangen"
+
+[gui.botSelection]
+title = "Bot Auswahl"
+
+[gui.botSettings]
+title = "Bot Einstellungen"
+
 [queue]
 join = "Du hast die <pri><queue><reset> betreten."
 leave = "Du hast die <pri><queue><reset> verlassen."
