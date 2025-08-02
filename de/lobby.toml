@@ -22,6 +22,7 @@ select.title = "Kit Sortierung: Kit Auswählen"
 title = "Lobby Switcher"
 champ = "Du benötigst mindestens den <gold>Champ Rang</gold>, um diesen Server zu betreten."
 connected = " (Verbunden)"
+connectTo.lore = "<gray>Automatisch nach dem Duel mit dieser Lobby verbinden"
 
 [leaderboard]
 loading = "Das Leaderboard läd derzeit noch! Der Vorgang kann bis zu 3 Sekunden dauern."
