@@ -38,6 +38,7 @@ title = "Warteschlangen"
 
 [gui.botSelection]
 title = "Bot Auswahl"
+play = "Spielen"
 
 [gui.botSettings]
 title = "Bot Einstellungen"

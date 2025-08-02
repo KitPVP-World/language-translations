@@ -38,6 +38,7 @@ title = "Queues"
 
 [gui.botSelection]
 title = "Select Bot"
+play = "Play"
 
 [gui.botSettings]
 title = "Bot Settings"
