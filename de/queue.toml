@@ -39,9 +39,15 @@ title = "Warteschlangen"
 [gui.botSelection]
 title = "Bot Auswahl"
 play = "Spielen"
+easy = "Einfacher Bot"
+advanced = "Fortgeschrittener Bot"
+hard = "Schwerer Bot"
+impossible = "Unmöglicher Bot"
 
 [gui.botSettings]
 title = "Bot Einstellungen"
+range = "<gray>Reichweite<dark_gray>: <gray><range>"
+endless = "<aqua>Kein Ende"
 
 [queue]
 join = "Du hast die <pri><queue><reset> betreten."

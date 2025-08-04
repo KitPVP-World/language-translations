@@ -39,9 +39,15 @@ title = "Queues"
 [gui.botSelection]
 title = "Select Bot"
 play = "Play"
+easy = "Easy Bot"
+advanced = "Advanced Bot"
+hard = "Difficult Bot"
+impossible = "Impossible Bot"
 
 [gui.botSettings]
 title = "Bot Settings"
+range = "<gray>Range<dark_gray>: <gray><range>"
+endless = "<aqua>Endless"
 
 [queue]
 join = "You have entered the <pri><queue><reset>."
