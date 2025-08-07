@@ -243,6 +243,14 @@ alts = """
   <br>
   Alts loading Time: <loading_time>ms<reset>
 """
+compare = """
+  Comparing accounts <aqua><target></aqua> and <red><compare_to></red><br>
+  <br>
+  Kills (Target/Other): <aqua><wins_self></aqua>/<red><wins_other></red><br>
+  Ranked Kills (Target/Other): <aqua><ranked_wins_self></aqua>/<red><ranked_wins_other></red><br>
+  <br>
+  Compare Loading Time: <loading_time>ms
+"""
 
 [gui]
 report.title = "Melden <name>"
