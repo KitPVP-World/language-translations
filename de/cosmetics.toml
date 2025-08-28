@@ -105,12 +105,12 @@ slow_falling="Langsamer Fall"
 
 [cosmetics.abilities]
 double_jump="Doppelsprung"
-double.jump.lore="""
+double_jump.lore="""
 <gray>Freigeschaltet mit dem <gold>Champ Rang</gold><br>
 <gray>erhaltbar auf <gold>store.kitpvp.world<gray>.
 """
 flight = "Fliegen"
-double.jump.lore="""
+flight.lore="""
 <gray>Freigeschaltet mit dem <red>Ultra Rang</gold><br>
 <gray>erhaltbar auf <gold>store.kitpvp.world<gray>.
 """
