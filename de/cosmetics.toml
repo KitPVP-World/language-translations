@@ -96,7 +96,7 @@ chain = "Ketten Rüstungsset"
 piece.helmet = "Helm"
 piece.chestplate = "Brustplatte"
 piece.leggings = "Hose"
-piece.boots = "Schule"
+piece.boots = "Schuhe"
 
 [cosmetics.effects]
 speed="Speed"
