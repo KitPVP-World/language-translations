@@ -184,6 +184,7 @@ nick.unnicked = "You are not nicked"
 uuid = "Your UUID is: <hover:show_text:'Click to copy'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
 
 [commands.service]
+maintenace.state = "Set maintenace mode to: <state>"
 maintenance.allow = "You <sec>allowed</sec> the user <target><reset> to join while in maintenance mode."
 maintenance.allow.already = "The user <target><reset> is already on the allowlist."
 maintenance.disallow = "You <red>removed</red> the user <target><reset> from the maintenace allowlist."
@@ -193,6 +194,8 @@ Showing the status of the maintenance:
 <br> ● Maintenance Status: <status><reset>
 <br> ● Maintenance Allowed Users: <list>
 """
+maintenance.message.set = "Set maintenace message to: <message>"
+maintenance.message.unset = "Unset maintenace message"
 
 [moderation]
 warned = "<pri><target><reset> was warnt for <sec><reason><reset> and is now for <red><days_banned><reset> days banned."

@@ -183,6 +183,7 @@ nick.unnicked = "Du bist nicht genickt."
 uuid = "Deine UUID ist: <hover:show_text:'Rechtsklick zum kopieren'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
 
 [commands.service]
+maintenance.state = "Wartungen auf <state><reset> gesetzt."
 maintenance.allow = "Du hast dem Benutzer <target><reset> <sec>erlaubt</sec>, während des Wartungsmodus beizutreten."
 maintenance.allow.already = "Der Benutzer <target><reset> ist bereits auf der Erlaubnisliste."
 maintenance.disallow = "Du hast den Benutzer <target><reset> von der Wartungs-Erlaubnisliste <red>entfernt</red>."
@@ -192,6 +193,8 @@ Anzeige des Wartungsstatus:
 <br> ● Wartungsstatus: <status><reset>
 <br> ● Zugelassene Benutzer im Wartungsmodus: <list>
 """
+maintenance.message.set = "Wartungsnachricht (MOTD) gesetzt auf: <message>"
+maintenance.message.unset = "Wartungsnachricht (MOTD) zurückgesetzt."
 
 # Moderation Stuff
 
