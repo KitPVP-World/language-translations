@@ -35,6 +35,12 @@ title = "Map Selection"
 
 [gui.quickQueue]
 title = "Warteschlangen"
+status = """
+<sec>Spielend<dark_gray>: <sec><playing><br>
+<pri>Wartend<dark_gray>: <pri><queuing><br>
+<br>
+<gray>Click to play!
+"""
 
 [gui.botSelection]
 title = "Bot Auswahl"

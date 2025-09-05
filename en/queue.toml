@@ -35,6 +35,12 @@ title = "Map Selection"
 
 [gui.quickQueue]
 title = "Queues"
+status = """
+<sec>Playing<dark_gray>: <sec><playing><br>
+<pri>Queuing<dark_gray>: <pri><queuing><br>
+<br>
+<gray>Click to play!
+"""
 
 [gui.botSelection]
 title = "Select Bot"
@@ -54,11 +60,14 @@ join = "You have entered the <pri><queue><reset>."
 leave = "You left the <pri><queue><reset>."
 matchFound = "A match was found."
 inNone = "You weren't in any queue."
-block = "This account has been blocked and can only play unranked. Just play on your Main Account. If you think this is a bug, open a ticket on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>."
 noGameServer = "Trying to start the game failed: There are no game servers available. Please try again later."
 noArenaFound = "You have disabled too many arenas and we could not find an arena for this match. Please, enable arenas for <kit><reset> again."
 disablingArenasNotice = "Disabling arenas can cause slower queue waiting times or not finding any games."
 atLeastOneArenaEnabled = "You must keep at least one arena active."
+
+[queue.block]
+newAccount = "Your account is too new. Wait <pri><minutes_remaining> minutes</pri> to play ranked."
+alt = "This account has been blocked and can only play unranked. Just play on your Main Account. If you think this is a bug, open a ticket on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>."
 
 [commands.queue.arena_settings]
 set = "<value:'<sec>Enabled</sec>':'<red>Disabled</red>'> arena <pri><arena></pri> for the kit <kit>."
