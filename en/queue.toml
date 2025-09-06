@@ -67,9 +67,10 @@ atLeastOneArenaEnabled = "You must keep at least one arena active."
 
 [queue.block]
 newAccount = "Your account is too new. Wait <pri><minutes_remaining> minutes</pri> to play ranked."
-alt = "This account has been blocked and can only play unranked. Just play on your Main Account. If you think this is a bug, open a ticket on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>."
-ban = "You were banned from the ranked queue for <duration><reset>. Therefore, you can only play ranked."
-ban.permanent = "You were <red>›PERMANENTLY‹</red> banned from the ranked queue. Therefore, you can only play ranked."
+alt = "This account has been blocked and can only play unranked. Just play on your Main Account, <main_account>. If you think this is a bug, open a ticket on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>."
+ban = "You were banned from the ranked queue for <duration><reset>. Therefore, you can only play unranked."
+ban.permanent = "You were <red>›PERMANENTLY‹</red> banned from the ranked queue. Therefore, you can only play unranked."
+ban.season = "You were banned from the ranked queue for this season. Therefore, you can only play unranked."
 time = "Ranked is from 3 AM to 7 AM <bold>disabled</bold>. It's <time>."
 
 [commands.queue.arena_settings]
