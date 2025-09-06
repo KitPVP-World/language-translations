@@ -61,7 +61,7 @@ leave = "You left the <pri><queue><reset>."
 matchFound = "A match was found."
 inNone = "You weren't in any queue."
 noGameServer = "Trying to start the game failed: There are no game servers available. Please try again later."
-noArenaFound = "You have disabled too many arenas and we could not find an arena for this match. Please, enable arenas for <kit><reset> again."
+noArenaFound = "You have disabled too many arenas, and we could not find an arena for this match. Please, enable arenas for <kit><reset> again."
 disablingArenasNotice = "Disabling arenas can cause slower queue waiting times or not finding any games."
 atLeastOneArenaEnabled = "You must keep at least one arena active."
 
@@ -70,7 +70,7 @@ newAccount = "Your account is too new. Wait <pri><minutes_remaining> minutes</pr
 alt = "This account has been blocked and can only play unranked. Just play on your Main Account. If you think this is a bug, open a ticket on <click:open_url:'https://discord.gg/JEYwEcRHnw'><color:#5865f2>our Discord</color></click>."
 ban = "You were banned from the ranked queue for <duration><reset>. Therefore, you can only play ranked."
 ban.permanent = "You were <red>›PERMANENTLY‹</red> banned from the ranked queue. Therefore, you can only play ranked."
-time = "Ranked is from 3 AM to 7 AM <bold>disabled</bold>."
+time = "Ranked is from 3 AM to 7 AM <bold>disabled</bold>. It's <time>."
 
 [commands.queue.arena_settings]
 set = "<value:'<sec>Enabled</sec>':'<red>Disabled</red>'> arena <pri><arena></pri> for the kit <kit>."

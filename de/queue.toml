@@ -60,7 +60,7 @@ join = "Du hast die <pri><queue><reset> betreten."
 leave = "Du hast die <pri><queue><reset> verlassen."
 matchFound = "Ein Match wurde gefunden."
 inNone = "Du warst in keiner Queue."
-noGameServer = "Das Starten des Spiels ist fehlgeschlagen. Es wurden keine verfügbaren Game Server gefunden. Bitte versuche es später erneut."
+noGameServer = "Das Starten des Spiels ist fehlgeschlagen. Es wurden keine verfügbaren Spieleserver gefunden. Bitte versuche es später erneut."
 noArenaFound = "Du hast zu viele Arenen deaktiviert und wir konnten keine für dieses Spiel finden. Bitte, aktiviere Arenen für <kit><reset> wieder."
 disablingArenasNotice = "Die Deaktivierung von Arenen kann dazu führen, dass du verlängert auf Spiele warten musst oder keine Spiele gefunden werden."
 atLeastOneArenaActive = "Du musst mindestens eine Arena aktiviert lassen."
@@ -70,7 +70,7 @@ newAccount = "Dein Account ist zu neu. Bitte warte <pri><minutes_remaining> Minu
 alt = "Dieser Account wurde blockiert und kann nur noch Unranked spielen. Spiel auf deinem Main Account. Falls du denkst, dass dies ein Fehler ist, öffne ein Ticket auf <click:open_url:'https://discord.gg/Pk4CJ6dwHA'><color:#5865f2>unserem Discord</color></click>."
 ban = "Du wurdest für <duration><reset> von Ranked blockiert und kannst nur noch Unranked spielen."
 ban.permanent = "Du wurdest <red>›PERMANENT‹</red> von Ranked blockiert und kannst nur noch Unranked spielen."
-time = "Ranked ist von 3 bis 7 Uhr deaktiviert."
+time = "Ranked ist von 3 bis 7 Uhr deaktiviert. Aktuell ist es <time>."
 
 [commands.queue.arena_settings]
 set = "Arena <pri><arena></pri> wurde für das Kit <kit> <value:'<sec>aktiviert</sec>':'<red>deaktiviert</red>'>."
