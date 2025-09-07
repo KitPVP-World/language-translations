@@ -72,6 +72,7 @@ ban = "Du wurdest für <duration><reset> von Ranked blockiert und kannst nur noc
 ban.permanent = "Du wurdest <red>›PERMANENT‹</red> von Ranked blockiert und kannst nur noch Unranked spielen."
 ban.season = "Du wurdest für diese Season aus der Ranked Queue gebannt und kannst nur noch Unranked spielen."
 time = "Ranked ist von 3 bis 7 Uhr deaktiviert. Aktuell ist es <time>."
+error = "Laden der Ranked Warteschlage fehlgeschlagen. Versuche dich mit dem Server neuzuverbinden und melde es dem Support."
 
 [commands.queue.arena_settings]
 set = "Arena <pri><arena></pri> wurde für das Kit <kit> <value:'<sec>aktiviert</sec>':'<red>deaktiviert</red>'>."
