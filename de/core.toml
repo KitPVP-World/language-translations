@@ -57,7 +57,6 @@ title = "Kaufen"
 remainingCoins = "Coins danach übrig: "
 missingCoins = "Coins fehlend:"
 
-
 # Generic Things
 [generic]
 back = "Zurück"
@@ -102,11 +101,8 @@ stopping.secondsFormat = "Das Spiel stoppt in <pri><seconds_left>s<reset>."
 # Commands
 
 [commands]
-coins.self.singular = "Du hast gerade <gold>ein Coin<reset>."
-coins.self.plural = "Du hast gerade <gold><coins> Coins<reset>."
-
-coins.other.singular = "<pri><target><reset> hat gerade <gold>ein Coin."
-coins.other.plural = "<pri><target><reset> hat gerade <gold><coins> Coins."
+coins.self = "Du hast gerade <gold><coinsc:'0#keine Coins|1#ein Coin|1<<coins> Coins'><reset>."
+coins.other = "<pri><target><reset> hat gerade <gold><coinsc:'0#keine Coins|1#ein Coin|1<<coins> Coins'>."
 
 xp = """
   <br><yellow>Level Statistiken von <gold><bold><name><reset>
@@ -154,8 +150,7 @@ add.infinite = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefüg
 add.limited = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt bis <sec><duration><reset>."
 remove = "Der Rang <rank><reset> wurde <pri><target><reset> entfernt."
 
-singular = "Dein Rang <rank><reset> ist noch für 1 Tag aktiv."
-plural = "Dein Rang <rank><reset> ist noch für <days> Tage aktiv."
+duration = "Dein Rang <rank><reset> ist noch für <daysc:'0#weniger als ein Tag|ein Tag|1<<days> Tage'> aktiv."
 infinite = "Dein Rang <rank><reset> ist unbegrenzt aktiv."
 none = "Du besitzt keinen Rang."
 

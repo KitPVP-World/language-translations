@@ -98,11 +98,8 @@ stopping.secondsFormat = "The game stops in <pri><seconds_left>s<reset>."
 # Commands
 
 [commands]
-coins.self.singular = "You currently have <gold>one Coin<reset>."
-coins.self.plural = "You currently have <gold><coins> Coins<reset>."
-
-coins.other.singular = "<pri><target><reset> currently has <gold>one Coin"
-coins.other.plural = "<pri><target><reset> currently has <gold><coins> Coins"
+coins.self = "You have <gold><coinsc:'0#no coins|1#one coin|1<<coins> coins'>."
+coins.other = "<pri><target><reset> has <gold><coinsc:'0#no coins|1#one coin|1<<coins> coins'>."
 
 xp.self = "You have <pri><xp><reset> XP and are therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
 xp.other = "<target><reset> has <pri><xp><reset> XP and is therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
@@ -155,8 +152,7 @@ add.infinite = "Added the rank <rank><reset> to <pri><target><reset> <sec>indefi
 add.limited = "Added the rank <rank><reset> to <pri><target><reset> to till <sec><duration><reset>."
 remove = "Removed the rank <sec><rank><reset> of <pri><target><reset>."
 
-singular = "Your rank <rank><reset> is active for 1 day."
-plural = "Your rank <rank><reset> is active for <days> days."
+duration = "Your rank <rank><reset> is active for <daysc:'0#less than a day|one day|1<<days> days'>."
 infinite = "Your rank <rank><reset> does not have a limit."
 none = "You don't own any rank."
 
