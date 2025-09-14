@@ -67,6 +67,7 @@ error.target.unknown = "Dieser Spieler ist uns nicht bekannt."
 error.rank.unknown = "Dieser Rang existiert nicht."
 error.kit.unknown = "Kit wurde nicht gefunden."
 error.arena.unknown = "Arena <arena><reset> ist nicht bekannt."
+error.command = "Die Command Ausführung von '<command>' ist unerwartet fehlgeschlagen. Bitte melde diesen Fehler dem Support.<admin>"
 
 next = "Seite vor"
 previous = "Seite zurück"
@@ -101,8 +102,8 @@ stopping.secondsFormat = "Das Spiel stoppt in <pri><seconds_left>s<reset>."
 # Commands
 
 [commands]
-coins.self = "Du hast gerade <gold><coinsc:'0#keine Coins|1#ein Coin|1<<coins> Coins'><reset>."
-coins.other = "<pri><target><reset> hat gerade <gold><coinsc:'0#keine Coins|1#ein Coin|1<<coins> Coins'>."
+coins.self = "Du hast gerade <gold><coinsc:'0#keine Coins|1#ein Coin|1<%s Coins'><reset>."
+coins.other = "<pri><target><reset> hat gerade <gold><coinsc:'0#keine Coins|1#ein Coin|1<%s Coins'>."
 
 xp = """
   <br><yellow>Level Statistiken von <gold><bold><name><reset>
@@ -150,7 +151,7 @@ add.infinite = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefüg
 add.limited = "Der Rang <rank><reset> wurde zu <pri><target><reset> hinzugefügt bis <sec><duration><reset>."
 remove = "Der Rang <rank><reset> wurde <pri><target><reset> entfernt."
 
-duration = "Dein Rang <rank><reset> ist noch für <daysc:'0#weniger als ein Tag|ein Tag|1<<days> Tage'> aktiv."
+duration = "Dein Rang <rank><reset> ist noch für <daysc:'0#weniger als ein Tag|ein Tag|1<%s Tage'> aktiv."
 infinite = "Dein Rang <rank><reset> ist unbegrenzt aktiv."
 none = "Du besitzt keinen Rang."
 

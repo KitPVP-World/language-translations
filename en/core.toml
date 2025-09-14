@@ -67,6 +67,7 @@ error.target.unknown = "This player is unknown."
 error.rank.unknown = "This rank does not exist."
 error.kit.unknown = "Kit was not found."
 error.arena.unknown = "Arena <arena><reset> was not found."
+error.command = "Command execution of '<command>' failed unexpectedly. Please, report this issue to our support.<admin>"
 
 next = "Next Page"
 previous = "Previous Page"
@@ -86,7 +87,6 @@ days = "%s days ago"
 months = "%s months ago"
 
 # Chat
-[chat]
 message.tooSimilar = "This message is too similar to your last one."
 message.spam = "You are sending messages too quickly."
 
@@ -98,8 +98,8 @@ stopping.secondsFormat = "The game stops in <pri><seconds_left>s<reset>."
 # Commands
 
 [commands]
-coins.self = "You have <gold><coinsc:'0#no coins|1#one coin|1<<coins> coins'>."
-coins.other = "<pri><target><reset> has <gold><coinsc:'0#no coins|1#one coin|1<<coins> coins'>."
+coins.self = "You have <gold><coinsc:'0#no coins|1#one coin|1<%s coins'>."
+coins.other = "<pri><target><reset> has <gold><coinsc:'0#no coins|1#one coin|1<%s coins'>."
 
 xp.self = "You have <pri><xp><reset> XP and are therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
 xp.other = "<target><reset> has <pri><xp><reset> XP and is therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
@@ -152,7 +152,7 @@ add.infinite = "Added the rank <rank><reset> to <pri><target><reset> <sec>indefi
 add.limited = "Added the rank <rank><reset> to <pri><target><reset> to till <sec><duration><reset>."
 remove = "Removed the rank <sec><rank><reset> of <pri><target><reset>."
 
-duration = "Your rank <rank><reset> is active for <daysc:'0#less than a day|one day|1<<days> days'>."
+duration = "Your rank <rank><reset> is active for <daysc:'0#less than a day|one day|1<%s days'>."
 infinite = "Your rank <rank><reset> does not have a limit."
 none = "You don't own any rank."
 
