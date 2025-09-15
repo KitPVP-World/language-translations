@@ -120,7 +120,7 @@ flight.lore="""
 """
 
 [cosmetics.balloons]
-ultra="<red>Ultra Balln"
+ultra = "<red>Ultra Ballon"
 grand_champ="<aqua>Grand Champ Ballon"
 champ="<gold>Champ Ballon"
 orange="Orange Ballon"
