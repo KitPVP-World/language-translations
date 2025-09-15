@@ -1,3 +1,7 @@
+[commands.cosmetics]
+gift.unknown = "Unable to gift unknown cosmetic: <cosmetic>"
+gift = "Gifted <pri><target><reset> the cosmetic <sec><cosmetic>"
+
 [gui.cosmetics]
 title = "Cosmetics"
 armor.equip.all = "<red>Equip All"
