@@ -115,7 +115,7 @@ double_jump.lore="""
 """
 flight = "Fliegen"
 flight.lore="""
-<gray>Freigeschaltet mit dem <red>Ultra Rang</gold><br>
+<gray>Freigeschaltet mit dem <red>Ultra Rang</red><br>
 <gray>erhaltbar auf <gold>store.kitpvp.world<gray>.
 """
 
