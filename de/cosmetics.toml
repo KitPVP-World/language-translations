@@ -87,6 +87,9 @@ champ="<gold>Champ Join Partikel"
 
 [cosmetics.kill_particles]
 
+[cosmetics.gadgets]
+grappling_hook = "Enterhaken"
+
 [cosmetics.armor]
 ultra = "<red>Ultra Rüstungsset"
 grand_champ = "<aqua>Grand Champ Rüstungsset"
