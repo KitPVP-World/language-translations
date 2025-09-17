@@ -2,6 +2,20 @@
 gift.unknown = "Unable to gift unknown cosmetic: <cosmetic>"
 gift = "Gifted <pri><target><reset> the cosmetic <sec><cosmetic>"
 
+[commands.boosters]
+query.xp = "<#00FF7F>XP Booster"
+query.coins = "<gold>Coin Booster"
+query = """
+<reset>Zeige deine <bold><query_title></bold> Informationen<br>
+<reset>Verfügbare Booster:<br>
+<available_boosters><br>
+<br>
+<reset>Aktivierte Booster:<br>
+<active_boosters><br>
+<br>
+<#00FA9A><reset><bold>»</bold> <sec>+<total_boost>%%</sec> beim Verdienen
+"""
+
 [gui.cosmetics]
 title = "Cosmetics"
 armor.equip.all = "<red>Alles anziehen"
@@ -139,7 +153,7 @@ green="Green Ballon"
 light_blue="Light Blue Ballon"
 
 [gui.boosters]
-use = "<type><reset> benutzt, du wirst nun <multiplier><reset> mehr <unit_type> für <duration><reset> bekommen."
+use = "<type><reset> benutzt, du wirst nun <rarity_color><multiplier>%%<reset> mehr <unit_type> für <duration><reset> bekommen."
 use.active = "Du hast bereits einen <type><reset> aktiv."
 use.fail = "Benutzung des Boosters ist fehlgeschlagen. Wurde dieser Booster bereits benutzt?"
 item.lore = """
