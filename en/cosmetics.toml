@@ -2,6 +2,20 @@
 gift.unknown = "Unable to gift unknown cosmetic: <cosmetic>"
 gift = "Gifted <pri><target><reset> the cosmetic <sec><cosmetic>"
 
+[commands.boosters]
+query.xp = "<#00FF7F>XP Boosters"
+query.coins = "<gold>Coin Boosters"
+query = """
+<reset>Showing your <bold><query_title></bold><br>
+<reset>Available boosters:<br>
+<available_boosters><br>
+<br>
+<reset>Active boosters:<br>
+<active_boosters><br>
+<br>
+<#00FA9A><reset><bold>»</bold> <sec>+<total_boost>%%</sec> when gaining
+"""
+
 [gui.cosmetics]
 title = "Cosmetics"
 armor.equip.all = "<red>Equip All"
