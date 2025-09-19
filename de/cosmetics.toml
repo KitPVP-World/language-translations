@@ -15,6 +15,10 @@ query = """
 <br>
 <#00FA9A><reset><bold>»</bold> <sec>+<total_boost>%%</sec> beim Verdienen
 """
+query.noActive = "Keine Booster aktiv."
+query.noAvailable = "<click:open_url:'https://store.kitpvp.world'><br>Du besitzt keine Booster.<br>Besuche <pri><bold>store.kitpvp.world</bold></pri>,<br>um mehr Booster zu kaufen.</click>"
+use.unavailable = "Es sind keine Booster mehr verfügbar."
+use.confirm = "<click:run_command:'%s'>Bitte bestätige, dass du den Booster <booster> aktivieren möchtest [<sec><bold>AKTIVIEREN</sec>]</click>"
 
 [gui.cosmetics]
 title = "Cosmetics"

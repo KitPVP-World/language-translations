@@ -15,6 +15,10 @@ query = """
 <br>
 <#00FA9A><reset><bold>»</bold> <sec>+<total_boost>%%</sec> when gaining
 """
+query.noActive = "No boosters active."
+query.noAvailable = "<click:open_url:'https://store.kitpvp.world'>You do not own any boosters.<br>Visit <pri><bold>store.kitpvp.world</bold></pri> to purchase more.</click>"
+use.unavailable = "There are no more boosters available."
+use.confirm = "<click:run_command:'%s'>Please confirm that you would like to use the booster <booster> [<sec><bold>ACTIVATE</sec>]</click>"
 
 [gui.cosmetics]
 title = "Cosmetics"
@@ -154,7 +158,7 @@ green="Green Balloon"
 light_blue="Light Blue Balloon"
 
 [gui.boosters]
-use = "Used <type><reset>, you will now gain <multiplier><reset> more <unit_type> for <duration><reset>."
+use = "Used <type><reset>, you will now gain <rarity_color><multiplier>%%<reset> more <unit_type> for <duration><reset>."
 use.active = "You already have an <type><reset> active."
 use.fail = "Failed to use the booster. Is it already used?"
 item.lore = """
