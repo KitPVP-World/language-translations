@@ -52,10 +52,13 @@ untranslated.book = """
 [gui.kitView]
 title = "Kit Übersicht"
 
-[core.gui.buy]
-title = "Kaufen"
-remainingCoins = "Coins danach übrig: "
+[gui.core.buy]
+title = "<gray>Kaufen<dark_gray>: <item>"
+remainingCoins = "<sec>Coins danach übrig<dark_gray>:"
 missingCoins = "Coins fehlend:"
+purchased = "Du hast das Item <item><reset> für <gold><coins><reset> Coins <sec>gekauft</sec>. Dir verbleiben noch <gold><coins_remaining><reset> Coins."
+error.missingCoins = "Du kannst dir das Item <item><reset> nicht leisten. Dir fehlen noch <gold><coins><reset> Coins."
+error = "Kaufbereitstellung von <item><reset> fehlgeschlagen. Bitte melde diesen Fehler dem Support. <dark_gray>[<yellow><clock><dark_gray>]"
 
 # Generic Things
 [generic]
@@ -85,9 +88,6 @@ minutes = "Vor %s min"
 hours = "Vor %s h"
 days = "Vor %s d"
 months = "Vor %s m"
-
-
-# Profile
 
 # Chat
 [chat]

@@ -38,7 +38,7 @@ sponsor = """
 title = "Change language"
 untranslated.name = "<gray>Didn't find your language?"
 untranslated.lore = """
-  <green>Help us<gray>, translate the network"
+  <green>Help us<gray>, translate the network
   <br><gray>into your language.
 """
 untranslated.book = """
@@ -52,10 +52,13 @@ untranslated.book = """
 [gui.kitView]
 title = "View Kit"
 
-[core.gui.buy]
-title = "Buy"
-remainingCoins = "Coins afterwards: "
+[gui.core.buy]
+title = "<gray>Buy<dark_gray>: <item>"
+remainingCoins = "<sec>Coins afterward<dark_gray>: "
 missingCoins = "Coins missing:"
+purchased = "You have <sec>purchased</sec> the item <item><reset> for <yellow><coins><reset>, and have <gold><coins_remaining><reset> coins remaining."
+error.missingCoins = "You cannot afford the item <item><reset>. You are missing <gold><coins><reset> coins."
+error = "Failed to complete purchase of the item <item><reset>. Please, report this to our support. <dark_gray>[<yellow><clock><dark_gray>]"
 
 # Generic Things
 [generic]
@@ -87,6 +90,7 @@ days = "%s days ago"
 months = "%s months ago"
 
 # Chat
+[chat]
 message.tooSimilar = "This message is too similar to your last one."
 message.spam = "You are sending messages too quickly."
 
