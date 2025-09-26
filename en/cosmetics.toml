@@ -28,6 +28,33 @@ armor.overview = "Armorset Overview"
 
 remove = "Remove equipped cosmetic"
 
+purchase_lore = """
+<gray>Buyable in the <gold>cosmetics store</gold><br>
+<gray>Price<dark_gray>: <gold><price><gray>
+"""
+unlocked_with_rank = """
+<gray>Unlocked with the <rank_color><rank> rank</rank_color><br>
+<gray>obtainable on <gold>store.kitpvp.world<gray>.
+"""
+upgradable_armor = """
+<gray>Buyable in the <gold>cosmetics store</gold><br>
+<gray>By upgrading your armor<gray>
+"""
+
+[gui.cosmetics.armorUpgrade]
+title = "Upgrade Armor"
+upgradeTo = "<gold>Upgrade To <level>"
+upgradeTo.lore = """
+<gray>Price<dark_gray>: <gold><price>
+"""
+fully = "<sec>Fully Upgraded!"
+
+level.chain = "Chain"
+level.gold = "Gold"
+level.iron = "Iron"
+level.diamond = "Diamond"
+level.netherite = "Netherite"
+
 [cosmetics.category]
 ranks = "<red>Rank Cosmetics"
 hats="<aqua>Hats"
@@ -49,7 +76,9 @@ common = "Common"
 rare = "Rare"
 epic = "Epic"
 legendary = "Legendary"
-rank = "Rank"
+rank_champ = "Champ Rank"
+rank_grand_champ = "Grand Champ Rank"
+rank_ultra = "Ultra Rank"
 
 [cosmetics.hats]
 astronaut="Astronaut Hat"
@@ -94,8 +123,8 @@ champ="<gold>Champ Trail"
 hearts="Hearts Trail"
 cherry_blossom="Cherry Blossom Trail"
 cherry_blossom.lore="""
-    <color:#00FF7F>Free<br>
-    <gray>on <gold>store.kitpvp.world<gray>.
+<color:#00FF7F>Included<br>
+<gray>on <gold>store.kitpvp.world<gray>.
 """
 
 [cosmetics.join_particles]
@@ -130,15 +159,7 @@ slow_falling="Slow Falling"
 
 [cosmetics.abilities]
 double_jump="Double Jump"
-double_jump.lore="""
-<gray>Unlocked with the <gold>Champ rank</gold><br>
-<gray>obtainable on <gold>store.kitpvp.world<gray>.
-"""
 flight = "Flight"
-flight.lore="""
-<gray>Unlocked with the <red>Ultra rank</red><br>
-<gray>obtainable on <gold>store.kitpvp.world<gray>.
-"""
 
 
 [cosmetics.balloons]

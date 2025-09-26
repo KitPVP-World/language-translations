@@ -28,6 +28,34 @@ armor.overview = "Rüstungsset Übersicht"
 
 remove = "Cosmetic ausziehen"
 
+purchase_lore = """
+<gray>Kaufbar im <gold>Cosmetics Shop</gold><br>
+<gray>Preis<dark_gray>: <gold><price><gray>
+"""
+unlocked_with_rank = """
+<gray>Freigeschaltet mit dem <rank_color><rank> Rang</rank_color><br>
+<gray>erhaltbar auf <gold>store.kitpvp.world<gray>.
+"""
+upgradable_armor = """
+<gray>Kaufbar im <gold>Cosmetics Shop</gold><br>
+<gray>Durch Aufwerten der Rüstung<gray>
+"""
+
+[gui.cosmetics.armorUpgrade]
+title = "Armor Aufwerten"
+upgradeTo = "<gold>Aufwerten auf <level>"
+upgradeTo.lore = """
+<gray>Price<dark_gray>: <gold><price>
+"""
+fully = "<sec>Fully Upgraded!"
+
+level.chain = "Kette"
+level.gold = "Gold"
+level.iron = "Eisen"
+level.diamond = "Diamant"
+level.netherite = "Netherite"
+
+
 [cosmetics.category]
 ranks = "<red>Rang Cosmetics"
 hats="<aqua>Köpfe"
@@ -49,7 +77,9 @@ common = "Üblich"
 rare = "Selten"
 epic = "Episch"
 legendary = "Legendär"
-rank = "Rang"
+rank_champ = "Champ Rang"
+rank_grand_champ = "Grand Champ Rang"
+rank_ultra = "Ultra Rang"
 
 [cosmetics.hats]
 astronaut="Astronaut Hat"
@@ -94,7 +124,7 @@ champ="<gold>Champ Spur"
 hearts="Herzen Spur"
 cherry_blossom="Kirschblüten Spur"
 cherry_blossom.lore="""
-    <color:#00FF7F>Free<br>
+    <color:#00FF7F>Mit Dabei<br>
     <gray>auf <gold>store.kitpvp.world<gray>.
 """
 
@@ -130,15 +160,7 @@ slow_falling="Langsamer Fall"
 
 [cosmetics.abilities]
 double_jump="Doppelsprung"
-double_jump.lore="""
-<gray>Freigeschaltet mit dem <gold>Champ Rang</gold><br>
-<gray>erhaltbar auf <gold>store.kitpvp.world<gray>.
-"""
 flight = "Fliegen"
-flight.lore="""
-<gray>Freigeschaltet mit dem <red>Ultra Rang</red><br>
-<gray>erhaltbar auf <gold>store.kitpvp.world<gray>.
-"""
 
 [cosmetics.balloons]
 ultra = "<red>Ultra Ballon"
