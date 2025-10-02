@@ -47,7 +47,7 @@ smp.potions_remaining = "Overall Potions remaining"
 
 [win]
 elo = "<winner> <reset><is_solo_game:has:have> defeated <red><loser> <reset>in Kit <kit><reset>."
-single = "In an epic battle against life and death, <pri><name> <reset> won."
+single = "In an epic battle against life and death, <pri><name><reset> won."
 
 [features]
 inventory = "<aqua>Inventory"
