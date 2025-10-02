@@ -62,7 +62,7 @@ error = "Failed to complete purchase of the item <item><reset>. Please, report t
 
 # Generic Things
 [generic]
-back = "Back"
+back = "<red>Back"
 error.clickitem = "An error occurred. Try again or contact support."
 error = "An error occurred."
 error.target.offline = "This player is not online."

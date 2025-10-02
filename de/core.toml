@@ -62,7 +62,7 @@ error = "Kaufbereitstellung von <item><reset> fehlgeschlagen. Bitte melde diesen
 
 # Generic Things
 [generic]
-back = "Zurück"
+back = "<red>Zurück"
 error.clickitem = "Während du dieses Item geklickt hast, ist ein Fehler aufgetreten. Versuche es erneut oder kontaktiere den Support."
 error = "Ein Fehler ist aufgetreten."
 error.target.offline = "Dieser Spieler ist nicht online."
