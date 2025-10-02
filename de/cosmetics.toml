@@ -137,6 +137,8 @@ champ="<gold>Champ Join Partikel"
 
 [cosmetics.gadgets]
 grappling_hook = "Enterhaken"
+enderman_mount = "Teleportieren"
+enderman_mount.max = "Du kannst dich maximal <underlined>20 Blöcke</underlined> weit teleportieren."
 
 [cosmetics.armor]
 ultra = "<red>Ultra Rüstungsset"
