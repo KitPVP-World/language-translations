@@ -56,8 +56,9 @@ range = "<gray>Range<dark_gray>: <gray><range>"
 endless = "<aqua>Endless"
 
 [queue]
-join = "You have entered the <pri><queue><reset>."
-leave = "You left the <pri><queue><reset>."
+join = "You have <sec>entered</sec> the <pri><queue><reset>."
+leave = "You <red>left</red> the <pri><queue><reset>."
+already = "You are already in the <pri><queue><reset> queue."
 matchFound = "A match was found."
 inNone = "You weren't in any queue."
 noGameServer = "Trying to start the game failed: There are no game servers available. Please try again later."
