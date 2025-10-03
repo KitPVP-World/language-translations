@@ -26,6 +26,7 @@ win.firstTo.end = """
 """
 # We have to use %s here to use the targets users' MiniMessages
 winstreak = "%s<reset> reached a <#00FF7F><bold><winstreak></bold>x winstreak<reset> in <kit><reset>."
+winstreak.break = "%s<reset> broke the <#00FF7F><bold><winstreak></bold>x winstreak<reset> by %s<reset> in <kit><reset>."
 
 [kit.record]
 core.health_remaining = "Health remaining"
