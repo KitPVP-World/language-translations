@@ -27,6 +27,9 @@ noRunningGame = "Dieser Spieler ist derzeit in keinem laufendem Spiel."
 [gui.challenge]
 title = "Herausfordern"
 firstTo = "<gray>First To<dark_gray>: <green><rounds>"
+showHealth_true = "<gray>Show Health<dark_gray>: <sec>Enabled"
+showHealth_false = "<gray>Show Health<dark_gray>: <red>Disabled"
+showHealth_not_set = "<gray>Show Health<dark_gray>: <pri>Kit Default"
 custom = "<gray>Eigenes Kit<dark_gray>: <yellow><kit>"
 custom.unselected = "Du hast kein Kit ausgew채hlt!"
 
@@ -65,7 +68,7 @@ noGameServer = "Das Starten des Spiels ist fehlgeschlagen. Es wurden keine verf�
 noArenaFound = "Du hast zu viele Arenen deaktiviert und wir konnten keine f체r dieses Spiel finden. Bitte, aktiviere Arenen f체r <kit><reset> wieder."
 disablingArenasNotice = "Die Deaktivierung von Arenen kann dazu f체hren, dass du verl채ngert auf Spiele warten musst oder keine Spiele gefunden werden."
 atLeastOneArenaActive = "Du musst mindestens eine Arena aktiviert lassen."
-unavailableUser = "<username><reset> ist nicht verf체gbar."
+userUnavailable = "<username><reset> ist nicht verf체gbar."
 
 [queue.block]
 newAccount = "Dein Account ist zu neu. Bitte spiele noch <pri><games_remaining> Unranked Spiele</pri>, um Ranked zu spielen."

@@ -27,6 +27,9 @@ noRunningGame = "This player is currently not playing."
 [gui.challenge]
 title = "Challenge"
 firstTo = "<gray>First To<dark_gray>: <green><rounds>"
+showHealth_true = "<gray>Show Health<dark_gray>: <sec>Enabled"
+showHealth_false = "<gray>Show Health<dark_gray>: <red>Disabled"
+showHealth_not_set = "<gray>Show Health<dark_gray>: <pri>Kit Default"
 custom = "<gray>Custom Kit<dark_gray>: <yellow><kit>"
 custom.unselected = "You do not have a kit selected!"
 
@@ -65,7 +68,7 @@ noGameServer = "Trying to start the game failed: There are no game servers avail
 noArenaFound = "You have disabled too many arenas, and we could not find an arena for this match. Please, enable arenas for <kit><reset> again."
 disablingArenasNotice = "Disabling arenas can cause slower queue waiting times or not finding any games."
 atLeastOneArenaEnabled = "You must keep at least one arena active."
-unavailableUser = "<username><reset> is unavailable."
+userUnavailable = "<username><reset> is unavailable."
 
 [queue.block]
 newAccount = "Your account is too new. Play <pri><games_remaining> more unranked games</pri> to play ranked."

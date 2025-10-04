@@ -25,6 +25,7 @@ win.firstTo.end = """
 <br><aqua><self_points><dark_gray> - <red><opponent_points>
 """
 winstreak = "%s<reset> hat eine <#00FF7F><bold><winstreak></bold>er Winstreak<reset> in <kit><reset> erreicht."
+winstreak.break = "%s<reset> hat die <#00FF7F><bold><winstreak></bold>er Winstreak<reset> von %s<reset> in <kit><reset> gebrochen."
 
 [kit.record]
 core.health_remaining = "Herzen verbleibend"
