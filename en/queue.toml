@@ -27,6 +27,9 @@ noRunningGame = "This player is currently not playing."
 [gui.challenge]
 title = "Challenge"
 firstTo = "<gray>First To<dark_gray>: <green><rounds>"
+showHealth_true = "<gray>Show Health<dark_gray>: <sec>Enabled"
+showHealth_false = "<gray>Show Health<dark_gray>: <red>Disabled"
+showHealth_not_set = "<gray>Show Health<dark_gray>: <pri>Kit Default"
 custom = "<gray>Custom Kit<dark_gray>: <yellow><kit>"
 custom.unselected = "You do not have a kit selected!"
 

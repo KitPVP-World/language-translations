@@ -27,6 +27,9 @@ noRunningGame = "Dieser Spieler ist derzeit in keinem laufendem Spiel."
 [gui.challenge]
 title = "Herausfordern"
 firstTo = "<gray>First To<dark_gray>: <green><rounds>"
+showHealth_true = "<gray>Show Health<dark_gray>: <sec>Enabled"
+showHealth_false = "<gray>Show Health<dark_gray>: <red>Disabled"
+showHealth_not_set = "<gray>Show Health<dark_gray>: <pri>Kit Default"
 custom = "<gray>Eigenes Kit<dark_gray>: <yellow><kit>"
 custom.unselected = "Du hast kein Kit ausgewählt!"
 
