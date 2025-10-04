@@ -65,7 +65,7 @@ noGameServer = "Trying to start the game failed: There are no game servers avail
 noArenaFound = "You have disabled too many arenas, and we could not find an arena for this match. Please, enable arenas for <kit><reset> again."
 disablingArenasNotice = "Disabling arenas can cause slower queue waiting times or not finding any games."
 atLeastOneArenaEnabled = "You must keep at least one arena active."
-unavailableUser = "<username><reset> is unavailable."
+userUnavailable = "<username><reset> is unavailable."
 
 [queue.block]
 newAccount = "Your account is too new. Play <pri><games_remaining> more unranked games</pri> to play ranked."
