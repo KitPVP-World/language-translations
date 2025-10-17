@@ -77,6 +77,7 @@ noArenaFound = "You have disabled too many arenas, and we could not find an aren
 disablingArenasNotice = "Disabling arenas can cause slower queue waiting times or not finding any games."
 atLeastOneArenaEnabled = "You must keep at least one arena active."
 userUnavailable = "<username><reset> is unavailable."
+partyTooBig = "Your party has too many members (<members>/<max_members>). You cannot join the queue."
 
 [queue.block]
 newAccount = "Your account is too new. Play <pri><games_remaining> more unranked games</pri> to play ranked."
