@@ -81,3 +81,69 @@ error = "Loading ranked queue failed. Try rejoining the server and report this i
 
 [commands.queue.arena_settings]
 set = "<value:'<sec>Enabled</sec>':'<red>Disabled</red>'> arena <pri><arena></pri> for the kit <kit>."
+
+[games.party]
+join = "<username><reset> <sec>joined</sec> your party."
+leave = "<username><reset> <red>left</red> your party."
+
+joinMe = """
+Join Me:<br>
+<username><reset> opened their party! [<members>/<max_members>]<br>
+<click:run_command:'/party join %s'><dark_gray>[<sec><bold>Click Here</bold></sec>]</dark_gray> To Join<br>
+"""
+joinMe.notPublic = "Your party is not public. <click:suggest_command:/party open><dark_gray>[<pri><bold>/party open</bold></pri>]</click>"
+joinMe.cooldown = "You must wait <yellow><remaining_minutes> minutes</yellow> before you can create a Join Me again."
+
+memberRoleChanged.leader = "<username><reset> is now the <#ff2e58>party leader</#ff2e58>."
+memberRoleChanged.moderator = "<username><reset> is now a <#8157ff>party moderator</#8157ff>."
+memberRoleChanged.member = "<username><reset> is now <#5ea1ff>party member</#5ea1ff>."
+
+public = "Your party is now <sec>public</sec>."
+private = "Your party is now <yellow>private</yellow>."
+
+disband = "<username><reset> <red>disbanded</red> the party."
+
+invite = "<username><reset> is <sec>invited</sec> to join the party. They have five minutes to accept the invite."
+invite.already = "<username><reset> is already invited to your party."
+invited = """
+<username><reset> invited you to join their party.
+<br><dark_gray><click:run_command:'/party accept %1$s'>[<sec><bold>✔ Accept</bold></sec>]</click> <click:run_command:'/party decline %1$s'>[<red><bold>❌ Decline</bold></red>]</click></dark_gray>
+"""
+
+accept = "<sec>Accepted</sec> the party invite by <party_leader><reset>."
+accept.inGame = """
+You are currently in a game. If you join the party, you can be moved out of the match.<br>
+<br<yellow><confirm_action>[<bold>Accept Risk and Continue</bold>]</confirm_action></yellow>
+"""
+accept.none = "You are not invited to join <party_leader>'s party."
+accept.alreadyInParty = "You are already in another party."
+accept.alreadyInThisParty = "You are already in this party."
+decline = "<red>Declined</rred> the party invite by <party_leader>."
+declined = "<username><reset> declined the party invite."
+
+join.notPublic = "<username><reset> is in no public party."
+
+demote.member = "<username><reset> is already an <#5ea1ff>party member</#5ea1ff>, cannot demote them further!"
+
+spectate = "Joining <#ff2e58>party leader's</#ff2e58> match."
+spectate.notInGame = "The <#ff2e58>party leader</#ff2e58> is not in any match."
+
+duel = "<username><reset> is starting a party duel in <kit><reset> on arena <arena><reset>."
+
+listMembers = "Showing party members (<members_count>/<max_members>): <br><members>"
+
+[games.party.memberRole]
+member = "<#5ea1ff>Party Member</#5ea1ff>"
+moderator = "<#8157ff>Party Moderator</#8157ff>"
+leader = "<#ff2e58>Party Leader</#ff2e58>"
+
+[games.party.error]
+permission.leader = "This action requires you to be the <#ff2e58>party leader</#ff2e58>!"
+permission.moderator = "This action requires you to be a <#8157ff>party moderator</#8157ff>!"
+inNoParty = "You are not a member of any party!"
+chatMessageTooLong = "Your chat message is too long!"
+targetMember = "<username><reset> is not a member of your party!"
+moderateSelf = "Cannot moderate yourself!"
+
+[gui.partyDuel]
+title = "<#5ea1ff>Party Duel"
