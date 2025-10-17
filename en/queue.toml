@@ -36,6 +36,14 @@ custom.unselected = "You do not have a kit selected!"
 [gui.mapSelection]
 title = "Map Selection"
 
+[gui.queueSettings]
+teams.enabled = "<sec>Teams Enabled"
+teams.disabled = "<red>Teams Disabled"
+teams.lore = """
+<gray>Allow matching you with<br>
+<gray>other players to play 2vs2 games
+"""
+
 [gui.quickQueue]
 title = "Queues"
 status = """
