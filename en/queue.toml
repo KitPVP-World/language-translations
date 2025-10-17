@@ -154,6 +154,7 @@ chatMessageTooLong = "Your chat message is too long!"
 targetMember = "<username><reset> is not a member of your party!"
 moderateSelf = "Cannot moderate yourself!"
 duelPartyMember = "Cannot duel <target><reset> because he is in a party and not the <#ff2e58>party leader</#ff2e58>."
+inGame = "This command is not allowed while in a game."
 
 [gui.partyDuel]
 title = "<#5ea1ff>Party Duel"
