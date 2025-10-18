@@ -37,11 +37,23 @@ custom.unselected = "You do not have a kit selected!"
 title = "Map Selection"
 
 [gui.queueSettings]
-teams.enabled = "<sec>Teams Enabled"
-teams.disabled = "<red>Teams Disabled"
-teams.lore = """
-<gray>Allow matching you with<br>
-<gray>other players to play 2vs2 games
+partyMode.only_solo = "<blue>Only Solos"
+partyMode.only_solo.lore = """
+<gray>Only play 1v1 games
+"""
+partyMode.only_party = "<sec>Only Parties"
+partyMode.only_party.lore = """
+<gray>Only play team games and be<br>
+<gray>matched into a team with another solo"""
+partyMode.both = "<sec>Party and Solo"
+partyMode.both.lore = """
+<gray>Play 1v1 or team games, where you are<br>
+<gray>matched into a team with another solo
+"""
+partyMode.locked_party = "<sec>Only Party (Locked)"
+partyMode.locked_party.lore = """
+<gray>You are in a party and therefore<br>
+<gray>can only play against other parties.
 """
 
 [gui.quickQueue]
