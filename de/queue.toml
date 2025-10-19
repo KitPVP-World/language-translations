@@ -36,6 +36,26 @@ custom.unselected = "Du hast kein Kit ausgewählt!"
 [gui.mapSelection]
 title = "Map Selection"
 
+[gui.queueSettings]
+partyMode.only_solo = "<blue>Nur Alleine"
+partyMode.only_solo.lore = """
+<gray>Spiele nur 1v1 Spiele
+"""
+partyMode.only_party = "<sec>Nur Partys"
+partyMode.only_party.lore = """
+<gray>Spiele nur Team Spiele und werde<br>
+<gray>mit anderen Einzelspielern in ein Team gefügt"""
+partyMode.both = "<sec>Party und Alleine"
+partyMode.both.lore = """
+<gray>Spiele 1v1 oder Team Spiele, wo du mit<br>
+<gray>anderen Einzelspielern in ein Team zusammengefügt wirst
+"""
+partyMode.locked_party = "<sec>Nur Partys (Gesperrt)"
+partyMode.locked_party.lore = """
+<gray>Du bist in einer Party und kannst<br>
+<gray>deswegen nur gegen andere Partys spielen.
+"""
+
 [gui.quickQueue]
 title = "Warteschlangen"
 status = """
@@ -69,6 +89,7 @@ noArenaFound = "Du hast zu viele Arenen deaktiviert und wir konnten keine für d
 disablingArenasNotice = "Die Deaktivierung von Arenen kann dazu führen, dass du verlängert auf Spiele warten musst oder keine Spiele gefunden werden."
 atLeastOneArenaActive = "Du musst mindestens eine Arena aktiviert lassen."
 userUnavailable = "<username><reset> ist nicht verfügbar."
+partyTooBig = "Deine Party hat zu viele Mitglieder (<members>/<max_members>). Du kannst somit nicht die Warteschlange betreten."
 
 [queue.block]
 newAccount = "Dein Account ist zu neu. Bitte spiele noch <pri><games_remaining> Unranked Spiele</pri>, um Ranked zu spielen."
@@ -81,3 +102,70 @@ error = "Laden der Ranked Warteschlage fehlgeschlagen. Versuche dich mit dem Ser
 
 [commands.queue.arena_settings]
 set = "Arena <pri><arena></pri> wurde für das Kit <kit> <value:'<sec>aktiviert</sec>':'<red>deaktiviert</red>'>."
+
+[games.party]
+join = "<username><reset> <sec>ist</sec> deiner Party beigetreten."
+leave = "<username><reset> <red>hat</red> deine Party verlassen."
+
+joinMe = """
+Tritt mir bei:<br> <username><reset> hat ihre Party geöffnet! [<members>/<max_members>]<br>
+<click:run_command:'/party join %s'><dark_gray>[<sec><bold>Hier klicken</bold></sec>]</dark_gray> um beizutreten<br>
+"""
+joinMe.notPublic = "Deine Party ist nicht öffentlich. <click:suggest_command:/party open><dark_gray>[<pri><bold>/party open</bold></pri>]</click>"
+joinMe.cooldown = "Du musst <yellow><remaining_minutes> Minuten</yellow> warten, bevor du erneut eine Join-Me-Nachricht erstellen kannst."
+
+memberRoleChanged.leader = "<username><reset> ist jetzt der <#ff2e58>Partyleiter</#ff2e58>."
+memberRoleChanged.moderator = "<username><reset> ist jetzt ein <#8157ff>Partymoderator</#8157ff>."
+memberRoleChanged.member = "<username><reset> ist jetzt ein <#5ea1ff>Partymitglied</#5ea1ff>."
+
+public = "Deine Party ist jetzt <sec>öffentlich</sec>."
+private = "Deine Party ist jetzt <yellow>privat</yellow>."
+
+disband = "<username><reset> <red>hat</red> die Party aufgelöst."
+
+invite = "<username><reset> wurde <sec>eingeladen</sec>, der Party beizutreten. Sie haben fünf Minuten Zeit, um die Einladung anzunehmen."
+invite.already = "<username><reset> ist bereits zu deiner Party eingeladen."
+invited = """ <username><reset> hat dich eingeladen, seiner Party beizutreten. <br><dark_gray><click:run_command:'/party accept %1$s'>[<sec><bold>✔ Annehmen</bold></sec>]</click> <click:run_command:'/party decline %1$s'>[<red><bold>❌ Ablehnen</bold></red>]</click></dark_gray>
+"""
+
+accept = "<sec>Hat</sec> die Partyeinladung von <party_leader><reset> angenommen."
+accept.inGame = """
+Du befindest dich derzeit in einem Spiel. Wenn du der Party beitrittst, kannst du aus dem Match entfernt werden.<br> <br><yellow><confirm_action>[<bold>Risiko akzeptieren und fortfahren</bold>]</confirm_action></yellow>
+"""
+accept.none = "Du bist nicht in die Party von <party_leader> eingeladen."
+accept.alreadyInParty = "Du bist bereits in einer anderen Party."
+accept.alreadyInThisParty = "Du bist bereits in der Party."
+
+decline = "<red>Hat</red> die Partyeinladung von <party_leader> abgelehnt."
+declined = "<username><reset> hat die Partyeinladung abgelehnt."
+
+join.notPublic = "<username><reset> ist in keiner öffentlichen Party."
+
+demote.member = "<username><reset> ist bereits ein <#5ea1ff>Partymitglied</#5ea1ff> und kann nicht weiter herabgestuft werden!"
+
+spectate = "Tritt dem Match des <#ff2e58>Partyleiters</#ff2e58> bei."
+spectate.notInGame = "Der <#ff2e58>Partyleiter</#ff2e58> befindet sich in keinem Match."
+
+duel = "<username><reset> startet ein Party-Duell mit <kit><reset> in der Arena <arena><reset>."
+
+listMembers = "Zeige Partymitglieder (<members_count>/<max_members>): <br><members>"
+
+[games.party.memberRole]
+member = "<#5ea1ff>Partymitglied</#5ea1ff>"
+moderator = "<#8157ff>Partymoderator</#8157ff>"
+leader = "<#ff2e58>Partyleiter</#ff2e58>"
+
+[games.party.error]
+permission.leader = "Für diese Aktion musst du der <#ff2e58>Partyleiter</#ff2e58> sein!"
+permission.moderator = "Für diese Aktion musst du ein <#8157ff>Partymoderator</#8157ff> sein!"
+inNoParty = "Du bist kein Mitglied einer Party!"
+chatMessageTooLong = "Deine Chatnachricht ist zu lang!"
+targetMember = "<username><reset> ist kein Mitglied deiner Party!"
+moderateSelf = "Du kannst dich nicht selbst moderieren!"
+duelPartyMember = "Du kannst <target><reset> nicht herausfordern, da er in einer Party ist und nicht der <#ff2e58>Partyleiter</#ff2e58>."
+inGame = "Dieser Befehl ist während eines Spiels nicht erlaubt."
+maxMembers = "Die Party hat die maximale Anzahl von <max_members> Mitgliedern erreicht."
+rankedQueue = "Das Einreihen in Ranglisten mit Partys ist derzeit deaktiviert."
+
+[gui.partyDuel]
+title = "<#5ea1ff>Party-Duell"
