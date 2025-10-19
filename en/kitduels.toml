@@ -13,7 +13,7 @@ player.leave = "<pri><name><reset> left the duel."
 player.join = "<pri><name><reset> joined the duel."
 player.spectate = "<pri><name> <reset>is spectating."
 player.killed = "<killer><reset> killed <name><reset>."
-player.died = "<name><reset> dieds."
+player.died = "<name><reset> died."
 win = """
 <team>
 <br><yellow>has won!
