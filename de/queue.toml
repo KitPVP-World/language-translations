@@ -125,7 +125,9 @@ disband = "<username><reset> <red>hat</red> die Party aufgelöst."
 
 invite = "<username><reset> wurde <sec>eingeladen</sec>, der Party beizutreten. Sie haben fünf Minuten Zeit, um die Einladung anzunehmen."
 invite.already = "<username><reset> ist bereits zu deiner Party eingeladen."
-invited = """ <username><reset> hat dich eingeladen, seiner Party beizutreten. <br><dark_gray><click:run_command:'/party accept %1$s'>[<sec><bold>✔ Annehmen</bold></sec>]</click> <click:run_command:'/party decline %1$s'>[<red><bold>❌ Ablehnen</bold></red>]</click></dark_gray>
+invited = """
+<username><reset> hat dich eingeladen, seiner Party beizutreten.<br>
+<dark_gray><click:run_command:'/party accept %1$s'>[<sec><bold>✔ Annehmen</bold></sec>]</click> <click:run_command:'/party decline %1$s'>[<red><bold>❌ Ablehnen</bold></red>]</click></dark_gray>
 """
 
 accept = "<sec>Hat</sec> die Partyeinladung von <party_leader><reset> angenommen."
