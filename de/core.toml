@@ -128,9 +128,9 @@ stats = """
     <br>Tode: <yellow><deaths><reset>
     <br>K/D: <yellow><kills_deaths><reset>
     <br>Spiele gespielt: <yellow><games_played><reset>
-    <br>Höchste Siegesserie (Ranked): <yellow><top_winstreak_ranked><reset>
+    <br>Siegesserie (Ranked): <yellow><winstreak_ranked> (Aktuell)/<top_winstreak_ranked> (Höchste)<reset>
     <br>Winrate (Ranked): <yellow><winrate_ranked><reset>
-    <br>Höchste Siegesserie (Unranked): <yellow><top_winstreak_unranked><reset>
+    <br>Siegesserie (Unranked): <yellow><winstreak_unranked> (Aktuell)/<top_winstreak_unranked> (Höchste)<reset>
     <br>Winrate (Unranked): <yellow><winrate_unranked><reset>
     <br>Coins: <dark_gray>[</dark_gray><gold><coins></gold><dark_gray>]</dark_gray> <gold><coins_booster>%% Booster<reset>
     <br><hover:show_text:'Klicke für mehr Informationen'><click:run_command:'/level %1$s'>Level: <level><reset> <color:#00FF7F><level_booster>%% Booster<reset>
