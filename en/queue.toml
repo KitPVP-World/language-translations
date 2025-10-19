@@ -139,7 +139,7 @@ You are currently in a game. If you join the party, you can be moved out of the 
 accept.none = "You are not invited to join <party_leader>'s party."
 accept.alreadyInParty = "You are already in another party."
 accept.alreadyInThisParty = "You are already in this party."
-decline = "<red>Declined</rred> the party invite by <party_leader>."
+decline = "<red>Declined</red> the party invite by <party_leader>."
 declined = "<username><reset> declined the party invite."
 
 join.notPublic = "<username><reset> is in no public party."
