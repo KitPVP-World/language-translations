@@ -5,6 +5,7 @@ noService = "No service found."
 [commands.duel]
 norequest = "You have not received a request from this player."
 self = "Sorry, why would you want to fight against yourself? That's Stats-Boosting!"
+partyDuelStatus = "(Party of <members> players)"
 requestReceived = """
   <pri><user><reset> challenges you in <kit><reset>.
   <br><green><click:run_command:'/duel %1$s accept'>[<bold>✔ Accept</bold>]</click></green>
@@ -167,6 +168,7 @@ targetMember = "<username><reset> is not a member of your party!"
 moderateSelf = "Cannot moderate yourself!"
 duelPartyMember = "Cannot duel <target><reset> because he is in a party and not the <#ff2e58>party leader</#ff2e58>."
 inGame = "This command is not allowed while in a game."
+maxMembers = "The party reached the maximum of <max_members> members."
 
 [gui.partyDuel]
 title = "<#5ea1ff>Party Duel"
