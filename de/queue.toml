@@ -5,6 +5,7 @@ noService = "Kein Server gefunden."
 [commands.duel]
 norequest = "Du hast keine Anfrage von diesem Spieler bekommen."
 self = "Warum willst du dich selbst bekämpfen?"
+partyDuelStatus = "(Party mit <members> Spielern)"
 requestReceived = """
   <pri><user><reset> fordert dich in <kit><reset> heraus.
   <br><green><click:run_command:'/duel %1$s accept'>[<bold>✔ Annehmen</bold>]</click></green>
