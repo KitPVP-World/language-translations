@@ -214,6 +214,8 @@ report.admin = """
 """
 error.chat.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem Chat gesperrt: <br><reason>"
 error.chat.block = "Ich weiß du bist sauer, aber bitte bleib <bold>respektvoll</bold>."
+kick = "<target><reset> wurde vom Server geschmissen."
+kick.reason = "<target><reset> wurde vom Server mit dem Grund <reason><reset> geschmissen."
 
 [moderation.report.reason]
 cheating = "Cheating"

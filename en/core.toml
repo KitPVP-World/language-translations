@@ -207,6 +207,8 @@ warned = "<pri><target><reset> was warnt for <sec><reason><reset> and is now for
 report = "You reported the player <pri><target><reset> for <sec><reason>."
 error.chat.block = "I know you are mad, but please be <bold>respectful</bold>."
 error.chat.mute = "You were banned from the chat for <red><duration><reset> because of misbehavior: <br><reason>"
+kick = "Kicked the user <target><reset>."
+kick.reason = "Kicked the user <target><reset> with reason <reason><reset>."
 
 [moderation.report.reason]
 cheating = "Cheating"
