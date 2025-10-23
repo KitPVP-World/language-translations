@@ -173,3 +173,19 @@ rankedQueue = "Queuing ranked with parties is currently disabled."
 
 [gui.partyDuel]
 title = "<#5ea1ff>Party Duel"
+
+[games.gui.teamLayout]
+title = "Team Layout"
+ownTeam = "Own Team"
+otherTeam = "Enemy Team"
+spectatorTeam = "Spectator Team"
+cancel = "Cancel"
+shuffle = "Shuffle"
+shuffle.lore = """
+<gray>Right Click<dark_gray>: Shuffle after every duel <shuffle_status><br>
+<gray>Left Click<dark_gray>: Shuffle teams now<br>
+"""
+save = "<green>Speichern"
+
+[games.gui.partyMembers]
+title = "Party Members"

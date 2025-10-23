@@ -172,3 +172,19 @@ rankedQueue = "Das Einreihen in Ranglisten mit Partys ist derzeit deaktiviert."
 
 [gui.partyDuel]
 title = "<#5ea1ff>Party-Duell"
+
+[games.gui.teamLayout]
+title = "Team Layout"
+ownTeam = "Eigenes Team"
+otherTeam = "Gegner Team"
+spectatorTeam = "Zuschauer Team"
+cancel = "Abbrechen"
+shuffle = "Würfeln"
+shuffle.lore = """
+<gray>Rechtsklick<dark_gray>: Automatisch neu nach jedem Spiel <shuffle_status><br>
+<gray>Linksklick<dark_gray>: Jetzt Teams neu generieren<br>
+"""
+save = "<green>Speichern"
+
+[games.gui.partyMembers]
+title = "Partymitgleider"
