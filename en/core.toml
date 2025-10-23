@@ -76,6 +76,7 @@ next = "Next Page"
 previous = "Previous Page"
 
 [time]
+now = "Now"
 seconds = "%s seconds"
 minutes = "%s minutes"
 hours = "%s hours"
@@ -83,6 +84,7 @@ days = "%s days"
 months = "%s months"
 
 [time.relative]
+now = "Now"
 seconds = "%s seconds ago"
 minutes = "%s minutes ago"
 hours = "%s hours ago"

@@ -76,6 +76,7 @@ next = "Seite vor"
 previous = "Seite zurück"
 
 [time]
+now = "Jetzt"
 seconds = "%s Sekunden"
 minutes = "%s Minuten"
 hours = "%s Stunden"
@@ -83,6 +84,7 @@ days = "%s Tage"
 months = "%s Monate"
 
 [time.relative]
+now = "Jetzt"
 seconds = "Vor %s s"
 minutes = "Vor %s min"
 hours = "Vor %s h"
