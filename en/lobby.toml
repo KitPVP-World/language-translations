@@ -1,9 +1,13 @@
 [hotbar]
 challenge = "<gray>Challenge"
-clan = "<yellow>Coming Soon"
+party.member = "<purple>Party"
+party.moderator = "<purple>Moderate Party"
+party.leader = "<purple>Manage Party"
+party.none = "<gray>In No Party"
 items = "<gold>Items"
 friends = "<green>Friends"
 language = "<red>Language"
+kiteditor = "<red>Kit Editor"
 lobby = "<aqua>Lobby"
 
 nick.nicked = "<gray>You are <dark_gray>: <green>nicked"
