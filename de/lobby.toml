@@ -30,6 +30,12 @@ connectTo.lore = "<gray>Automatisch nach dem Duel mit dieser Lobby verbinden"
 [leaderboard]
 loading = "Das Leaderboard läd derzeit noch! Der Vorgang kann bis zu 3 Sekunden dauern."
 
+[lobby.npc]
+queueDescription = """
+<glyph:generic/left_click><gray> Queue Betreten</gray>     <space:2><br>
+<glyph:generic/right_click><gray> Queue Einstellungen</gray>
+"""
+
 [scoreboard]
 clan = """
   <br>Clan<gray>:

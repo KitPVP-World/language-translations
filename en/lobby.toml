@@ -31,6 +31,12 @@ connectTo.lore = "<gray>Connect to this lobby after the duel by default"
 [leaderboard]
 loading = "Die Leaderboard is still loading! It can take up to three seconds."
 
+[lobby.npc]
+queueDescription = """
+<glyph:generic/left_click><gray> Join Queue</gray>   <space:2><br>
+<glyph:generic/right_click><gray> Open Settings</gray>
+"""
+
 [scoreboard]
 clan = """
   <br>Clan<gray>:
