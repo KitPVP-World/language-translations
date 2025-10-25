@@ -1,8 +1,8 @@
 [hotbar]
 challenge = "<gray>Herausfordern"
-party.member = "<purple>Party"
-party.moderator = "<purple>Party Moderieren"
-party.leader = "<purple>Party Einstellen"
+party.member = "<dark_purple>Party"
+party.moderator = "<dark_purple>Party Moderieren"
+party.leader = "<dark_purple>Party Einstellen"
 party.none = "<gray>In keiner Party"
 items = "<gold>Items"
 friends = "<green>Freunde"
