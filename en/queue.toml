@@ -36,6 +36,10 @@ custom.unselected = "You do not have a kit selected!"
 
 [gui.mapSelection]
 title = "Map Selection"
+requiresRank = """
+Requires the <aqua>Grand Champ</aqua> rank.
+Purchasable on <gold>store.kitpvp.world</gold>.
+"""
 
 [gui.queueSettings]
 partyMode.only_solo = "<blue>Only Solos"
@@ -189,3 +193,8 @@ save = "<green>Speichern"
 
 [games.gui.partyMembers]
 title = "Party Members"
+createParty = "<sec>Create a party!"
+createParty.lore = """
+<red>You are not in any party.
+<gray>Click here to <sec>create a new party</sec>.
+"""
